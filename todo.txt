@@ -1,12 +1,16 @@
 maps/people to process...
 
 @afrimapr
+@BjnNowak
+@elipousson
 @FGazzelloni
 @geokaramanis
-https://github.com/ivandorte/30DayMapChallenge_2021
+@jerry_shannon
 @kyle_e_walker
+@leeolney3
 @loreabad6
 https://www.maartenlambrechts.com/2019/11/01/my-30daymapchallenge.html
-https://github.com/shandiya/30DayMapChallenge/blob/main/submissions/02_lines/02_lines.R
+@ShandiyaB
 @tanya_shapiro
+@VictimOfMaths
 https://github.com/z3tt/30daymapchallenge
