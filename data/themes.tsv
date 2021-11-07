@@ -1,0 +1,91 @@
+Year	Day	Theme	Challenge	Grouping
+2019	01	Points	Points	type
+2019	02	Lines	Lines	type
+2019	03	Polygons	Polygons	type
+2019	04	Hexagons	Hexagons	type
+2019	05	Raster	Raster	type
+2019	06	Monochrome	Blue	topic
+2019	07	Monochrome	Red	topic
+2019	08	Monochrome	Green	topic
+2019	09	Monochrome	Yellow	topic
+2019	10	Monochrome	Black and white	topic
+2019	11	Elevation	Elevation	topic
+2019	12	Movement	Movement	topic
+2019	13	Tracks	Tracks	topic
+2019	14	Boundaries	Boundaries	topic
+2019	15	Names	Names	topic
+2019	16	Places	Places	topic
+2019	17	Zones	Zones	topic
+2019	18	Globe	Globe	type
+2019	19	Urban/rural	Urban	topic
+2019	20	Urban/rural	Rural	topic
+2019	21	Environment	Environment	topic
+2019	22	Built environment	Built environment	topic
+2019	23	Population	Population	topic
+2019	24	Statistics	Statistics	topic
+2019	25	Climate	Climate	topic
+2019	26	Water	Hydrology	topic
+2019	27	Resources	Resources	topic
+2019	28	Funny	Funny	constraint
+2019	29	Experimental	Experimental	constraint
+2019	30	Home	Home	topic
+2020	01	Points	Points	type
+2020	02	Lines	Lines	type
+2020	03	Polygons	Polygons	type
+2020	04	Hexagons	Hexagons	type
+2020	05	Monochrome	Blue	topic
+2020	06	Monochrome	Red	topic
+2020	07	Monochrome	Green	topic
+2020	08	Monochrome	Yellow	topic
+2020	09	Monochrome	Monochrome	topic
+2020	10	Grid	Grid	type
+2020	11	3D	3D	type
+2020	12	Non-GIS	Map not made with GIS software	constraint
+2020	13	Raster	Raster	type
+2020	14	Climate	Climate change	topic
+2020	15	Connections	Connections	topic
+2020	16	Islands	Island(s)	topic
+2020	17	Historical	Historical map	topic
+2020	18	Land	Land use	topic
+2020	19	NULL	NULL	topic
+2020	20	Population	Population	topic
+2020	21	Water	Water	topic
+2020	22	Movement	Movement	topic
+2020	23	Boundaries	Boundaries	topic
+2020	24	Elevation	Elevation	topic
+2020	25	COVID-19	COVID-19	topic
+2020	26	New tool	Map made with a new tool	constraint
+2020	27	Big/small data	Big or small data	topic
+2020	28	Non-geographic	Non-geographic map	constraint
+2020	29	Globe	Globe	type
+2020	30	Anything	A map	constraint
+2021	01	Points	Points	type
+2021	02	Lines	Lines	type
+2021	03	Polygons	Polygons	type
+2021	04	Hexagons	Hexagons	type
+2021	05	Data set	Data challenge: OpenStreetMap	constraint
+2021	06	Monochrome	Red	topic
+2021	07	Monochrome	Green	topic
+2021	08	Monochrome	Blue	topic
+2021	09	Monochrome	Monochrome	topic
+2021	10	Raster	Raster	type
+2021	11	3D	3D	type
+2021	12	Population	Population	topic
+2021	13	Data set	Data challenge: Natural Earth	constraint
+2021	14	New tool	Map made with a new tool	constraint
+2021	15	No computer	Map made without using a computer	constraint
+2021	16	Urban/rural	Urban/rural	topic
+2021	17	Land	Land	topic
+2021	18	Water	Water	topic
+2021	19	Islands	Island(s)	topic
+2021	20	Movement	Movement	topic
+2021	21	Elevation	Elevation	topic
+2021	22	Boundaries	Boundaries	topic
+2021	23	Data set	Data challenge: GHSL	constraint
+2021	24	Historical	Historical map	topic
+2021	25	Interactive	Interactive map	type
+2021	26	Choropleth	Choropleth map	type
+2021	27	Heatmap	Heatmap	type
+2021	28	Globe	The Earth is not flat	type
+2021	29	NULL	NULL	topic
+2021	30	Metamapping	Metamapping day	constraint
