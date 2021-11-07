@@ -12,5 +12,4 @@ maps/people to process...
 https://www.maartenlambrechts.com/2019/11/01/my-30daymapchallenge.html
 @ShandiyaB
 @tanya_shapiro
-@VictimOfMaths
 https://github.com/z3tt/30daymapchallenge
