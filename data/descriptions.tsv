@@ -18,6 +18,8 @@ Amit_Levinson_2021_03	israel,transport,trains,voronoi	Tried out some Voronoi dia
 CoulSim_2021_02	canada,rail,lines,historic	The Canadian Pacific Railway connecting British-Columbia to Eastern Canada was built between 1881 and 1885.
 CoulSim_2021_03	canada,quebec,camping	Public land in Quebec. Camping is allowed on most public land in Quebec, but the government doesn't have a map showing where camping actually is allowed.
 dakvid_2021_02	new zealand,nz,roads,names	Are the street names in my town Māori or English? Interestingly it seems to be the oldest and newest names in te reo Māori.
+dr_xeo_2021_05	world,osm,openstreetmap,points,firefly	World's lighthouses. (Code link is to a blog post about the firefly style. Tweet links to a 2018 blog post on accessing OpenStreetMap.)
+gisertweets_2021_05	kuwait,points,osm,openstreetmap	College of Social Science, Kuwait University
 hrbrmstr_2019_01	usa,small multiples,points,security	The topic for Day 1 was “points” and I opted to use a Google spreadsheet of (mostly) geolocated U.S. K-12 school ransomware incidents going back to 2016 as a base for plotting locations of these events on a map. This checked the “cyber” and “United States” requirements boxes in my list of constraints and also helped ease into the challenge (it doesn’t get much more basic than points on a map, though we are mixing it up a bit with facets).
 hrbrmstr_2019_02	maine,usa,world,lines,trade,exports	The U.S. Census provides data on top exports from U.S. states. I came across the data they have on Maine and thought it’d be fun to use lines to show movement of goods outside of Maine.
 hrbrmstr_2019_03	maine,usa,heatmap,internet	Most maps use polygons to draw features (i.e. each state on a U.S. map is most likely a polygon if the map isn’t a raster image) so today’s challenge could simply have been to just “draw a map”. I decided to do a bit more work than that and thought that making a polygon-based heatmap (a.k.a. filled 2D kernel density polygons) would make for an interesting entry. Comcast — a U.S. internet provider — has a “hotspot locator” app that customers can use to, well, locate Wi-Fi hotspots when they’re out and about. Just zoom around or enter a zip code to see a listing of all the hotspots in a given area.
@@ -72,3 +74,25 @@ NRatnaweera_2021_02	switzerland,lines	I visualize the effect of the transition f
 richard_vogg_2021_01	chile,earthquakes,points	I decided to continue where I stopped last year and worked on the map showing earthquakes in Chile in the last 21 years.
 richard_vogg_2021_02	germany,transport,rail,lines	Today I worked on a map showing the rail network in Germany.
 richard_vogg_2021_03	europe,simplification	I looked at the Geocomputation with R book (#TidyTuesday). I found it interesting to see that there are several algorithms to simplify polygons. When Italy loses the shoe shape, I feel it is time to stop.
+VictimOfMaths_2020_01	uk,britain,points,shops	_
+VictimOfMaths_2020_02	england,lines,charts,health,covid19	_
+VictimOfMaths_2020_03	england,sport,voronoi	_
+VictimOfMaths_2020_04	england,charts,hexagons,cartogram,politics,elections	_
+VictimOfMaths_2020_05	uk,britain,health,choropleth,blue	_
+VictimOfMaths_2020_06	africa,health,hiv,aids,choropleth	_
+VictimOfMaths_2020_08	uk,england,wales,lines,electricity,infrastructure,yellow	_
+VictimOfMaths_2020_09	sheffield,elevation,lines	_
+VictimOfMaths_2020_15	sheffield,lines,osm,openstreetmap	_
+VictimOfMaths_2020_18	norfolk,land,agriculture	_
+VictimOfMaths_2020_19	uk,england,wales	_
+VictimOfMaths_2020_22	uk,britain,covid19,health,hexagons,animation	_
+VictimOfMaths_2020_23	sheffield,boundaries	_
+VictimOfMaths_2020_27	europe,animals	_
+VictimOfMaths_2020_29	world,globe,uk,trade	Countries which have signed tride agreements or agreements in principle with the UK
+VictimOfMaths_2020_30	usa	The United States of Kitteh
+VictimOfMaths_2021_01	uk,britain,points,names	A map of all the places in Great Britain whose names include the word ""Point""
+VictimOfMaths_2021_02	uk,britain,rivers,lines,names	Rivers of Great Britain and common synonyms for ""river""
+VictimOfMaths_2021_03	uk,britain,sport,voronoi	The closest English or Scotting Premier League football team to any point in the UK
+VictimOfMaths_2021_04	england,population,age,hexagons,grid	The median age of every neightbourhood in England
+VictimOfMaths_2021_05	uk,britain,points,shops,osm,openstreetmap	The location of every Greggs and Pret a Manger in the UK
+VictimOfMaths_2021_06	wales,points,red,names	All of the places in Wales with 'red' in their name
