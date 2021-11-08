@@ -37,7 +37,7 @@ stopifnot(links %>% map(~ !is.na(.x)) %>% reduce(and))
 images <- read_tsv("data/images.tsv", col_types = "ccc")
 stopifnot(images %>% map(~ !is.na(.x)) %>% reduce(and))
 aspect_cols <-
-  read_tsv("data/aspects.tsv") %>% 
+  read_tsv("data/aspects.tsv", col_types = "ciiiii") %>% 
   mutate(aspect_class = glue("col-xs-{xs} col-sm-{sm} col-md-{md} col-lg-{lg} col-xl-{xl}"))
 
 map_years <- 
