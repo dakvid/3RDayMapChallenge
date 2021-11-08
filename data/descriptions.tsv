@@ -15,10 +15,22 @@ Amit_Levinson_2020_20	israel,population,cartogram,animation	Made a gif transitio
 Amit_Levinson_2021_01	israel,tel aviv,points,trees	_
 Amit_Levinson_2021_02	israel,tel aviv,roads,lines	I adapted @lxndrkp amazing piece from last year on finding the most traveled streets using the {stplanr} and some randomly generated points.
 Amit_Levinson_2021_03	israel,transport,trains,voronoi	Tried out some Voronoi diagrams exploring how much land area the nearest train station covers in Israel. That outlier was a pain to deal with 👊
+Amit_Levinson_2021_04	israel,transport,bus,hexagons,grid,choropleth	Number of distinct bus stops per 5km^2 hexagons across Israel. Data from Israel GTFS provided by OpenMobilityData, of all stops reported for trips on November 3rd, 2021.
+Amit_Levinson_2021_05	usa,new york city,israel,jerusalem,roads,lines,osm,openstreetmap	Street directions and layout from two different places. Added some glow effect for a higher contrast on how streets are directed.
+Amit_Levinson_2021_07	israel,tel aviv,transport,cycling,lines,green	Bike lanes in Tel-Aviv, IL.
 CoulSim_2021_02	canada,rail,lines,historic	The Canadian Pacific Railway connecting British-Columbia to Eastern Canada was built between 1881 and 1885.
 CoulSim_2021_03	canada,quebec,camping	Public land in Quebec. Camping is allowed on most public land in Quebec, but the government doesn't have a map showing where camping actually is allowed.
+Cramsuig_2021_07	mexico,uk,usa,personal,green	_
 dakvid_2021_02	new zealand,nz,roads,names	Are the street names in my town Māori or English? Interestingly it seems to be the oldest and newest names in te reo Māori.
 dr_xeo_2021_05	world,osm,openstreetmap,points,firefly	World's lighthouses. (Code link is to a blog post about the firefly style. Tweet links to a 2018 blog post on accessing OpenStreetMap.)
+geokaramanis_2021_01	greece,climate,points	Used an older dataset about heating degree days in Greece with about 160k points.
+geokaramanis_2021_02	greece,transport,ferry,lines	Ferry lines in Greece.
+geokaramanis_2021_03	greece,animals	Another simple one about the wildlife sanctuaries in Greece, trying a fill pattern with {ggpattern}.
+geokaramanis_2021_04	greece,hexagons,grid,names	A hex map of populated places in Greece that contain the words Saint, Santa or Holy.
+geokaramanis_2021_05	greece,thessaloniki,transport,roads,osm,openstreetmap	Speed limits in Thessaloniki, Greece
+geokaramanis_2021_06	greece,climate,red	Max temperature of warmest month in Greece, 1970-2000
+geokaramanis_2021_07	greece,vegetation,green	NDVI for Greece with a touch of 3d. Both today's and yesterday's script were modifications of scripts in the great tutorials at https://rspatialdata.github.io 🙏
+geokaramanis_2021_08	mediterranean,greece,bathymetric,blue	Mapping the depth of the sea around Greece with bathymetric data from NOAA.
 gisertweets_2021_05	kuwait,points,osm,openstreetmap	College of Social Science, Kuwait University
 hrbrmstr_2019_01	usa,small multiples,points,security	The topic for Day 1 was “points” and I opted to use a Google spreadsheet of (mostly) geolocated U.S. K-12 school ransomware incidents going back to 2016 as a base for plotting locations of these events on a map. This checked the “cyber” and “United States” requirements boxes in my list of constraints and also helped ease into the challenge (it doesn’t get much more basic than points on a map, though we are mixing it up a bit with facets).
 hrbrmstr_2019_02	maine,usa,world,lines,trade,exports	The U.S. Census provides data on top exports from U.S. states. I came across the data they have on Maine and thought it’d be fun to use lines to show movement of goods outside of Maine.
@@ -55,6 +67,22 @@ issa_madjid_2021_02	france,lines,sport,small multiples	Let's visualize the movem
 issa_madjid_2021_03	world,covid19,charts	557 million. It is the number of people teleworking in spring 2020 in the world.
 issa_madjid_2021_04	usa,health,hexagons,cartogram,bivariate	Let's visualize the relationship between Covid-19 death rate and obesity in United States.
 issa_madjid_2021_05	france,dijon,streets,lines,osm,openstreetmap	The city of Dijon, France.
+leeolney3_2021_01	singapore,shops,points	Supermarket locations in Singapore.
+leeolney3_2021_02	australia,melbourne,lines,water,infrastructure	Water supply main pipelines from Melbourne Water Corporation. Today i tried out {tmap} with the [Geocompution with R] book, from this week's #TidyTuesday.
+leeolney3_2021_03	canada,toronto,urban	Heritage Conservation Districts in Toronto, 2021.
+leeolney3_2021_04	usa,hexagons,cartogram,choropleth	Number of registered fire departments in the US (Nov 2021), data from U.S. Fire Administration.
+leeolney3_2021_05	usa,texas,the woodlands,osm,openstreetmap	Park spaces in The Woodlands, U.S.
+leeolney3_2021_06	canada,toronto,transport,urban,red	Red light camera locations in the City of Toronto as of Nov 1, 2021.
+leeolney3_2021_07	australia,melbourne,trees,green	Tree canopy extents on both private and public property in East Melbourne, as of Aug 12, 2021.
+leeolney3_2021_08	usa,texas,travis county,water,blue	Water bodies within Travis County, as of Nov 1, 2021.
+loreabad6_2021_01	ecuador,points	Populated areas in continental Ecuador
+loreabad6_2021_02	ecuador,lines,transport,rail,roads	Ferrocarril al cielo | Railway to heaven. The Ecuadorian railway had a short reach and a brief life, from 1872 until its final demise in 2020. This link between mountain and sea was attibuted the hardest construction work in the world. Roads (grey in bg) swiftly overtook the usefulness of the rail, which became a touristic attraction. By its end, funding was cut and now remains as national history.
+loreabad6_2021_03	ecuador,osm,openstreetmap	Natural protected areas in continental Ecuador
+loreabad6_2021_04	ecuador,morona santiago,hexagons,cartogram,choropleth,osm,openstreetmap	Where is the nearest waterfall? Distance to waterfalls in the Morona Santiago province in the Amazon region of Ecuador
+loreabad6_2021_05	spain,cuenca,osm,openstreetmap,metamap,points	This is a tribute map to all those @openstreetmap constributors out there! I use OSM data via #osmdata so often I just needed to find those mappers and say a big thank you!
+loreabad6_2021_06	spain,cuenca,osm,openstreetmap,red	My home city Cuenca is characterized by its red rooftops!
+loreabad6_2021_07	ecuador,cahuasqui,osm,openstreetmap,green	#Sentinel2 true color composite. Vegetation cover in Cahuasqui, Imbabura.
+loreabad6_2021_08	_	_
 lxndrkp_2020_01	germany,friedrichshain-kreuzberg,cars,roads,points,interactive	There are 80,808 cars registered in Friedrichshain-Kreuzberg (2017). If all cars would start driving at the same time - it’d get pretty crowded 🚗🚗 🚗
 lxndrkp_2020_02	germany,flights,lines,interactive	About 10% of all flights from German airports are domestic flights - so starting in Germany and landing in Germany.
 lxndrkp_2020_03	germany,berlin,voronoi,interactive	The catchment area of boulder gyms in Berlin. Playing around with Voroni maps: “Voronoi polygons are created so that every location within a polygon is closer to the sample point in that polygon than any other sample point.” Here: All boulder gyms (that I know of) in Berlin. If everyone would go his or her closest gym (by beeline), this would be the catchment areas of each boulder gym.
@@ -70,10 +98,21 @@ lxndrkp_2020_20	germany,berlin,population,interactive	Movement within Berlin (�
 lxndrkp_2020_22	germany,berlin,transport,trains,animation,interactive	U-Bahn trains moving through Berlin. All U-Bahn trains moving through the city on a regular Monday using the {mapdeck::add_trips()} function.
 lxndrkp_2020_30	world,interactive	Create your own basemap with Mapbox Studio. Ever wanted pink rivers or lilac streets on your basemap? That can easily be done with Mapbox Studio.
 mattdray_2021_01	fictional,pokemon,kanto,points	Ever wanted to extract coordinates from images of fictitious maps? I extracted 'em all for Kanto from #pokemon
+NearAndDistant_2021_01	uk,england,london,points	#TidyTuesday Week 45: The London Postbox
+NearAndDistant_2021_04	uk,england,manchester,hexagons,cartogram,choropleth,benefits	The Manchester worker bee is one of the best-known symbols of Manchester and has been an city emblem for over 150 years. The bee denotes Mancunians' hard work ethic and being a hive of activity.
+NearAndDistant_2021_05	uk,scotland,edinburgh,osm,openstreetmap	Edinburgh is built upon an extinct volcano, which erupted around 340m years ago. In the hundreds of millions of years since, the volcano has been buried beneath other rocks and now a city.
+NearAndDistant_2021_06	uk,britain,politics,elections,red	The UK Red Party. 2019 General Election: Labour Seats and Voting Strength. ""It's Time for Real Change""... shame voters didn't agree.
+NearAndDistant_2021_07	uk,england,london,richmond upon thames,green	💚 Richmond appreciation post. % of Boroughs which are green spaces in London.
 NRatnaweera_2021_02	switzerland,lines	I visualize the effect of the transition from Switzerland's old coordinate system to the new one. Its a crazy, stormy pattern!
 richard_vogg_2021_01	chile,earthquakes,points	I decided to continue where I stopped last year and worked on the map showing earthquakes in Chile in the last 21 years.
 richard_vogg_2021_02	germany,transport,rail,lines	Today I worked on a map showing the rail network in Germany.
 richard_vogg_2021_03	europe,simplification	I looked at the Geocomputation with R book (#TidyTuesday). I found it interesting to see that there are several algorithms to simplify polygons. When Italy loses the shoe shape, I feel it is time to stop.
+richard_vogg_2021_04	africa,hexagons,cartogram,health,inset	Looking at main death causes in Africa. As some countries are smaller, the geogrid package by @iammrbailey helps to show each country in equal size. Data from: @IHME_UW
+richard_vogg_2021_05	germany,wurzburg,wuerzburg,green,osm,openstreetmap	As a kid I spent many hours in the Botanical Garden of Würzburg, so I decided to map it with OpenStreetMap in R. Does anyone know of an elegant way to find all the tags in an area and assign them colors?
+richard_vogg_2021_06	world,trade,exports,food,lines,edge bundling,red	I finally had time to work with @schochastics great package {edgebundle}. Mexico, the Netherlands and Spain were the three main exporters of tomatoes in 2018.
+richard_vogg_2021_07	world,trade,exports,food,lines,edge bundling,green	This edgebundle map shows which countries export most olive oil and where it goes. The countries around the Mediterranean Sea + Chile + Argentina are the main exporters.
+richard_vogg_2021_08	world,trade,exports,food,lines,edge bundling,blue,animation	_
+ThomIvar_2021_05	netherlands,groningen,roads,lines,osm,openstreetmap	Map of the city of Groningen
 VictimOfMaths_2020_01	uk,britain,points,shops	_
 VictimOfMaths_2020_02	england,lines,charts,health,covid19	_
 VictimOfMaths_2020_03	england,sport,voronoi	_
@@ -90,8 +129,8 @@ VictimOfMaths_2020_23	sheffield,boundaries	_
 VictimOfMaths_2020_27	europe,animals	_
 VictimOfMaths_2020_29	world,globe,uk,trade	Countries which have signed tride agreements or agreements in principle with the UK
 VictimOfMaths_2020_30	usa	The United States of Kitteh
-VictimOfMaths_2021_01	uk,britain,points,names	A map of all the places in Great Britain whose names include the word ""Point""
-VictimOfMaths_2021_02	uk,britain,rivers,lines,names	Rivers of Great Britain and common synonyms for ""river""
+VictimOfMaths_2021_01	uk,britain,points,names	A map of all the places in Great Britain whose names include the word 'Point'
+VictimOfMaths_2021_02	uk,britain,rivers,lines,names	Rivers of Great Britain and common synonyms for 'river'
 VictimOfMaths_2021_03	uk,britain,sport,voronoi	The closest English or Scotting Premier League football team to any point in the UK
 VictimOfMaths_2021_04	england,population,age,hexagons,grid	The median age of every neightbourhood in England
 VictimOfMaths_2021_05	uk,britain,points,shops,osm,openstreetmap	The location of every Greggs and Pret a Manger in the UK
