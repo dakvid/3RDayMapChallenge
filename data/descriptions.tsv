@@ -29,12 +29,12 @@ CedScherer_2019_09	germany,berlin,transport,bus,yellow,osm,openstreetmap,points	
 CedScherer_2019_10_1	world,population,points	A classic map showing the urban population of capital cities around the world based on 2019 data. Couldn't decide if classic bw or a bit of grey so here are two versions
 CedScherer_2019_10_2	world,population,points	A classic map showing the urban population of capital cities around the world based on 2019 data. Couldn't decide if classic bw or a bit of grey so here are two versions
 CedScherer_2019_11	germany,elevation	Thx to Day 5 and the #rayshader 📦 a quick hill shaded map of #Germany using a grid of 13 mio cells.
-CedScherer_2019_12	germany,berlin,transport,roads,cycling,osm,openstreetmap	I would love to bike to work but rarely do so🚲 - my contribution to ""Day 12: #Movement"" shows why... 🙄 ➡️ Roads with designated cycleways versus those without in #Berlin according to @OpenStreetMaps.
+CedScherer_2019_12	germany,berlin,transport,roads,cycling,osm,openstreetmap	I would love to bike to work but rarely do so🚲 - my contribution to """"Day 12: #Movement"""" shows why... 🙄 ➡️ Roads with designated cycleways versus those without in #Berlin according to @OpenStreetMaps.
 CedScherer_2019_13	europe,africa,gps,animals,lines,small multiples	Finally some maps focussing on #animal #movement 🥳 -#birdmigration data of white #storks from Rotics et al. (2018) published in @AnimalEcology and available via @MovebankTeam 🛰️🌍
 CedScherer_2019_14	world,boundaries,choropleth	Please enjoy this simple global map showing the number of neighbors sharing land borders together
 CedScherer_2019_15	germany,berlin,names,roads,lines,osm,openstreetmap	#Berlin road network by name/suffix forming colorful networks 💛💚💜🧡💙
 CedScherer_2019_16	world,dots	Extreme places on earth with regard to temperature 🥵🥶 and elevation 🏔️ per continent and depths per ocean 🌊
-CedScherer_2019_17_1	world,time zones	I've already learned lots of things thanks to the #30DayMapChallenge - one major win is to get to know @Natural_Earth and the resp. #rstats📦{rnaturalearth} 🌐 by @rOpenSci! Made my catch-up contribution for today's challenge ""zones"" very easy 🦸‍♂️
+CedScherer_2019_17_1	world,time zones	I've already learned lots of things thanks to the #30DayMapChallenge - one major win is to get to know @Natural_Earth and the resp. #rstats📦{rnaturalearth} 🌐 by @rOpenSci! Made my catch-up contribution for today's challenge """"zones"""" very easy 🦸‍♂️
 CedScherer_2019_17_2	world,time zones	Another version with non-transparent fills for countries only 🌈
 CedScherer_2019_18	world,globe,projections	Three different types of projections and two examples for each. The globe is a matter of perspective and geometry in 2D 🤷‍♂️
 CedScherer_2019_19_1	world,points	Urban areas of the world as #map of  #CityLights deviated from MODIS data 🛰️ and provided by NaturalEarth 🌐
@@ -47,11 +47,21 @@ CedScherer_2019_24	africa,choropleth,bivariate,health	A bivariate map showing me
 CedScherer_2019_25	world,climate	Visualization of Köppen-Geiger climate classification based on updated zones provided by Kottek et al. in 2006. Decided to show not all 32 subcategories, 14 already made it though to find colours.
 CedScherer_2019_26	world,rivers	Aimed for a colorful Basin map but couldn't find any good data so focussed more on design with a simple map of the rivers of the world.
 CedScherer_2019_27	germany,berlin,transport,electric cars,infrastructure,points	Resources (for your electric car) - quick map of charging stations for #ElectricCar in Berlin 🚗🔌
-CedScherer_2019_29	world,population	The idea for Day 29 ""Experimental"" evolved quite some time ago - and I am very happy with the result of world population stripes! Each stripe represents the distribution of humans on a latitudinal gradient from North to South and a width of 25km.
+CedScherer_2019_29	world,population	The idea for Day 29 """"Experimental"""" evolved quite some time ago - and I am very happy with the result of world population stripes! Each stripe represents the distribution of humans on a latitudinal gradient from North to South and a width of 25km.
 CoulSim_2021_02	canada,rail,lines,historic	The Canadian Pacific Railway connecting British-Columbia to Eastern Canada was built between 1881 and 1885.
 CoulSim_2021_03	canada,quebec,camping	Public land in Quebec. Camping is allowed on most public land in Quebec, but the government doesn't have a map showing where camping actually is allowed.
 Cramsuig_2021_07	mexico,uk,usa,personal,green	_
+dakvid_2019_14	new zealand,nz,carterton,boundaries,animation,inset	Using {gganimate} to help us see what Stats NZ's small area boundary changes mean for Carterton district.
+dakvid_2019_18	world,antarctica,lines,globe,interactive	I linked up territories in Antarctica with their controlling countries.
+dakvid_2020_04	new zealand,nz,hexagons,cartogram,politics,elections,interactive	An interactive map of NZ electorate wins by party.
+dakvid_2020_05	new zealand,nz,dorling,cartogram,politics,elections,blue	Dorling cartograms of votes for the National Party in the last three New Zealand elections
+dakvid_2020_06	new zealand,nz,dorling,cartogram,politics,elections,red	Dorling cartograms of votes for the Labour Party in the last three New Zealand elections
+dakvid_2020_07	new zealand,nz,dorling,cartogram,politics,elections,green	Dorling cartograms of votes for the Green Party in the last three New Zealand elections
+dakvid_2020_08	new zealand,nz,dorling,cartogram,politics,elections,yellow	Dorling cartograms of votes for the ACT Party in the last three New Zealand elections
+dakvid_2020_09	new zealand,nz,dorling,cartogram,politics,elections,monochrome	Dorling cartograms of votes for the NZ First in the last three New Zealand elections
+dakvid_2020_15	new zealand,nz,lines	Linking each urban and rural settlement to the closest more populous one. (Copying @AndriyYaremenko)
 dakvid_2021_02	new zealand,nz,roads,names	Are the street names in my town Māori or English? Interestingly it seems to be the oldest and newest names in te reo Māori.
+dakvid_2021_03	new zealand,nz	I looked at the outlines of Auckland's local boards
 dr_xeo_2021_05	world,osm,openstreetmap,points,firefly	World's lighthouses. (Code link is to a blog post about the firefly style. Tweet links to a 2018 blog post on accessing OpenStreetMap.)
 geokaramanis_2021_01	greece,climate,points	Used an older dataset about heating degree days in Greece with about 160k points.
 geokaramanis_2021_02	greece,transport,ferry,lines	Ferry lines in Greece.
@@ -131,7 +141,7 @@ mattdray_2021_01	fictional,pokemon,kanto,points	Ever wanted to extract coordinat
 NearAndDistant_2021_01	uk,england,london,points	#TidyTuesday Week 45: The London Postbox
 NearAndDistant_2021_04	uk,england,manchester,hexagons,cartogram,choropleth,benefits	The Manchester worker bee is one of the best-known symbols of Manchester and has been an city emblem for over 150 years. The bee denotes Mancunians' hard work ethic and being a hive of activity.
 NearAndDistant_2021_05	uk,scotland,edinburgh,osm,openstreetmap	Edinburgh is built upon an extinct volcano, which erupted around 340m years ago. In the hundreds of millions of years since, the volcano has been buried beneath other rocks and now a city.
-NearAndDistant_2021_06	uk,britain,politics,elections,red	The UK Red Party. 2019 General Election: Labour Seats and Voting Strength. """"It's Time for Real Change""""... shame voters didn't agree.
+NearAndDistant_2021_06	uk,britain,politics,elections,red	The UK Red Party. 2019 General Election: Labour Seats and Voting Strength. """"""""It's Time for Real Change""""""""... shame voters didn't agree.
 NearAndDistant_2021_07	uk,england,london,richmond upon thames,green	💚 Richmond appreciation post. % of Boroughs which are green spaces in London.
 NRatnaweera_2021_02	switzerland,lines	I visualize the effect of the transition from Switzerland's old coordinate system to the new one. Its a crazy, stormy pattern!
 richard_vogg_2021_01	chile,earthquakes,points	I decided to continue where I stopped last year and worked on the map showing earthquakes in Chile in the last 21 years.
