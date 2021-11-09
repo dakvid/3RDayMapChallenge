@@ -4,10 +4,8 @@ maps/people to process...
 @BjnNowak
 @elipousson
 @FGazzelloni
-@geokaramanis
 @jerry_shannon
 @kyle_e_walker
 https://www.maartenlambrechts.com/2019/11/01/my-30daymapchallenge.html
 @ShandiyaB
 @tanya_shapiro
-https://github.com/z3tt/30daymapchallenge
