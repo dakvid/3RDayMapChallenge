@@ -18,6 +18,7 @@ Amit_Levinson_2021_03	israel,transport,trains,voronoi	Tried out some Voronoi dia
 Amit_Levinson_2021_04	israel,transport,bus,hexagons,grid,choropleth	Number of distinct bus stops per 5km^2 hexagons across Israel. Data from Israel GTFS provided by OpenMobilityData, of all stops reported for trips on November 3rd, 2021.
 Amit_Levinson_2021_05	usa,new york city,nyc,israel,jerusalem,roads,lines,osm,openstreetmap	Street directions and layout from two different places. Added some glow effect for a higher contrast on how streets are directed.
 Amit_Levinson_2021_07	israel,tel aviv,transport,cycling,lines,green	Bike lanes in Tel-Aviv, IL.
+BCalhoon7_2021_11	usa,chesapeake bay,elevation,animation,3d	A 3D rendering of a flyover of one of the most beautiful fresh bodies of water in the US.
 CedScherer_2019_01	usa,new york city,nyc,points,animals	No one realized it - not even @SquirrelCensus? - but the numbers on my density plot were actually not sightings but estimated neighbors 🙈 Tried several smoothing bandwidths (it was huge by default, thus the pretty gradient) and decided to make the legend descriptive instead 🐿️
 CedScherer_2019_03	world,health,cartogram,choropleth	Finally, I had the chance to make some cartograms using data from an older #TidyTuesday challenge on causes of death on a global and country-level scale.
 CedScherer_2019_04	usa,hexagons,cartogram,choropleth,education	Revisited a #TidyTuesday challenge that I participated in a few weeks ago - here is the remix version using a hex bin map visualizing racial diversity and its change in US schools 🎒
@@ -29,12 +30,12 @@ CedScherer_2019_09	germany,berlin,transport,bus,yellow,osm,openstreetmap,points	
 CedScherer_2019_10_1	world,population,points	A classic map showing the urban population of capital cities around the world based on 2019 data. Couldn't decide if classic bw or a bit of grey so here are two versions
 CedScherer_2019_10_2	world,population,points	A classic map showing the urban population of capital cities around the world based on 2019 data. Couldn't decide if classic bw or a bit of grey so here are two versions
 CedScherer_2019_11	germany,elevation	Thx to Day 5 and the #rayshader 📦 a quick hill shaded map of #Germany using a grid of 13 mio cells.
-CedScherer_2019_12	germany,berlin,transport,roads,cycling,osm,openstreetmap	I would love to bike to work but rarely do so🚲 - my contribution to """"Day 12: #Movement"""" shows why... 🙄 ➡️ Roads with designated cycleways versus those without in #Berlin according to @OpenStreetMaps.
+CedScherer_2019_12	germany,berlin,transport,roads,cycling,osm,openstreetmap	I would love to bike to work but rarely do so🚲 - my contribution to “Day 12: #Movement” shows why... 🙄 ➡️ Roads with designated cycleways versus those without in #Berlin according to @OpenStreetMaps.
 CedScherer_2019_13	europe,africa,gps,animals,lines,small multiples	Finally some maps focussing on #animal #movement 🥳 -#birdmigration data of white #storks from Rotics et al. (2018) published in @AnimalEcology and available via @MovebankTeam 🛰️🌍
 CedScherer_2019_14	world,boundaries,choropleth	Please enjoy this simple global map showing the number of neighbors sharing land borders together
 CedScherer_2019_15	germany,berlin,names,roads,lines,osm,openstreetmap	#Berlin road network by name/suffix forming colorful networks 💛💚💜🧡💙
 CedScherer_2019_16	world,dots	Extreme places on earth with regard to temperature 🥵🥶 and elevation 🏔️ per continent and depths per ocean 🌊
-CedScherer_2019_17_1	world,time zones	I've already learned lots of things thanks to the #30DayMapChallenge - one major win is to get to know @Natural_Earth and the resp. #rstats📦{rnaturalearth} 🌐 by @rOpenSci! Made my catch-up contribution for today's challenge """"zones"""" very easy 🦸‍♂️
+CedScherer_2019_17_1	world,time zones	I've already learned lots of things thanks to the #30DayMapChallenge - one major win is to get to know @Natural_Earth and the resp. #rstats📦{rnaturalearth} 🌐 by @rOpenSci! Made my catch-up contribution for today's challenge “zones” very easy 🦸‍♂️
 CedScherer_2019_17_2	world,time zones	Another version with non-transparent fills for countries only 🌈
 CedScherer_2019_18	world,globe,projections	Three different types of projections and two examples for each. The globe is a matter of perspective and geometry in 2D 🤷‍♂️
 CedScherer_2019_19_1	world,points	Urban areas of the world as #map of  #CityLights deviated from MODIS data 🛰️ and provided by NaturalEarth 🌐
@@ -47,7 +48,7 @@ CedScherer_2019_24	africa,choropleth,bivariate,health	A bivariate map showing me
 CedScherer_2019_25	world,climate	Visualization of Köppen-Geiger climate classification based on updated zones provided by Kottek et al. in 2006. Decided to show not all 32 subcategories, 14 already made it though to find colours.
 CedScherer_2019_26	world,rivers	Aimed for a colorful Basin map but couldn't find any good data so focussed more on design with a simple map of the rivers of the world.
 CedScherer_2019_27	germany,berlin,transport,electric cars,infrastructure,points	Resources (for your electric car) - quick map of charging stations for #ElectricCar in Berlin 🚗🔌
-CedScherer_2019_29	world,population	The idea for Day 29 """"Experimental"""" evolved quite some time ago - and I am very happy with the result of world population stripes! Each stripe represents the distribution of humans on a latitudinal gradient from North to South and a width of 25km.
+CedScherer_2019_29	world,population	The idea for Day 29 “Experimental” evolved quite some time ago - and I am very happy with the result of world population stripes! Each stripe represents the distribution of humans on a latitudinal gradient from North to South and a width of 25km.
 CoulSim_2021_02	canada,rail,lines,historic	The Canadian Pacific Railway connecting British-Columbia to Eastern Canada was built between 1881 and 1885.
 CoulSim_2021_03	canada,quebec,camping	Public land in Quebec. Camping is allowed on most public land in Quebec, but the government doesn't have a map showing where camping actually is allowed.
 Cramsuig_2021_07	mexico,uk,usa,personal,green	_
@@ -107,6 +108,17 @@ issa_madjid_2021_02	france,lines,sport,small multiples	Let's visualize the movem
 issa_madjid_2021_03	world,covid19,charts	557 million. It is the number of people teleworking in spring 2020 in the world.
 issa_madjid_2021_04	usa,health,hexagons,cartogram,bivariate	Let's visualize the relationship between Covid-19 death rate and obesity in United States.
 issa_madjid_2021_05	france,dijon,streets,lines,osm,openstreetmap	The city of Dijon, France.
+IvaBrunec_2021_01	usa,philadelphia,points,trees	The Philadelphia street tree inventory.
+IvaBrunec_2021_02	usa,philadelphia,lines,transport	Philly bike network (blue) overlaid on the Vision Zero high injury network (orange). Green = overlap. Might highlight some places for protected bike lanes? 🚴‍♀️
+IvaBrunec_2021_03	europe,choropleth	Three Europes: wine, beer, spirits (in L alc/capita, in 2015). Interesting N⬇️S, W➡️E gradients. (Also, might have guessed a higher beer value for my native Slovenia.)
+IvaBrunec_2021_04	usa,hexagons,density,animals	Cardinal sightings reported on @GBIF from Oct-Dec 2020. 🐦Warmer colors = higher density of occurrence (log value)
+IvaBrunec_2021_06	usa,fires,climate,animation,red	Wildfires in the contiguous US between 2010-2020. (animation)
+IvaBrunec_2021_07	world,choropleth,trees,animation,green	Forest cover as % of total land area. (animation) Over the last decade, the world has lost ~ 4.5 million hectares of forest per year - a noticeable percentage of the total land area in some cases.
+IvaBrunec_2021_08	europe,alps,blue	A slice of the Alps. 🏔️ (& a foray into rayshader.)
+IvaBrunec_2021_09	uk,england,london,black and white,lines,roads,osm,openstreetmap	Leaning into the grey and into nostalgia with a map of (a tiny part of) London.
+IvaBrunec_2021_10_1	world,raster,animals	Phytoplankton concentration in September 2021.
+IvaBrunec_2021_10_2	usa,elevation,3d,raster	Map of Olympic peninsula (WA, USA)
+IvaBrunec_2021_11	canada,toronto,population,3d	This one was fun to make: Toronto population density by postcode in 2016. I happen to be included in this count!
 leeolney3_2021_01	singapore,shops,points	Supermarket locations in Singapore.
 leeolney3_2021_02	australia,melbourne,lines,water,infrastructure	Water supply main pipelines from Melbourne Water Corporation. Today i tried out {tmap} with the [Geocompution with R] book, from this week's #TidyTuesday.
 leeolney3_2021_03	canada,toronto,urban	Heritage Conservation Districts in Toronto, 2021.
@@ -123,6 +135,9 @@ loreabad6_2021_05	spain,cuenca,osm,openstreetmap,metamap,points	This is a tribut
 loreabad6_2021_06	spain,cuenca,osm,openstreetmap,red	My home city Cuenca is characterized by its red rooftops!
 loreabad6_2021_07	ecuador,cahuasqui,osm,openstreetmap,green	#Sentinel2 true color composite. Vegetation cover in Cahuasqui, Imbabura.
 loreabad6_2021_08	ecuador,guayaquil,blue,agriculture,aquaculture	#Sentinel2 false color composite. Shrimp plantations, Guayaquil gulf
+loreabad6_2021_09	ecuador,quito,transport,lines,black and white,osm,openstreetmap	Travel times by public transport from Quito city center assuming a speed of 40km/h
+loreabad6_2021_10	ecuador,climate,small multiples,raster	I am usually asked how hot my country is, and I usually say, not as hot as you may think! Worldclim data is a wonderful source for #dataviz
+loreabad6_2021_11	ecuador,el altar,3d,elevation,osm,openstreetmap	The trail to ""El Altar"". One of the most beautiful hikes I ever did in the Andes, all in company of my friends and family ♥️
 lxndrkp_2020_01	germany,friedrichshain-kreuzberg,cars,roads,points,interactive	There are 80,808 cars registered in Friedrichshain-Kreuzberg (2017). If all cars would start driving at the same time - it’d get pretty crowded 🚗🚗 🚗
 lxndrkp_2020_02	germany,flights,lines,interactive	About 10% of all flights from German airports are domestic flights - so starting in Germany and landing in Germany.
 lxndrkp_2020_03	germany,berlin,voronoi,interactive	The catchment area of boulder gyms in Berlin. Playing around with Voroni maps: “Voronoi polygons are created so that every location within a polygon is closer to the sample point in that polygon than any other sample point.” Here: All boulder gyms (that I know of) in Berlin. If everyone would go his or her closest gym (by beeline), this would be the catchment areas of each boulder gym.
@@ -141,9 +156,19 @@ mattdray_2021_01	fictional,pokemon,kanto,points	Ever wanted to extract coordinat
 NearAndDistant_2021_01	uk,england,london,points	#TidyTuesday Week 45: The London Postbox
 NearAndDistant_2021_04	uk,england,manchester,hexagons,cartogram,choropleth,benefits	The Manchester worker bee is one of the best-known symbols of Manchester and has been an city emblem for over 150 years. The bee denotes Mancunians' hard work ethic and being a hive of activity.
 NearAndDistant_2021_05	uk,scotland,edinburgh,osm,openstreetmap	Edinburgh is built upon an extinct volcano, which erupted around 340m years ago. In the hundreds of millions of years since, the volcano has been buried beneath other rocks and now a city.
-NearAndDistant_2021_06	uk,britain,politics,elections,red	The UK Red Party. 2019 General Election: Labour Seats and Voting Strength. """"""""It's Time for Real Change""""""""... shame voters didn't agree.
+NearAndDistant_2021_06	uk,britain,politics,elections,red	The UK Red Party. 2019 General Election: Labour Seats and Voting Strength. “It's Time for Real Change”... shame voters didn't agree.
 NearAndDistant_2021_07	uk,england,london,richmond upon thames,green	💚 Richmond appreciation post. % of Boroughs which are green spaces in London.
 NRatnaweera_2021_02	switzerland,lines	I visualize the effect of the transition from Switzerland's old coordinate system to the new one. Its a crazy, stormy pattern!
+nrennie35_2021_01	uk,scotland,glasgow,points,shops	Here's a map of all the (licensed) places you can buy alcohol in Glasgow.
+nrennie35_2021_02	world,glasgow,namess,lines	First time using the {spData} and {tmap} packages to look at all the other places called Glasgow.
+nrennie35_2021_03	uk,scotland,glasgow,population,choropleth	Looking at populations in different areas of Glasgow.
+nrennie35_2021_04	uk,scotland,glasgow,population,choropleth,hexagrams	Replicating day 3's polygon map showing population using the {hexbin} package in R.
+nrennie35_2021_05	uk,scotland,glasgow,ponts,shops,osm,openstreetmap	Looking at Glasgow's pubs, bars, restaurants, and cafes. First time using the {osmdata} package in R which was really easy to use.
+nrennie35_2021_06	uk,britain,infrastructure,points,red,osm,openstreetmap	Looking at all the post offices in Great Britain.
+nrennie35_2021_07	uk,scotland,glasgow,edinburgh,dundee,aberdeen,inverness,perth,stirling,green,osm,openstreetmap	Looking at all the parks and green spaces in Scotland's seven cities.
+nrennie35_2021_08	uk,scotland,glasgow,edinburgh,dundee,perth,inverness,aberdeen,stirling,blue,lines,rivers,osm,openstreetmap	Looking at rivers and waterways in Scotland's seven cities.
+nrennie35_2021_09	uk,scotland,glasgow,lines,streets,osm,openstreetmap	Inspired by @issa_madjid, using OpenStreetMap to plot the streets of Glasgow
+nrennie35_2021_10	uk,scotland,elevation,raster	Inspired by @Amit_Levinson's map, I made this minimalist map of elevation in Scotland.
 richard_vogg_2021_01	chile,earthquakes,points	I decided to continue where I stopped last year and worked on the map showing earthquakes in Chile in the last 21 years.
 richard_vogg_2021_02	germany,transport,rail,lines	Today I worked on a map showing the rail network in Germany.
 richard_vogg_2021_03	europe,simplification	I looked at the Geocomputation with R book (#TidyTuesday). I found it interesting to see that there are several algorithms to simplify polygons. When Italy loses the shoe shape, I feel it is time to stop.
@@ -152,7 +177,18 @@ richard_vogg_2021_05	germany,wurzburg,wuerzburg,green,osm,openstreetmap	As a kid
 richard_vogg_2021_06	world,trade,exports,food,lines,edge bundling,red	I finally had time to work with @schochastics great package {edgebundle}. Mexico, the Netherlands and Spain were the three main exporters of tomatoes in 2018.
 richard_vogg_2021_07	world,trade,exports,food,lines,edge bundling,green	This edgebundle map shows which countries export most olive oil and where it goes. The countries around the Mediterranean Sea + Chile + Argentina are the main exporters.
 richard_vogg_2021_08	world,trade,exports,food,lines,edge bundling,blue,animation	The increasing amount of fish fillets shown in an animated map. China, Norway and Chile are thee three countries which export most fish fillets in 2019.
+ShandiyaB_2021_01	australia,melbourne,points,trees	This one goes out to all fellow hayfever-sufferers. Locations of London Plane Trees in the City of Melbourne.
+ShandiyaB_2021_02	australia,melbourne,roads,lines	Streets within my 5km radius during Melbourne's COVID-19 lockdown
+ShandiyaB_2021_03	australia,melbourne,buildings	Buildings in Melbourne, differentiated by roof type. Inspired by Jo Wood's (@jwoLondon) map of Bloomsbury.
+ShandiyaB_2021_04	australia,victoria,hexagons,density,animals	Observations of the #BirdoftheYear, the Superb Fairy-wren (Malurus cyaneus), across Victoria.
+ShandiyaB_2021_05	australia,melbourne,points,osm,openstreetmap	Because everyone loves a bench.
+ShandiyaB_2021_06	australia,melbourne,red,green,blue,points,trees	Days 6 - 8: Red, Green, Blue. A 3-in-1 today, showing locations of post boxes (red), trees (green), and drinking fountains (blue) in Melbourne.
 ThomIvar_2021_05	netherlands,groningen,roads,lines,osm,openstreetmap	Map of the city of Groningen
+UrbanDemog_2021_01	brazil,points	A map of all healthcare facilities in Brazil in a couple lines of code
+UrbanDemog_2021_03	brazil,environment,animation,interactive	Interactive #dataviz showing the importance of indigenous lands to help stop #deforestation in Brazil #COP26
+UrbanDemog_2021_04	brazil,sao paulo,hexagons,grid,choropleth,transport	Employment accessibility by public transport in less than 60 minutes in some of Brazil's largest cities.
+UrbanDemog_2021_05	brazil,rio de janeiro,lines,streets,osm,openstreetmap	Walking time to the city center of Rio de Janeiro
+UrbanDemog_2021_20	brazil,fortaleza,transport,3d,hexagons,grid,animation	Animating public transport networks on 3D stacked maps.
 VictimOfMaths_2020_01	uk,britain,points,shops	_
 VictimOfMaths_2020_02	england,lines,charts,health,covid19	_
 VictimOfMaths_2020_03	england,sport,voronoi	_

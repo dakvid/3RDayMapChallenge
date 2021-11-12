@@ -6,5 +6,4 @@ maps/people to process...
 @FGazzelloni
 @jerry_shannon
 @kyle_e_walker
-@ShandiyaB
 @tanya_shapiro
