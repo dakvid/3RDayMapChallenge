@@ -6,7 +6,7 @@ process_image <-
            extension = NA,
            save_thumbnail = TRUE) {
     stopifnot(!is.na(mapid))
-    stopifnot(!is.na(extension) & extension %in% c("jpg", "png", "jpeg"))
+    stopifnot(!is.na(extension) & extension %in% c("jpg", "png", "jpeg", "webp"))
     
     original <- image_read(glue("maps/{mapid}.{extension}"))
     img_info <- image_info(original)

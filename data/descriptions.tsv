@@ -52,6 +52,10 @@ CedScherer_2019_29	world,population	The idea for Day 29 “Experimental” evolv
 CoulSim_2021_02	canada,rail,lines,historic	The Canadian Pacific Railway connecting British-Columbia to Eastern Canada was built between 1881 and 1885.
 CoulSim_2021_03	canada,quebec,camping	Public land in Quebec. Camping is allowed on most public land in Quebec, but the government doesn't have a map showing where camping actually is allowed.
 Cramsuig_2021_07	mexico,uk,usa,personal,green	_
+Cramsuig_2021_08	north america,south america,rivers,lakes,blue	Americas' rivers and lakes
+Cramsuig_2021_09	africa,choropleth,green,animation	Literacy rates in Africa, 1960-2020
+Cramsuig_2021_10	mexico,guerrero,raster,elevation	State of Guerrero, México
+Cramsuig_2021_11	mexico,guerrero,raster,elevation,3d	State of Guerrero, México
 dakvid_2019_14	new zealand,nz,carterton,boundaries,animation,inset	Using {gganimate} to help us see what Stats NZ's small area boundary changes mean for Carterton district.
 dakvid_2019_18	world,antarctica,lines,globe,interactive	I linked up territories in Antarctica with their controlling countries.
 dakvid_2020_04	new zealand,nz,hexagons,cartogram,politics,elections,interactive	An interactive map of NZ electorate wins by party.
@@ -64,6 +68,8 @@ dakvid_2020_15	new zealand,nz,lines	Linking each urban and rural settlement to t
 dakvid_2021_02	new zealand,nz,roads,names	Are the street names in my town Māori or English? Interestingly it seems to be the oldest and newest names in te reo Māori.
 dakvid_2021_03	new zealand,nz	I looked at the outlines of Auckland's local boards
 dr_xeo_2021_05	world,osm,openstreetmap,points,firefly	World's lighthouses. (Code link is to a blog post about the firefly style. Tweet links to a 2018 blog post on accessing OpenStreetMap.)
+geodatascience_2020_04	usa,chicago,shops,hexagons,covid19,animation	PhD Student Patrick Ballantyne (@pj_ballantyne) has visualised changes in #Retail #Mobility in #Chicago in response to #COVID19 using @SafeGraph data and #H3.
+geodatascience_2021_11	usa,florida,shops,hexagons,grid,choropleth,3d	☕ @pj_ballantyne has mapped Starbucks locations for Florida state
 geokaramanis_2021_01	greece,climate,points	Used an older dataset about heating degree days in Greece with about 160k points.
 geokaramanis_2021_02	greece,transport,ferry,lines	Ferry lines in Greece.
 geokaramanis_2021_03	greece,animals	Another simple one about the wildlife sanctuaries in Greece, trying a fill pattern with {ggpattern}.
@@ -103,6 +109,8 @@ hrbrmstr_2019_26	usa,maine,water,lines	_
 hrbrmstr_2019_27	usa,maine,small multiples,density,land	_
 hrbrmstr_2019_28	europe,africa,asia,italy,literature,points	_
 hrbrmstr_2019_29	fictional,literature,fantasy,westeros,essos,game of thrones,a song of ice and fire	_
+hrbrmstr_2021_01	usa,points,crime	Where the January 6th 2021 Capitol Insurrectionists are from
+hrbrmstr_2021_02	iceland,lines,gps,interactive	Took the Apple Watch data from our Iceland activities and put them on a (poorly annotated) {leaflet} map
 issa_madjid_2021_01	africa,points	Africa, 1 continent, 10194 points.
 issa_madjid_2021_02	france,lines,sport,small multiples	Let's visualize the movements of French Ligue 1 clubs.
 issa_madjid_2021_03	world,covid19,charts	557 million. It is the number of people teleworking in spring 2020 in the world.
@@ -119,6 +127,18 @@ IvaBrunec_2021_09	uk,england,london,black and white,lines,roads,osm,openstreetma
 IvaBrunec_2021_10_1	world,raster,animals	Phytoplankton concentration in September 2021.
 IvaBrunec_2021_10_2	usa,elevation,3d,raster	Map of Olympic peninsula (WA, USA)
 IvaBrunec_2021_11	canada,toronto,population,3d	This one was fun to make: Toronto population density by postcode in 2016. I happen to be included in this count!
+kyle_e_walker_2021_01	usa,minnesota,hennepin county,population,ethnicity,points,dot density	Group-wise dot-density maps
+kyle_e_walker_2021_02	usa,new york city,nyc,roads,lines	The tigris package isn't just for Census boundaries; you can pull roads data from the @uscensusbureau TIGER/Line database right into R.
+kyle_e_walker_2021_03	usa,dallas,fort worth,choropleth	The spdep package helps us represent neighborhood relationships with polygon contiguity, then explore and map clusters in @uscensusbureau data using stats like local Moran's I.
+kyle_e_walker_2021_04	usa,fort bend,hexagons,grid,choropleth	Hexagonal grids can be generated in the sf #rstats package with `st_make_grid(square = FALSE)`, then matched to #tidycensus data with areal interpolation and `st_interpolate_aw()`
+kyle_e_walker_2021_05	usa,iowa,transport,health,osm,openstreetmap	@mapbox's routing services are built on OpenStreetMap data and available in #rstats with the mapboxapi package. Use it to calculate and map travel-times to locations, like trauma centers in Iowa
+kyle_e_walker_2021_06	usa,mississippi,choropleth,red	ACS microdata, available in the {tidycensus} package with the `get_pums()` function, allow for custom tabulations of data that can be mapped at PUMA geographies.
+kyle_e_walker_2021_07	usa,new york city,nyc,points,dot density,population,green	@nhgis includes a wealth of historical US Census data.  In Ch.11 of my book, learn how to map historical Census data like the dot-density map of Italy-born NYC residents in 1910.
+kyle_e_walker_2021_08	mexico,population,choropleth,blue	The inegiR and mxmaps #rstats packages offer access to a wealth of demographic and geographic data for Mexico.
+kyle_e_walker_2021_09_1	usa,fort worth,choropleth,mapbox	🚨 New feature in the new release of mapboxapi!🚨 Use `get_static_tiles()` to pull down a @Mapbox Studio style (like my custom monochrome style shown in the maps) for use as a basemap in tmap (here) or ggplot2 (also in gallery)
+kyle_e_walker_2021_09_2	usa,fort worth,choropleth,mapbox	🚨 New feature in the new release of mapboxapi!🚨 Use `get_static_tiles()` to pull down a @Mapbox Studio style (like my custom monochrome style shown in the maps) for use as a basemap in ggplot2 (here) or tmap (also in gallery)
+kyle_e_walker_2021_10	usa,fort worth,raster,heatmap	Take a look at the linked code to learn how to interpolate @uscensusbureau to a raster using inverse distance weighting and map it (though note the influence of the tract centroids on the result)
+kyle_e_walker_2021_11	usa,texas,3d,lines	Three-dimensional visualization of US migration flows is straightforward with the mapdeck package and @buddyherms' innovative approach to flows data in #tidycensus.
 leeolney3_2021_01	singapore,shops,points	Supermarket locations in Singapore.
 leeolney3_2021_02	australia,melbourne,lines,water,infrastructure	Water supply main pipelines from Melbourne Water Corporation. Today i tried out {tmap} with the [Geocompution with R] book, from this week's #TidyTuesday.
 leeolney3_2021_03	canada,toronto,urban	Heritage Conservation Districts in Toronto, 2021.
@@ -137,7 +157,7 @@ loreabad6_2021_07	ecuador,cahuasqui,osm,openstreetmap,green	#Sentinel2 true colo
 loreabad6_2021_08	ecuador,guayaquil,blue,agriculture,aquaculture	#Sentinel2 false color composite. Shrimp plantations, Guayaquil gulf
 loreabad6_2021_09	ecuador,quito,transport,lines,black and white,osm,openstreetmap	Travel times by public transport from Quito city center assuming a speed of 40km/h
 loreabad6_2021_10	ecuador,climate,small multiples,raster	I am usually asked how hot my country is, and I usually say, not as hot as you may think! Worldclim data is a wonderful source for #dataviz
-loreabad6_2021_11	ecuador,el altar,3d,elevation,osm,openstreetmap	The trail to ""El Altar"". One of the most beautiful hikes I ever did in the Andes, all in company of my friends and family ♥️
+loreabad6_2021_11	ecuador,el altar,3d,elevation,osm,openstreetmap	The trail to “El Altar”. One of the most beautiful hikes I ever did in the Andes, all in company of my friends and family ♥️
 lxndrkp_2020_01	germany,friedrichshain-kreuzberg,cars,roads,points,interactive	There are 80,808 cars registered in Friedrichshain-Kreuzberg (2017). If all cars would start driving at the same time - it’d get pretty crowded 🚗🚗 🚗
 lxndrkp_2020_02	germany,flights,lines,interactive	About 10% of all flights from German airports are domestic flights - so starting in Germany and landing in Germany.
 lxndrkp_2020_03	germany,berlin,voronoi,interactive	The catchment area of boulder gyms in Berlin. Playing around with Voroni maps: “Voronoi polygons are created so that every location within a polygon is closer to the sample point in that polygon than any other sample point.” Here: All boulder gyms (that I know of) in Berlin. If everyone would go his or her closest gym (by beeline), this would be the catchment areas of each boulder gym.
@@ -153,11 +173,16 @@ lxndrkp_2020_20	germany,berlin,population,interactive	Movement within Berlin (�
 lxndrkp_2020_22	germany,berlin,transport,trains,animation,interactive	U-Bahn trains moving through Berlin. All U-Bahn trains moving through the city on a regular Monday using the {mapdeck::add_trips()} function.
 lxndrkp_2020_30	world,interactive	Create your own basemap with Mapbox Studio. Ever wanted pink rivers or lilac streets on your basemap? That can easily be done with Mapbox Studio.
 mattdray_2021_01	fictional,pokemon,kanto,points	Ever wanted to extract coordinates from images of fictitious maps? I extracted 'em all for Kanto from #pokemon
+MikeMahoney218_2021_09	usa,mount rainier,raster,3d,elevation,black and white,osm,openstreetmap	Here's a map showing Mt. Rainier, the most prominent mountain in the contiguous United States.
+MikeMahoney218_2021_10	usa,mount marcy,raster,elevation,osm,openstreetmap	Here's a map made from raster data showing contour lines (colored by elevation) centered on Mt. Marcy in the Adirondack Park of New York!
+MikeMahoney218_2021_11	usa,mount washington,3d,osm,openstreetmap	Here's Mt. Washington done up in Unity via the {terrainr} package.
 NearAndDistant_2021_01	uk,england,london,points	#TidyTuesday Week 45: The London Postbox
 NearAndDistant_2021_04	uk,england,manchester,hexagons,cartogram,choropleth,benefits	The Manchester worker bee is one of the best-known symbols of Manchester and has been an city emblem for over 150 years. The bee denotes Mancunians' hard work ethic and being a hive of activity.
 NearAndDistant_2021_05	uk,scotland,edinburgh,osm,openstreetmap	Edinburgh is built upon an extinct volcano, which erupted around 340m years ago. In the hundreds of millions of years since, the volcano has been buried beneath other rocks and now a city.
 NearAndDistant_2021_06	uk,britain,politics,elections,red	The UK Red Party. 2019 General Election: Labour Seats and Voting Strength. “It's Time for Real Change”... shame voters didn't agree.
 NearAndDistant_2021_07	uk,england,london,richmond upon thames,green	💚 Richmond appreciation post. % of Boroughs which are green spaces in London.
+npalomin_2021_06	uk,england,london,manchester,west midlands,avon,cambridgeshire,oxfordshire,transport,red	Car flows patterns
+npalomin_2021_07	uk,england,london,manchester,west midlands,avon,cambridgeshire,oxfordshire,transport,cycling,green	Cycling is the greenest and most space-efficient mode of individual travel
 NRatnaweera_2021_02	switzerland,lines	I visualize the effect of the transition from Switzerland's old coordinate system to the new one. Its a crazy, stormy pattern!
 nrennie35_2021_01	uk,scotland,glasgow,points,shops	Here's a map of all the (licensed) places you can buy alcohol in Glasgow.
 nrennie35_2021_02	world,glasgow,namess,lines	First time using the {spData} and {tmap} packages to look at all the other places called Glasgow.

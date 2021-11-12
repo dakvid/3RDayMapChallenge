@@ -5,5 +5,4 @@ maps/people to process...
 @elipousson
 @FGazzelloni
 @jerry_shannon
-@kyle_e_walker
 @tanya_shapiro
