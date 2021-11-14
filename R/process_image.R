@@ -1,6 +1,9 @@
 require(tibble)
 require(glue)
 require(magick)
+require(purrr)
+require(stringr)
+
 process_image <- 
   function(mapid = NA,
            extension = NA,
@@ -24,3 +27,10 @@ process_image <-
                   aspect = img_aspect))
   }
 
+process_many_images <- 
+  function(my_pattern) {
+    list.files(path = "maps",
+               pattern = my_pattern) %>%
+      map_df(~ process_image(.x %>% str_replace("\\.[jpeng]+$", ""),
+                             .x %>% str_extract("[jpeng]+$")))
+  }
