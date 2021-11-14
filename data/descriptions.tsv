@@ -18,7 +18,22 @@ Amit_Levinson_2021_03	israel,transport,trains,voronoi	Tried out some Voronoi dia
 Amit_Levinson_2021_04	israel,transport,bus,hexagons,grid,choropleth	Number of distinct bus stops per 5km^2 hexagons across Israel. Data from Israel GTFS provided by OpenMobilityData, of all stops reported for trips on November 3rd, 2021.
 Amit_Levinson_2021_05	usa,new york city,nyc,israel,jerusalem,roads,lines,osm,openstreetmap	Street directions and layout from two different places. Added some glow effect for a higher contrast on how streets are directed.
 Amit_Levinson_2021_07	israel,tel aviv,transport,cycling,lines,green	Bike lanes in Tel-Aviv, IL.
+Amit_Levinson_2021_08	israel,tel aviv,elevation,blue	Quick one for today plotting the area to be covered in Tel-Aviv by a 5 meter tsunami wave.
+Amit_Levinson_2021_09	israel,elevation,black and white,3d	Mapped Israel's elevation in 3d with a bw theme. Amazing that this is achievable with barely any code using the {rayrender} and {elevater} packages.
+Amit_Levinson_2021_10	israel,tel aviv,walking,interactive,raster	Followed up on @Jamie_Bio tutorial yesterday on using openrouteservice for walking distance and converted the format to raster 😊
+Amit_Levinson_2021_11	israel,ramon crater,3d,elevation	Attempted at plotting *part* of the Ramon Crater in south of Israel. I don't think my computer was too happy with it 😅 Amazing work on the rayvista R package making it really easy working with rayshader.
+Amit_Levinson_2021_13	world,israel,globe,inset	Haven't been out of the country recently...
 BCalhoon7_2021_11	usa,chesapeake bay,elevation,animation,3d	A 3D rendering of a flyover of one of the most beautiful fresh bodies of water in the US.
+BlakeRobMills_2021_01	usa,new york city,nyc,points	Decided to keep it simple with some Community Spaces in Manhattan. Everything is from NYC Open Data
+BlakeRobMills_2021_02	spain,barcelona,germany,berlin,usa,chicago,uk,england,london,australia,melbourne,italy,milan,new york city,nyc,sydney,canada,toronto,transport,lines	Displays the bike lanes of major global cities. Data collected from each city's open data.
+BlakeRobMills_2021_03	netherlands,amsterdam,usa,chicago,los angeles,italy,milan,new york city,nyc,france,paris,australia,perth,singapore,canada,toronto,parks	A sister to yesterday's one. This time showing parks in major cities
+BlakeRobMills_2021_04	usa,hexagons,cartogram,choropleth,small multiples,animals	Today's map shows the change in number of bee colonies by decade compared to 1990. Data from USDA Honeybee Surveys 🐝🐝🐝
+BlakeRobMills_2021_05	netherlands,amsterdam,spain,barcelona,colombia,bogota,argentina,buenos aires,egypt,cairo,venezuela,caracas,cuba,havana,finland,helsinki,india,kolkata,uk,england,london,mexico,mexico city,cdmx,italy,milan,canada,montreal,mumbai,usa,new york city,nyc,norway,oslo,france,paris,rome,iran,tehran,austria,vienna,washington dc,roads,lines,osm,openstreetmap	Visualizes the shape of major cities by showing their streets, highways, and other roads.
+BlakeRobMills_2021_06	usa,baltimore,chicago,detroit,los angeles,new york city,nyc,st louis,crime,points,red	Maps show police killings plotted over HOLC's redlining maps.
+BlakeRobMills_2021_07	usa,new york city,nyc,buildings,environment,green	Wanted to show how 'green' different building in Manhattan were with Energy Star Scores.
+BlakeRobMills_2021_09	germany,berlin,uk,england,london,italy,milan,usa,new york city,nyc,france,paris,transport,lines,osm,openstreetmap	Mapping 5 different cities by bike lanes, train lines, water and other features.
+BlakeRobMills_2021_12	usa,new york city,nyc,population,historic,choropleth,small multiples	Used ward maps from @nypl and NYS Census data to show changes in population from 1703 to 1855.
+BlakeRobMills_2021_13	world,points,lines,population	Simple map showing major cities and roads of the world.
 CedScherer_2019_01	usa,new york city,nyc,points,animals	No one realized it - not even @SquirrelCensus? - but the numbers on my density plot were actually not sightings but estimated neighbors 🙈 Tried several smoothing bandwidths (it was huge by default, thus the pretty gradient) and decided to make the legend descriptive instead 🐿️
 CedScherer_2019_03	world,health,cartogram,choropleth	Finally, I had the chance to make some cartograms using data from an older #TidyTuesday challenge on causes of death on a global and country-level scale.
 CedScherer_2019_04	usa,hexagons,cartogram,choropleth,education	Revisited a #TidyTuesday challenge that I participated in a few weeks ago - here is the remix version using a hex bin map visualizing racial diversity and its change in US schools 🎒
@@ -49,6 +64,8 @@ CedScherer_2019_25	world,climate	Visualization of Köppen-Geiger climate classif
 CedScherer_2019_26	world,rivers	Aimed for a colorful Basin map but couldn't find any good data so focussed more on design with a simple map of the rivers of the world.
 CedScherer_2019_27	germany,berlin,transport,electric cars,infrastructure,points	Resources (for your electric car) - quick map of charging stations for #ElectricCar in Berlin 🚗🔌
 CedScherer_2019_29	world,population	The idea for Day 29 “Experimental” evolved quite some time ago - and I am very happy with the result of world population stripes! Each stripe represents the distribution of humans on a latitudinal gradient from North to South and a width of 25km.
+ckauebraga_2021_01	brazil,fortaleza,sao paulo,points,transport,osm,openstreetmap	Distribution of shared bicycle stations, size proportional to the capacity of each station. Fortaleza and São Paulo
+ckauebraga_2021_02	brazil,rio de janeiro,sao paulo,fortaleza,recife,curitiba,lines,transport	Public transport network in 5 major Brazilian cities. Those so easy to guess, right?
 CoulSim_2021_02	canada,rail,lines,historic	The Canadian Pacific Railway connecting British-Columbia to Eastern Canada was built between 1881 and 1885.
 CoulSim_2021_03	canada,quebec,camping	Public land in Quebec. Camping is allowed on most public land in Quebec, but the government doesn't have a map showing where camping actually is allowed.
 Cramsuig_2021_07	mexico,uk,usa,personal,green	_
@@ -67,6 +84,24 @@ dakvid_2020_09	new zealand,nz,dorling,cartogram,politics,elections,monochrome	Do
 dakvid_2020_15	new zealand,nz,lines	Linking each urban and rural settlement to the closest more populous one. (Copying @AndriyYaremenko)
 dakvid_2021_02	new zealand,nz,roads,names	Are the street names in my town Māori or English? Interestingly it seems to be the oldest and newest names in te reo Māori.
 dakvid_2021_03	new zealand,nz	I looked at the outlines of Auckland's local boards
+dakvid_2021_06	new zealand,nz,roads,red	I tried to make a red rātā flower with all the Rata Streets. Not quite as fancy as I'd hoped, but interesting to try 😀
+dakvid_2021_08	new zealand,nz,wellington,lines,roads,blue,osm,openstreetmap	I'm hoping to go into the office on Monday after a break of 55 days. So here's Wellington CBD centred on the office, in the corporate colour(s).
+darwinanddavis_2020_01	world,usa,poland,romania,points,shops,interactive	COFFEE. At least, my favourite coffee places around the world
+darwinanddavis_2020_04	usa,atlanta,transport,hexagons,3d,interactive	Mapping my @lyft ride activity over two years
+darwinanddavis_2020_06	usa,new york city,nyc,animals,density,interactive,red	Squirrels! Squirrel sightings in Central Park from @NYCDoITT
+darwinanddavis_2020_08	world,australia,points,yellow,trade,exports,interactive	Honey 🍯 Australian honey export trade
+darwinanddavis_2020_09	usa,raster,orange	Monochromatic DEM of the Appalachian Trail + my hiking spots for good measure. More an exercise on what palettes work well with rasters to highlight that super rich terrain detail 🍊
+darwinanddavis_2020_10	australia,melbourne,buildings	Lots of cool minimal maps from talented folx in this challenge, so heres a fun one showing the classic grid of my home city @Melbourne. Also practicing my text layout (s/o ggtext)
+darwinanddavis_2020_11	australia,melbourne,trees,3d,interactive	Urban trees 🌴 More cool @cityofmelbourne data exploring the vulnerability of the city urban forest based on tree lifespan w/ height/age/density
+darwinanddavis_2020_14	vietnam,climate,agriculture,choropleth	Climate risk of crops in Vietnam 🌱 I found some data @BiovIntCIAT_Lib on climate risk indices for Vietnam that looked cool. Exploring coffee, cashew, and cassava crop risk
+darwinanddavis_2020_16	japan,picture	Any Ghibli fans? My challenge was plotting images within polygons. Easy with design software, but can it be done with R? Spoiler, it can. Cheers to StackOverflow for the code, not trivial
+darwinanddavis_2020_20	australia,population,density,animals	🐪 Camels in Australia. Yes, Aus has camels. 1M+ @ 40% land cover. Just roaming. So many camels my laptop almost blew up mapping them
+darwinanddavis_2020_23	world,russia,migration,lines,animation,interactive	70 years of Russian refugee migration. Read: no border boundaries + homage to my heritage (my parents are in these data) + playing w/ animated arcs
+darwinanddavis_2020_25	world,health,covid19,interactive	If you're not yet sick of C19, who are you really, but here's a previous analysis I did that has been pulling global data daily since Feb this year
+darwinanddavis_2020_30	world,points,interactive	Using a Shiny project I just finished (feedback welcome). Map @Airbnb open data comparing listings among cities using criteria - rating/cancel policy/roomtype etc. Like an analytics UI for Airbnb
+darwinanddavis_2021_01	southeast asia,philippines,indonesia,earthquakes,points	Rumble in SE Asia - 500 years of earthquakes.
+darwinanddavis_2021_07	brazil,landuse,green	Brazil - Classifying major ecoregions
+darwinanddavis_2021_11	australia,population,3d,heatmap,animals	Avian airstrike - Aircraft-bird strikes across Australia 2008-2017. Nice, rich dataset and will probably use this again for a deeper analysis
 dr_xeo_2021_05	world,osm,openstreetmap,points,firefly	World's lighthouses. (Code link is to a blog post about the firefly style. Tweet links to a 2018 blog post on accessing OpenStreetMap.)
 geodatascience_2020_04	usa,chicago,shops,hexagons,covid19,animation	PhD Student Patrick Ballantyne (@pj_ballantyne) has visualised changes in #Retail #Mobility in #Chicago in response to #COVID19 using @SafeGraph data and #H3.
 geodatascience_2021_11	usa,florida,shops,hexagons,grid,choropleth,3d	☕ @pj_ballantyne has mapped Starbucks locations for Florida state
@@ -111,6 +146,9 @@ hrbrmstr_2019_28	europe,africa,asia,italy,literature,points	_
 hrbrmstr_2019_29	fictional,literature,fantasy,westeros,essos,game of thrones,a song of ice and fire	_
 hrbrmstr_2021_01	usa,points,crime	Where the January 6th 2021 Capitol Insurrectionists are from
 hrbrmstr_2021_02	iceland,lines,gps,interactive	Took the Apple Watch data from our Iceland activities and put them on a (poorly annotated) {leaflet} map
+i_nicolis_2021_13	greece,bathymetry	Using Natural Earth Data, a bathymetry map around the Calypso deep, deepest part of the Mediterranean Sea, SE of Greece.
+Iawmatthew_2021_11	usa,devils tower,elevation,3d,animation	A very quick experiment with {rayvista}: a spinning view of Devils Tower, Wyoming
+Iawmatthew_2021_12	europe,population,cartogram	A slightly strange looking cartogram of European population
 issa_madjid_2021_01	africa,points	Africa, 1 continent, 10194 points.
 issa_madjid_2021_02	france,lines,sport,small multiples	Let's visualize the movements of French Ligue 1 clubs.
 issa_madjid_2021_03	world,covid19,charts	557 million. It is the number of people teleworking in spring 2020 in the world.
@@ -208,6 +246,14 @@ ShandiyaB_2021_03	australia,melbourne,buildings	Buildings in Melbourne, differen
 ShandiyaB_2021_04	australia,victoria,hexagons,density,animals	Observations of the #BirdoftheYear, the Superb Fairy-wren (Malurus cyaneus), across Victoria.
 ShandiyaB_2021_05	australia,melbourne,points,osm,openstreetmap	Because everyone loves a bench.
 ShandiyaB_2021_06	australia,melbourne,red,green,blue,points,trees	Days 6 - 8: Red, Green, Blue. A 3-in-1 today, showing locations of post boxes (red), trees (green), and drinking fountains (blue) in Melbourne.
+tanya_shapiro_2021_01	usa,new york city,nyc,points,osm,openstreetmap,personal	Today's #30DayMapChallenge is a love letter to my better half, @KrisStil. We created a lot of great memories while we lived in NYC. Here's a map of the places those memories were made. ❤️🏙️
+tanya_shapiro_2021_03	usa,virginia,politics,elections,choropleth	Since today is a big day for VA, here is a throwback to the last gubernatorial election results from 2017. 🗳
+tanya_shapiro_2021_04	usa,hexagons,cartogram	Major shout out to @R_Graph_Gallery for an easy to follow tutorial, thank you! And in the spirit of #NationalCandyDay I'm dedicating this to Mars candy fan favorites. Snickers or Bust. 🍫🍬
+tanya_shapiro_2021_05	switzerland,basel,roads,lines,osm,openstreetmap	This challenge introduced me to osmdata, a very cool package - and there's lot more for me to learn.  Dedicating today's map to meine Heimatstadt (my hometown), Basel.
+tanya_shapiro_2021_06	world,food,red	Data from @OurWorldInData, produced a map to explore beef & buffalo meat consumption around the world. Personally, I'm a vegetarian, but I've got no beef with my meat eating friends. 🥩
+tanya_shapiro_2021_08	world,choropleth,blue,red,green	RGB Around The World. I was inspired by https://time.com/patriotic-flag-colors/ and wanted a redo on Red & Green. Used {colorfindr} (very cool package) to analyze hex codes from flag images online. Creating the dataset was 90% of the battle.
+tanya_shapiro_2021_10	nepal,elevation,raster	Perfect opportunity to explore {raster} package. Used altitude data from STRM to create a map of Nepal (home of the tallest mountains). 🗻
+tanya_shapiro_2021_11	usa,washington,climate,choropleth,3d	My 1st attempt at 3D. My mind is completely blown by the # of possibilities with {rayshader}. Map below of Washington State rainfall over the last 12 months.  🌧️
 ThomIvar_2021_05	netherlands,groningen,roads,lines,osm,openstreetmap	Map of the city of Groningen
 UrbanDemog_2021_01	brazil,points	A map of all healthcare facilities in Brazil in a couple lines of code
 UrbanDemog_2021_03	brazil,environment,animation,interactive	Interactive #dataviz showing the importance of indigenous lands to help stop #deforestation in Brazil #COP26
