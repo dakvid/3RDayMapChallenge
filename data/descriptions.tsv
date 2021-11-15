@@ -103,6 +103,19 @@ darwinanddavis_2021_01	southeast asia,philippines,indonesia,earthquakes,points	R
 darwinanddavis_2021_07	brazil,landuse,green	Brazil - Classifying major ecoregions
 darwinanddavis_2021_11	australia,population,3d,heatmap,animals	Avian airstrike - Aircraft-bird strikes across Australia 2008-2017. Nice, rich dataset and will probably use this again for a deeper analysis
 dr_xeo_2021_05	world,osm,openstreetmap,points,firefly	World's lighthouses. (Code link is to a blog post about the firefly style. Tweet links to a 2018 blog post on accessing OpenStreetMap.)
+FGazzelloni_2021_01	world,points	Inspired by #DuBoisChallenge for the structure of the map - data are from #TidyTuesday week44 Ultra Trail Running Datasource: @BjnNowak
+FGazzelloni_2021_02	france,lines,boundaries	As simple as a geom_line for France regions, the colors of the map are from colorspace::rainbow_hcl
+FGazzelloni_2021_03	finland,aland islands	Åland Islands (Finland) made with wrld_simpl {maptools}
+FGazzelloni_2021_04	usa,boston,population,hexagons,density	Boston city (Massachusetts) Housing data from {spData}. #Hexagons represent lower status population (percentage values) concentration in the tract borders Charles River. (in the little map is the Boston Area).
+FGazzelloni_2021_05	germany,berlin,water,osm,openstreetmap	Berlin WATER - for this map I decided to used {leaflet} package and add some information about water in Berlin with {osmdata} package.
+FGazzelloni_2021_06	usa,climate,red,animation	US Drought - for this map I recycled #tidytuesdayR::tt_load(2021, week = 30) and - made it RED (maybe not right for draught), {gganimate} the first months of 2021 for state variation.
+FGazzelloni_2021_07	uk,england,london,transport,green,osm,openstreetmap	'Map of Greater London with cycle hire' data loaded from #OpenStreetMap data and {spData} package. My challenge was the border of the London map 📌
+FGazzelloni_2021_08	world,australia,globe,blue	For this challenge, I decided to post a Sat View of Australia, using {stars} package and @BOM_au sat images. I finally manage to set it up, and I am very happy with the results :)
+FGazzelloni_2021_09	italy,black and white	For this challenge, I have chosen Italy - and made it BIG
+FGazzelloni_2021_10	africa,population,small multiples,raster	Africa population density transition from 200 to 2020. This raster image data source is from #TidyTuesday week46 {afrilearndata} I have made some improvements in understanding 'raster data' and their transformation.
+FGazzelloni_2021_11	world,globe,australia,3d	World Sat View in 3D  from the perspective of Australia at 8am 11.11.2021 GMT+11 Mostly cloudy ☁️⛅🌤🌥🌥 'rastered' a sat .tif image taken from @BOM_au and sphere_shaded with {rayshader} package. Very simple but Cool!
+FGazzelloni_2021_12	world,choropleth,population	Good time spent arranging the colors of the World map representing the economic status of the countries and the level of the pop in 1950 vs 2030
+FGazzelloni_2021_13	world,globe,choropleth	Tried different perspectives as well as resources, meant to represent colonies but then deviated on GDP per capita.
 geodatascience_2020_04	usa,chicago,shops,hexagons,covid19,animation	PhD Student Patrick Ballantyne (@pj_ballantyne) has visualised changes in #Retail #Mobility in #Chicago in response to #COVID19 using @SafeGraph data and #H3.
 geodatascience_2021_11	usa,florida,shops,hexagons,grid,choropleth,3d	☕ @pj_ballantyne has mapped Starbucks locations for Florida state
 geokaramanis_2021_01	greece,climate,points	Used an older dataset about heating degree days in Greece with about 160k points.
@@ -165,6 +178,8 @@ IvaBrunec_2021_09	uk,england,london,black and white,lines,roads,osm,openstreetma
 IvaBrunec_2021_10_1	world,raster,animals	Phytoplankton concentration in September 2021.
 IvaBrunec_2021_10_2	usa,elevation,3d,raster	Map of Olympic peninsula (WA, USA)
 IvaBrunec_2021_11	canada,toronto,population,3d	This one was fun to make: Toronto population density by postcode in 2016. I happen to be included in this count!
+izzy_youngs_2021_05	netherlands,amsterdam,lines,osm,openstreetmap	I learned how to use the Overpass API with osmplotr to make maps using OpenStreetMap data in R! Just a simple map, but wow R is amazing 😍
+izzy_youngs_2021_09	usa,reno,osm,openstreetmap,red,green,blue,black and white,small multiples	A simple faceted map with more OSM data for Days 6 through 9, this time focused on features of my home town.
 kyle_e_walker_2021_01	usa,minnesota,hennepin county,population,ethnicity,points,dot density	Group-wise dot-density maps
 kyle_e_walker_2021_02	usa,new york city,nyc,roads,lines	The tigris package isn't just for Census boundaries; you can pull roads data from the @uscensusbureau TIGER/Line database right into R.
 kyle_e_walker_2021_03	usa,dallas,fort worth,choropleth	The spdep package helps us represent neighborhood relationships with polygon contiguity, then explore and map clusters in @uscensusbureau data using stats like local Moran's I.

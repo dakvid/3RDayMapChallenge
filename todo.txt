@@ -3,6 +3,4 @@ maps/people to process...
 @afrimapr
 @BjnNowak
 @elipousson
-@FGazzelloni
 @jerry_shannon
-@tanya_shapiro
