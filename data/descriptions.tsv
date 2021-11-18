@@ -2,6 +2,18 @@ mapid	tags	description
 _ansgar_2021_01	germany,cologne,education,points	Decided to use Cologne, the place I live, as a common theme throughout the challenges. Points show the locations of kindergartens & day care centers in Cologne.
 _ansgar_2021_02	germany,cologne,rivers,lines	The river course of the Rhine, crossing Cologne (#Köln) at Rheinkilometer 688.
 _ansgar_2021_03	germany,cologne,sport,voronoi	I recreated @VictimOfMaths's idea of using Voronoi tesselation to find the nearest (semi-)professional football team for each point in Cologne (#Köln), adding the club logos (SVGs).
+_ansgar_2021_04	germany,cologne,education,hexagons,grid,choropleth	Opening times / availabilities of kindergardens in Cologne (#Köln)
+_ansgar_2021_05	germany,cologne,lines,transport,cycling,osm,openstreetmap	Bike Lanes in Cologne, Germany (#Köln)
+_ansgar_2021_06	germany,cologne,tiles,cartogram,politics,elections,red	A tile grid map of vote shares of the Social Democrats (#SPD) in the German Federal Election 2021 (#Bundestagswahl) in each district in Cologne. (left = first vote, right = second vote)
+_ansgar_2021_07	germany,cologne,tiles,cartogram,politics,elections,green	Vote shares of the Green Party (#Gruenen) in the German Federal Election 2021 (#Bundestagswahl) in each district in Cologne.
+_ansgar_2021_08	germany,cologne,choropleth,housing,blue	Average housing space in the districts of Cologne (#Köln).
+_ansgar_2021_09_1	germany,cologne,lines,roads,black and white,osm,openstreetmap	Streets of Cologne (#Köln)
+_ansgar_2021_09_2	germany,cologne,buildings,black and white,osm,openstreetmap	A map with all buildings in Cologne, Germany (#Köln)
+_ansgar_2021_11	germany,cologne,politics,elections,3d,animation	Voter turnout in the Federal Election 2021 (#Bundestagswahl) in each district in Cologne (#Köln)
+_ansgar_2021_12	world,cartogram,dorling,animated	Cologne (#Köln) residents by country of birth outside Germany as of 2014. The view is morphing between a Mollweide projection, a contiguous cartogram and a Dorling cartogram using {gganimate} 📦
+_ansgar_2021_13	rhine,rivers	The river course of the Rhine (Rhein). Using Natural Earth data for the course and the shaded relief.
+_ansgar_2021_16_1	germany,cologne,usa,roads,small multiples,lines,osm,openstreetmap	TIL there is a town called Cologne in Minnesota, USA. Cologne, MN was founded by German settlers and named after Cologne, Germany (Köln).
+_ansgar_2021_16_2	germany,cologne,trees	Trees of Cologne
 aghaynes_2021_01	switzerland,points,elevation	A false colour map of part of the Swiss National Park in the Grissons, coloured based on elevation.
 aghaynes_2021_02	germany,line	This is the course of the Hasenhorn Coaster in Todtnau, Schwarzwald, Germany. Line width is the altitude, colour is the speed of an actual run...
 aghaynes_2021_03	world,choropleth,covid19	Deaths attributed to COVID based on data from @OurWorldInData
@@ -86,6 +98,8 @@ dakvid_2021_02	new zealand,nz,roads,names	Are the street names in my town Māori
 dakvid_2021_03	new zealand,nz	I looked at the outlines of Auckland's local boards
 dakvid_2021_06	new zealand,nz,roads,red	I tried to make a red rātā flower with all the Rata Streets. Not quite as fancy as I'd hoped, but interesting to try 😀
 dakvid_2021_08	new zealand,nz,wellington,lines,roads,blue,osm,openstreetmap	I'm hoping to go into the office on Monday after a break of 55 days. So here's Wellington CBD centred on the office, in the corporate colour(s).
+dakvid_2021_10	new zealand,nz,kapiti island,raster,elevation,3d	Kāpiti Island, which I can see from my lounge.
+dakvid_2021_11	new zealand,nz,christchurch,population,3d	Here's the population (density) of Christchurch, New Zealand.
 darwinanddavis_2020_01	world,usa,poland,romania,points,shops,interactive	COFFEE. At least, my favourite coffee places around the world
 darwinanddavis_2020_04	usa,atlanta,transport,hexagons,3d,interactive	Mapping my @lyft ride activity over two years
 darwinanddavis_2020_06	usa,new york city,nyc,animals,density,interactive,red	Squirrels! Squirrel sightings in Central Park from @NYCDoITT
@@ -234,6 +248,7 @@ NearAndDistant_2021_04	uk,england,manchester,hexagons,cartogram,choropleth,benef
 NearAndDistant_2021_05	uk,scotland,edinburgh,osm,openstreetmap	Edinburgh is built upon an extinct volcano, which erupted around 340m years ago. In the hundreds of millions of years since, the volcano has been buried beneath other rocks and now a city.
 NearAndDistant_2021_06	uk,britain,politics,elections,red	The UK Red Party. 2019 General Election: Labour Seats and Voting Strength. “It's Time for Real Change”... shame voters didn't agree.
 NearAndDistant_2021_07	uk,england,london,richmond upon thames,green	💚 Richmond appreciation post. % of Boroughs which are green spaces in London.
+neilcfd1_2021_11	denmark,copenhagen,3d,animation	I'm very enamoured of the City Dome series by @CraigTaylorViz, thought I'd attempt something in #rayshader #rstats.  This was the initial test just using a hemisphere. I'll point you towards this gist by @blueparrot which shows the process far better than my messy code would
 npalomin_2021_06	uk,england,london,manchester,west midlands,avon,cambridgeshire,oxfordshire,transport,red	Car flows patterns
 npalomin_2021_07	uk,england,london,manchester,west midlands,avon,cambridgeshire,oxfordshire,transport,cycling,green	Cycling is the greenest and most space-efficient mode of individual travel
 NRatnaweera_2021_02	switzerland,lines	I visualize the effect of the transition from Switzerland's old coordinate system to the new one. Its a crazy, stormy pattern!
@@ -255,6 +270,21 @@ richard_vogg_2021_05	germany,wurzburg,wuerzburg,green,osm,openstreetmap	As a kid
 richard_vogg_2021_06	world,trade,exports,food,lines,edge bundling,red	I finally had time to work with @schochastics great package {edgebundle}. Mexico, the Netherlands and Spain were the three main exporters of tomatoes in 2018.
 richard_vogg_2021_07	world,trade,exports,food,lines,edge bundling,green	This edgebundle map shows which countries export most olive oil and where it goes. The countries around the Mediterranean Sea + Chile + Argentina are the main exporters.
 richard_vogg_2021_08	world,trade,exports,food,lines,edge bundling,blue,animation	The increasing amount of fish fillets shown in an animated map. China, Norway and Chile are thee three countries which export most fish fillets in 2019.
+schochastics_2021_01	world,sport,points	More than 10,000 football grounds around the world
+schochastics_2021_02	world,migration,lines,edge bundling	Global Migration network drawn using edge bundling
+schochastics_2021_03	uk,england,manchester,buildings	Manchester City center (and beyond). Building colors are random and just for aesthetic reasons.
+schochastics_2021_04	germany,population,hexagons,grid,density	Population density of Germany aggregated on 1km x 1km hexagons
+schochastics_2021_05	germany,names,games,osm,openstreetmap	Monopoly Street Names in Germany. Some interesting visual patterns.
+schochastics_2021_06	world,choropleth,flags,red	Countries with the color red in their flag 🟥
+schochastics_2021_07	world,choropleth,flags,green	Countries with the color green in their flag 🟩
+schochastics_2021_08	world,choropleth,flags,blue	Countries with the color blue in their flag 🟦
+schochastics_2021_09	world,transport,flights,lines,edge bundling,pink	Global Flight Network (using edge-path bundling) in tints of pink
+schochastics_2021_10	south america,topology	Topology of South America (vintage style)
+schochastics_2021_11	sweden,population,density,3d	I just love those population density maps of @researchremora and I had to give it a try myself. This was also my first serious encounter with #rayshader.
+schochastics_2021_12	usa,migration,edge bundling	Migration within the US.
+schochastics_2021_13	europe,points	This is a recreation of my recreation of a map by Minard using NE data
+schochastics_2021_16	world,points,population	Global Urban-Rural Catchment Areas with Eckert I projection.
+schochastics_2021_17	world,trees	Less time for the challenge today so here is a low effort map of the share of forests around the globe
 ShandiyaB_2021_01	australia,melbourne,points,trees	This one goes out to all fellow hayfever-sufferers. Locations of London Plane Trees in the City of Melbourne.
 ShandiyaB_2021_02	australia,melbourne,roads,lines	Streets within my 5km radius during Melbourne's COVID-19 lockdown
 ShandiyaB_2021_03	australia,melbourne,buildings	Buildings in Melbourne, differentiated by roof type. Inspired by Jo Wood's (@jwoLondon) map of Bloomsbury.
