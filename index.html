@@ -62,11 +62,6 @@
   </div> <div class="row">
   <div class="col-12">
     <p>
-      A gallery of maps made with
-      <a href="https://www.r-project.org/">R</a>
-      with reproducible (hopefully!) code.
-    </p>
-    <p>
       In 2019 Topi Tjukanov
       <a href="https://twitter.com/tjukanov/status/1187713840550744066">announced</a>
       the #30DayMapChallenge on Twitter out of the blue, and there was so much enthusiasm that it has
@@ -78,6 +73,9 @@
       pressure of perfection, and to be inspired by what other people have created.
       And what's better than a cool map to inspire you to try something similar?
       A cool map with code so you can immediately reproduce and adapt it!
+      (At least if you know, or want to learn,
+      <a href="https://www.r-project.org/">R</a>
+      ).
     </p>
     <h3>Where are the maps?</h3>
     <p>
@@ -93,16 +91,48 @@
       Then click on a map to see a larger version, and links to the code,
       tweet and web page (if one exists).
     </p>
+    <h3>Curatorial Notes</h3>
+    <h4>Selection</h4>
+    <p>
+      The aim is to include all submissions from the #30DayMapChallenge from 2019 onwards that have full code
+      available (not just a link to a related tutorial). What counts as both a 'map' and a 'submission' is usually
+      straightforward, but sometimes I have to make a judgement call.
+    </p>
+    <h4>Themes</h4>
+    <p>
+      The 30 challenge themes from each year have been classified as a 'type', a 'topic' or a 'constraint', and then
+      some have been combined to try and make them as consistent as possible across the years.
+      For example 'hydrology' and 'water' are combined, as are 'urban', 'rural' and 'urban/rural'.
+    </p>
+    <h4>Packages</h4>
+    <p>
+      Packages are taken from the code, generally from library calls at the start of the script.
+      But sometimes a package is loaded and never used, or called directly later on, so these are
+      not necessarily 100% accurate.
+    </p>
+    <p>
+      Trying to keep the focus on map-related packages, I've ignored some of the minor unrelated ones
+      (eg {curl}, {janitor}). I've listed {dplyr} and friends as {tidyverse}, whether the meta-package
+      itself is loaded directly or not.
+    </p>
+    <h4>Tags</h4>
+    <p>
+      I've tried to use tags as a simple place to record all other classification information - countries,
+      cities, map styles, general topics, etc. And whilst I've tried to be as complete as possible, this is
+      deliberately not a formally structured and complete classification system so there will likely be
+      missing and inconsistent tagging.
+    </p>
     <h3>Updates</h3>
     <p>
-      I aim to include all relevant maps from 2019 onwards, but it's time consuming so I
-      make no guarantees of speed. If I've got some maps from a person then you can
-      assume I'll pick up later maps they release. If you think I've missed some maps
-              and they're not on my
+      Now that the 2021 challenge has finished I will find some time to catch up on
+      all the previous maps. If I have some 2021 maps from you, then I will get to the others
+      eventually. If I don't have any of your maps and you're not on my
       <a href="todo.txt">todo list</a>
       then drop me a line on
       <a href="https://twitter.com/dakvid">Twitter</a>
       or email (change a dot to an @ in the domain).
+      I've only got a few people listed from 2019 and 2020 so far, so please let me know
+      of others.
     </p>
     <p>
       Note that I have only been following the hashtag on Twitter (and my
@@ -122,6 +152,9 @@
       <a href="https://github.com/aFarkas/lazysizes">lazysizes.</a>
       The data munging and HTML construction is performed by some rough
       <a href="https://github.com/dakvid/3RDayMapChallenge">R code.</a>
+      It needs a bit more polishing, especially on mobile, but I've
+      preferred to spend my time loading the entries and making my
+      own maps.
     </p>
     <p>
       I quickly cobbled together a gallery of all the maps in 2019 just after
