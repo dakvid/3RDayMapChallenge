@@ -73,8 +73,6 @@ index_page <-
     index_header,
     div(class = "row",
         div(class = "col-12",
-            p("A gallery of maps made with", a(href="https://www.r-project.org/", "R"),
-              "with reproducible (hopefully!) code."),
             p("In 2019 Topi Tjukanov", a(href="https://twitter.com/tjukanov/status/1187713840550744066", "announced"),
               "the #30DayMapChallenge on Twitter out of the blue, and there was so much enthusiasm that it has",
               "become an annual event - see",
@@ -82,7 +80,8 @@ index_page <-
             p("The event is a fun and friendly opportunity for cartographical practice, to try new things without the",
               "pressure of perfection, and to be inspired by what other people have created.",
               "And what's better than a cool map to inspire you to try something similar?",
-              "A cool map with code so you can immediately reproduce and adapt it!"),
+              "A cool map with code so you can immediately reproduce and adapt it!",
+              "(At least if you know, or want to learn,", a(href="https://www.r-project.org/", "R"), ")."),
             h3("Where are the maps?"),
             p(span(class = "text-info",
                   "Click through to the", a(href = "maps.html", "map gallery"),
@@ -92,15 +91,37 @@ index_page <-
               ),
             p("Then click on a map to see a larger version, and links to the code,",
               "tweet and web page (if one exists)."),
+            h3("Curatorial Notes"),
+            h4("Selection"),
+            p("The aim is to include all submissions from the #30DayMapChallenge from 2019 onwards that have full code",
+              "available (not just a link to a related tutorial). What counts as both a 'map' and a 'submission' is usually",
+              "straightforward, but sometimes I have to make a judgement call."),
+            h4("Themes"),
+            p("The 30 challenge themes from each year have been classified as a 'type', a 'topic' or a 'constraint', and then",
+              "some have been combined to try and make them as consistent as possible across the years.",
+              "For example 'hydrology' and 'water' are combined, as are 'urban', 'rural' and 'urban/rural'."),
+            h4("Packages"),
+            p("Packages are taken from the code, generally from library calls at the start of the script.",
+              "But sometimes a package is loaded and never used, or called directly later on, so these are",
+              "not necessarily 100% accurate."),
+            p("Trying to keep the focus on map-related packages, I've ignored some of the minor unrelated ones",
+              "(eg {curl}, {janitor}). I've listed {dplyr} and friends as {tidyverse}, whether the meta-package",
+              "itself is loaded directly or not."),
+            h4("Tags"),
+            p("I've tried to use tags as a simple place to record all other classification information - countries,",
+              "cities, map styles, general topics, etc. And whilst I've tried to be as complete as possible, this is",
+              "deliberately not a formally structured and complete classification system so there will likely be",
+              "missing and inconsistent tagging."),
             h3("Updates"),
-            p("I aim to include all relevant maps from 2019 onwards, but it's time consuming so I",
-              "make no guarantees of speed. If I've got some maps from a person then you can",
-              "assume I'll pick up later maps they release. If you think I've missed some maps
-              and they're not on my",
+            p("Now that the 2021 challenge has finished I will find some time to catch up on",
+              "all the previous maps. If I have some 2021 maps from you, then I will get to the others",
+              "eventually. If I don't have any of your maps and you're not on my",
               a(href="todo.txt", "todo list"),
               "then drop me a line on",
               a(href="https://twitter.com/dakvid", "Twitter"),
-              "or email (change a dot to an @ in the domain)."),
+              "or email (change a dot to an @ in the domain).",
+              "I've only got a few people listed from 2019 and 2020 so far, so please let me know",
+              "of others."),
             p("Note that I have only been following the hashtag on Twitter (and my",
               "previous galleries have been Twitter-only) but I'm happy to include",
               "maps posted anywhere - Instragram, LinkedIn, Github, ..."),
@@ -110,7 +131,10 @@ index_page <-
               "The gallery was made with", a(href="https://vestride.github.io/Shuffle/", "shuffle.js"),
               "and", a(href="https://github.com/aFarkas/lazysizes", "lazysizes."),
               "The data munging and HTML construction is performed by some rough",
-              a(href = "https://github.com/dakvid/3RDayMapChallenge", "R code.")),
+              a(href = "https://github.com/dakvid/3RDayMapChallenge", "R code."),
+              "It needs a bit more polishing, especially on mobile, but I've",
+              "preferred to spend my time loading the entries and making my",
+              "own maps."),
             p("I quickly cobbled together a gallery of all the maps in 2019 just after",
               "the challenge ended - it wasn't sophisticated but it worked.",
               "In 2020 I was able to reuse the gallery code, but it was even more",
@@ -798,20 +822,71 @@ maps_filter_theme_topic_MZ <-
 
 # > Filter Packages -----------------------------------------------------------
 
-maps_filter_package_AG <- 
+maps_filter_package_AB <- 
   div(class = "col-12@sm",
       div(class = "dropdown",
           tags$button(class = "btn btn-info dropdown-toggle",
                       type = "button",
-                      id = "FilterPackageAG",
+                      id = "FilterPackageAB",
                       `data-toggle` = "dropdown",
                       `aria-haspopup` = "true",
                       `aria-expanded` = "false",
-                      "R package: A-Gf"),
+                      "R package: A-B"),
           div(class = "dropdown-menu mapfilter-package",
-              `aria-labelledby` = "FilterPackageAG",
+              `aria-labelledby` = "FilterPackageAB",
               map_packages %>% 
-                filter(package %>% str_sub(1, 2) %>% str_to_lower() < "gg") %>% 
+                filter(package %>% str_sub(1, 1) %in% c("a","b")) %>% 
+                pmap(function (package, num_maps, ...) {
+                  tags$button(class = "dropdown-item d-flex justify-content-between align-items-center",
+                              type = "button",
+                              `data-value` = package,
+                              package,
+                              span(class = "badge badge-info badge-pill",
+                                   num_maps))
+                })
+          )
+      )
+  )
+maps_filter_package_CD <- 
+  div(class = "col-12@sm",
+      div(class = "dropdown",
+          tags$button(class = "btn btn-info dropdown-toggle",
+                      type = "button",
+                      id = "FilterPackageCD",
+                      `data-toggle` = "dropdown",
+                      `aria-haspopup` = "true",
+                      `aria-expanded` = "false",
+                      "C-D"),
+          div(class = "dropdown-menu mapfilter-package",
+              `aria-labelledby` = "FilterPackageCD",
+              map_packages %>% 
+                filter(package %>% str_sub(1, 1) %in% c("c","d")) %>% 
+                pmap(function (package, num_maps, ...) {
+                  tags$button(class = "dropdown-item d-flex justify-content-between align-items-center",
+                              type = "button",
+                              `data-value` = package,
+                              package,
+                              span(class = "badge badge-info badge-pill",
+                                   num_maps))
+                })
+          )
+      )
+  )
+maps_filter_package_EG <- 
+  div(class = "col-12@sm",
+      div(class = "dropdown",
+          tags$button(class = "btn btn-info dropdown-toggle",
+                      type = "button",
+                      id = "FilterPackageEG",
+                      `data-toggle` = "dropdown",
+                      `aria-haspopup` = "true",
+                      `aria-expanded` = "false",
+                      "E-Gf"),
+          div(class = "dropdown-menu mapfilter-package",
+              `aria-labelledby` = "FilterPackageEG",
+              map_packages %>% 
+                filter(package %>% str_sub(1, 1) %>% str_to_lower() %>% is_greater_than("d"),
+                       package %>% str_sub(1, 2) %>% str_to_lower() %>% is_less_than("gg")) %>% 
                 pmap(function (package, num_maps, ...) {
                   tags$button(class = "dropdown-item d-flex justify-content-between align-items-center",
                               type = "button",
@@ -848,21 +923,21 @@ maps_filter_package_GG <-
           )
       )
   )
-maps_filter_package_GL <- 
+maps_filter_package_GK <- 
   div(class = "col-12@sm",
       div(class = "dropdown",
           tags$button(class = "btn btn-info dropdown-toggle",
                       type = "button",
-                      id = "FilterPackageGL",
+                      id = "FilterPackageGK",
                       `data-toggle` = "dropdown",
                       `aria-haspopup` = "true",
                       `aria-expanded` = "false",
-                      "Gh-L"),
+                      "Gh-K"),
           div(class = "dropdown-menu mapfilter-package",
-              `aria-labelledby` = "FilterPackageGL",
+              `aria-labelledby` = "FilterPackageGK",
               map_packages %>% 
                 filter(package %>% str_sub(1, 2) %>% str_to_lower() %>% is_greater_than("gg"),
-                       package %>% str_sub(1, 1) %>% str_to_lower() %>% is_less_than("m")) %>% 
+                       package %>% str_sub(1, 1) %>% str_to_lower() %>% is_less_than("l")) %>% 
                 pmap(function (package, num_maps, ...) {
                   tags$button(class = "dropdown-item d-flex justify-content-between align-items-center",
                               type = "button",
@@ -874,20 +949,46 @@ maps_filter_package_GL <-
           )
       )
   )
-maps_filter_package_MQ <- 
+maps_filter_package_LM <- 
   div(class = "col-12@sm",
       div(class = "dropdown",
           tags$button(class = "btn btn-info dropdown-toggle",
                       type = "button",
-                      id = "FilterPackageMQ",
+                      id = "FilterPackageLM",
                       `data-toggle` = "dropdown",
                       `aria-haspopup` = "true",
                       `aria-expanded` = "false",
-                      "M-Q"),
+                      "L-M"),
           div(class = "dropdown-menu mapfilter-package",
-              `aria-labelledby` = "FilterPackageMQ",
+              `aria-labelledby` = "FilterPackageLM",
               map_packages %>% 
-                filter(package %>% str_sub(1, 1) %>% str_to_lower() %>% is_greater_than("l"),
+                filter(package %>% str_sub(1, 1) %>% str_to_lower() %>% is_greater_than("k"),
+                       package %>% str_sub(1, 1) %>% str_to_lower() %>% is_less_than("n")) %>% 
+                pmap(function (package, num_maps, ...) {
+                  tags$button(class = "dropdown-item d-flex justify-content-between align-items-center",
+                              type = "button",
+                              `data-value` = package,
+                              package,
+                              span(class = "badge badge-info badge-pill",
+                                   num_maps))
+                })
+          )
+      )
+  )
+maps_filter_package_NQ <- 
+  div(class = "col-12@sm",
+      div(class = "dropdown",
+          tags$button(class = "btn btn-info dropdown-toggle",
+                      type = "button",
+                      id = "FilterPackageNQ",
+                      `data-toggle` = "dropdown",
+                      `aria-haspopup` = "true",
+                      `aria-expanded` = "false",
+                      "N-Q"),
+          div(class = "dropdown-menu mapfilter-package",
+              `aria-labelledby` = "FilterPackageNQ",
+              map_packages %>% 
+                filter(package %>% str_sub(1, 1) %>% str_to_lower() %>% is_greater_than("m"),
                        package %>% str_sub(1, 1) %>% str_to_lower() %>% is_less_than("r")) %>% 
                 pmap(function (package, num_maps, ...) {
                   tags$button(class = "dropdown-item d-flex justify-content-between align-items-center",
@@ -925,45 +1026,70 @@ maps_filter_package_R <-
             )
         )
     )
-  maps_filter_package_S <- 
-    div(class = "col-12@sm",
-        div(class = "dropdown",
-            tags$button(class = "btn btn-info dropdown-toggle",
-                        type = "button",
-                        id = "FilterPackageS",
-                        `data-toggle` = "dropdown",
-                        `aria-haspopup` = "true",
-                        `aria-expanded` = "false",
-                        "S"),
-            div(class = "dropdown-menu mapfilter-package",
-                `aria-labelledby` = "FilterPackageS",
-                map_packages %>% 
-                  filter(package %>% str_sub(1, 1) %>% str_to_lower() == "s") %>% 
-                  pmap(function (package, num_maps, ...) {
-                    tags$button(class = "dropdown-item d-flex justify-content-between align-items-center",
-                                type = "button",
-                                `data-value` = package,
-                                package,
-                                span(class = "badge badge-info badge-pill",
-                                     num_maps))
-                  })
-            )
-        )
-    )
-  maps_filter_package_TZ <- 
+maps_filter_package_S <- 
   div(class = "col-12@sm",
       div(class = "dropdown",
           tags$button(class = "btn btn-info dropdown-toggle",
                       type = "button",
-                      id = "FilterPackageTZ",
+                      id = "FilterPackageS",
                       `data-toggle` = "dropdown",
                       `aria-haspopup` = "true",
                       `aria-expanded` = "false",
-                      "T-Z"),
+                      "S"),
           div(class = "dropdown-menu mapfilter-package",
-              `aria-labelledby` = "FilterPackageTZ",
+              `aria-labelledby` = "FilterPackageS",
               map_packages %>% 
-                filter(package %>% str_sub(1, 1) %>% str_to_lower() > "s") %>% 
+                filter(package %>% str_sub(1, 1) %>% str_to_lower() == "s") %>% 
+                pmap(function (package, num_maps, ...) {
+                  tags$button(class = "dropdown-item d-flex justify-content-between align-items-center",
+                              type = "button",
+                              `data-value` = package,
+                              package,
+                              span(class = "badge badge-info badge-pill",
+                                   num_maps))
+                })
+          )
+      )
+  )
+maps_filter_package_T <- 
+  div(class = "col-12@sm",
+      div(class = "dropdown",
+          tags$button(class = "btn btn-info dropdown-toggle",
+                      type = "button",
+                      id = "FilterPackageT",
+                      `data-toggle` = "dropdown",
+                      `aria-haspopup` = "true",
+                      `aria-expanded` = "false",
+                      "T"),
+          div(class = "dropdown-menu mapfilter-package",
+              `aria-labelledby` = "FilterPackageT",
+              map_packages %>% 
+                filter(package %>% str_sub(1, 1) %>% str_to_lower() == "t") %>% 
+                pmap(function (package, num_maps, ...) {
+                  tags$button(class = "dropdown-item d-flex justify-content-between align-items-center",
+                              type = "button",
+                              `data-value` = package,
+                              package,
+                              span(class = "badge badge-info badge-pill",
+                                   num_maps))
+                })
+          )
+      )
+  )
+maps_filter_package_UZ <- 
+  div(class = "col-12@sm",
+      div(class = "dropdown",
+          tags$button(class = "btn btn-info dropdown-toggle",
+                      type = "button",
+                      id = "FilterPackageUZ",
+                      `data-toggle` = "dropdown",
+                      `aria-haspopup` = "true",
+                      `aria-expanded` = "false",
+                      "U-Z"),
+          div(class = "dropdown-menu mapfilter-package",
+              `aria-labelledby` = "FilterPackageUZ",
+              map_packages %>% 
+                filter(package %>% str_sub(1, 1) %>% str_to_lower() > "t") %>% 
                 pmap(function (package, num_maps, ...) {
                   tags$button(class = "dropdown-item d-flex justify-content-between align-items-center",
                               type = "button",
@@ -1094,7 +1220,9 @@ maps_page <-
             maps_filter_theme_type, maps_filter_theme_topic_AL, maps_filter_theme_topic_MZ, maps_filter_theme_constraint
         ),
         div(class = "row",
-            maps_filter_package_AG, maps_filter_package_GG, maps_filter_package_GL, maps_filter_package_MQ, maps_filter_package_R, maps_filter_package_S, maps_filter_package_TZ
+            maps_filter_package_AB, maps_filter_package_CD, maps_filter_package_EG, maps_filter_package_GG,
+            maps_filter_package_GK, maps_filter_package_LM, maps_filter_package_NQ, maps_filter_package_R,
+            maps_filter_package_S, maps_filter_package_T, maps_filter_package_UZ
         ),
         div(class = "row",
             maps_search_tags,
