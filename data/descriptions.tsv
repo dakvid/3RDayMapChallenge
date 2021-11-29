@@ -14,6 +14,7 @@ _ansgar_2021_12	world,cartogram,dorling,animated	Cologne (#Köln) residents by c
 _ansgar_2021_13	rhine,rivers	The river course of the Rhine (Rhein). Using Natural Earth data for the course and the shaded relief.
 _ansgar_2021_16_1	germany,cologne,usa,roads,small multiples,lines,osm,openstreetmap	TIL there is a town called Cologne in Minnesota, USA. Cologne, MN was founded by German settlers and named after Cologne, Germany (Köln).
 _ansgar_2021_16_2	germany,cologne,trees	Trees of Cologne
+_ronycoelho_2021_11	africa,population,3d	My #TidyTuesday submission for this week (46). In some way, it is also a #30DayMapChallenge. My first time using the rayshader package.
 aghaynes_2021_01	switzerland,points,elevation	A false colour map of part of the Swiss National Park in the Grissons, coloured based on elevation.
 aghaynes_2021_02	germany,line	This is the course of the Hasenhorn Coaster in Todtnau, Schwarzwald, Germany. Line width is the altitude, colour is the speed of an actual run...
 aghaynes_2021_03	world,choropleth,covid19	Deaths attributed to COVID based on data from @OurWorldInData
@@ -96,10 +97,22 @@ dakvid_2020_09	new zealand,nz,dorling,cartogram,politics,elections,monochrome	Do
 dakvid_2020_15	new zealand,nz,lines	Linking each urban and rural settlement to the closest more populous one. (Copying @AndriyYaremenko)
 dakvid_2021_02	new zealand,nz,roads,names	Are the street names in my town Māori or English? Interestingly it seems to be the oldest and newest names in te reo Māori.
 dakvid_2021_03	new zealand,nz	I looked at the outlines of Auckland's local boards
+dakvid_2021_04	new zealand,nz,earthquakes,hexagons,grid	Another earthquake heatmap, but maybe not as bad as the other one 🤷‍♂️ It was nice to discover sf::st_make_grid was surprisingly easy to work with.
 dakvid_2021_06	new zealand,nz,roads,red	I tried to make a red rātā flower with all the Rata Streets. Not quite as fancy as I'd hoped, but interesting to try 😀
+dakvid_2021_07	new zealand,nz,reads	Street grids of New Zealand cities. Using the #00973f green from NZTA road signs 😃
 dakvid_2021_08	new zealand,nz,wellington,lines,roads,blue,osm,openstreetmap	I'm hoping to go into the office on Monday after a break of 55 days. So here's Wellington CBD centred on the office, in the corporate colour(s).
+dakvid_2021_09	new zealand,nz,population,black and white	I split New Zealand's population into quarters, in both directions. Inspired by similar maps by others; took much longer than I expected to figure out, but I learned 🤷‍♂️
 dakvid_2021_10	new zealand,nz,kapiti island,raster,elevation,3d	Kāpiti Island, which I can see from my lounge.
 dakvid_2021_11	new zealand,nz,christchurch,population,3d	Here's the population (density) of Christchurch, New Zealand.
+dakvid_2021_12	new zealand,nz,hastings,napier,population,3d	An easy catch up, adapting day 11 code to show 3d population density of part of Hawke's Bay, New Zealand. Napier is in the middle, and Havelock North / Hastings / Flaxmere on the left.
+dakvid_2021_13	world,personal bounding box	Following many others, my personal bounding box, using Natural Earth country boundaries. There's much to explore with NE, but it will have to be another time!
+dakvid_2021_16	new zealand,nz,hamilton,urban,boundaries	Recently(ish) @Stats_NZ changed the official geographical classification system, which gave us better urban area definitions.
+dakvid_2021_24	world,trade,food	NZ onion exports last year. Thinking historical as my colleagues at @InfometricsNZ wrote a report for OnionsNZ on future export market opportunities
+dakvid_2021_25	new zealand,nz,boundaries,interactive	New Zealand has 16 RCs, 65 TAs, 130 LBs/CBs, 226 Wards, 21 DHBs, 65 GEs & 7 MEs. And together they create 446 intersections - now you can explore in Leaflet! [The link is to an oversimplified 4MB version. To see a more detailed but 14MB version, remove ""_small"" from the URL.]
+dakvid_2021_26	new zealand,nz,choropleth	Startups in New Zealand, at least according to @CallaghanNZ's Scale-Up NZ.
+dakvid_2021_27	new zealand,nz,heatmap,earthquakes	I've never been a big fan of heatmaps, so I'm not too ashamed to bring you a sub-par heatmap of NZ earthquakes >= M4 over 15 years. The heat is number, not magnitude 🤷‍♂️ Stamen watercolour is nice though
+dakvid_2021_28	world	I've enjoyed learning more about projections - the Adams square 2 is the closest I can get to Spilhaus for now
+dakvid_2021_29	world,new zealand,nz	I couldn't avoid #MapsWithoutNewZealand. But usually it's because we get dropped off the edge, so let's do it properly! 😄 And a chance to try out a Lambert azimuthal equal-area projection.
 darwinanddavis_2020_01	world,usa,poland,romania,points,shops,interactive	COFFEE. At least, my favourite coffee places around the world
 darwinanddavis_2020_04	usa,atlanta,transport,hexagons,3d,interactive	Mapping my @lyft ride activity over two years
 darwinanddavis_2020_06	usa,new york city,nyc,animals,density,interactive,red	Squirrels! Squirrel sightings in Central Park from @NYCDoITT
@@ -141,6 +154,7 @@ geokaramanis_2021_06	greece,climate,red	Max temperature of warmest month in Gree
 geokaramanis_2021_07	greece,vegetation,green	NDVI for Greece with a touch of 3d. Both today's and yesterday's script were modifications of scripts in the great tutorials at https://rspatialdata.github.io 🙏
 geokaramanis_2021_08	mediterranean,greece,bathymetric,blue	Mapping the depth of the sea around Greece with bathymetric data from NOAA.
 gisertweets_2021_05	kuwait,points,osm,openstreetmap	College of Social Science, Kuwait University
+Hellville_2021_09	usa,savannah,osm,openstreetmap	Map of Savannah, GA to north of Hilton Head, SC.
 hrbrmstr_2019_01	usa,small multiples,points,security	The topic for Day 1 was “points” and I opted to use a Google spreadsheet of (mostly) geolocated U.S. K-12 school ransomware incidents going back to 2016 as a base for plotting locations of these events on a map. This checked the “cyber” and “United States” requirements boxes in my list of constraints and also helped ease into the challenge (it doesn’t get much more basic than points on a map, though we are mixing it up a bit with facets).
 hrbrmstr_2019_02	maine,usa,world,lines,trade,exports	The U.S. Census provides data on top exports from U.S. states. I came across the data they have on Maine and thought it’d be fun to use lines to show movement of goods outside of Maine.
 hrbrmstr_2019_03	maine,usa,heatmap,internet	Most maps use polygons to draw features (i.e. each state on a U.S. map is most likely a polygon if the map isn’t a raster image) so today’s challenge could simply have been to just “draw a map”. I decided to do a bit more work than that and thought that making a polygon-based heatmap (a.k.a. filled 2D kernel density polygons) would make for an interesting entry. Comcast — a U.S. internet provider — has a “hotspot locator” app that customers can use to, well, locate Wi-Fi hotspots when they’re out and about. Just zoom around or enter a zip code to see a listing of all the hotspots in a given area.
@@ -173,6 +187,22 @@ hrbrmstr_2019_28	europe,africa,asia,italy,literature,points	_
 hrbrmstr_2019_29	fictional,literature,fantasy,westeros,essos,game of thrones,a song of ice and fire	_
 hrbrmstr_2021_01	usa,points,crime	Where the January 6th 2021 Capitol Insurrectionists are from
 hrbrmstr_2021_02	iceland,lines,gps,interactive	Took the Apple Watch data from our Iceland activities and put them on a (poorly annotated) {leaflet} map
+hughagraham_2021_01_1	world,elevation,points,grid	Global elevation (sort of)
+hughagraham_2021_01_2	world,elevation,points,grid,animation	And the spinning version. This was a lot harder than it should have been and it is glitchy as hell... geom_sf was not my friend!
+hughagraham_2021_01_3	mars,elevation,points,grid	This one is kind of silly but a bit of fun
+hughagraham_2021_02	indonesia,mount sinabung,mexico,popocatepetl,democratic republic of congo,mount myiragongo,volcanoes,elevation,contours,lines	Had some fun plotting active volcanoes
+hughagraham_2021_03	new zealand,nz,elevation	Last night I started to see lots of polygon maps from NZ as the new day arrived and so I wanted a bit of that action. Elevation points buffered by the inverse of their elevation*50 and coloured in. And now I've just discovered the {Manu} 📦 which has colours for different NZ birds! I just had to redo this with the Kākā palette!
+hughagraham_2021_04	world,hexagons,grid,animation	Did anyone ask for a Earth disco ball? No. But here it is anyway.
+hughagraham_2021_05	uk,wales,rivers,lines,osm,openstreetmap,animation	The Rivers and Streams of Wales from high to low and back again
+hughagraham_2021_06	uk,england,lidar,elevation,red,greed,blue	I'm catching up so I've combined Days 6, 7 and 8 into RGB. Messing around with English estuary LiDAR along with the some turbo colours...
+hughagraham_2021_09_1	uk,england,dartmoor	Testing out @schochastics awesome new Package {roughsf}. A map of Dartmoor's Tors with #rayshader ambient_shade, converted to polygon and made sketchy!
+hughagraham_2021_09_2	uk,england,dartmoor	I also had a start at this one before I thought of the roughsf idea so I thought I may as well share it too. Here, we take the shade from #rayshader and import to #tmap to do the rest of the work.
+hughagraham_2021_10	uk,isles of scilly,raster	Just a map of The Isles of Scilly. I'll have to visit one day.
+hughagraham_2021_11	uk,england,london,3d,lidar	City of London
+hughagraham_2021_16	russia,petropavlovsk-kamchatsky,3d,buildings	One of the most remote cities in the world - Petropavlovsk-Kamchatsky buildings (+surrounding areas) on the kamchatka peninsula. I'm loving blending rayshader with tmap!
+hughagraham_2021_17	world,globe,3d,animation	Land
+hughagraham_2021_18	world,globe,3d,animation	I pretty much had to do this all over again. Didn't quite work out as planned but 🤷. Here's inverted Ocean floor elevation
+hughagraham_2021_19	france,corsica,3d	Just a place I have fond memories of.
 i_nicolis_2021_13	greece,bathymetry	Using Natural Earth Data, a bathymetry map around the Calypso deep, deepest part of the Mediterranean Sea, SE of Greece.
 Iawmatthew_2021_11	usa,devils tower,elevation,3d,animation	A very quick experiment with {rayvista}: a spinning view of Devils Tower, Wyoming
 Iawmatthew_2021_12	europe,population,cartogram	A slightly strange looking cartogram of European population
@@ -194,6 +224,8 @@ IvaBrunec_2021_10_2	usa,elevation,3d,raster	Map of Olympic peninsula (WA, USA)
 IvaBrunec_2021_11	canada,toronto,population,3d	This one was fun to make: Toronto population density by postcode in 2016. I happen to be included in this count!
 izzy_youngs_2021_05	netherlands,amsterdam,lines,osm,openstreetmap	I learned how to use the Overpass API with osmplotr to make maps using OpenStreetMap data in R! Just a simple map, but wow R is amazing 😍
 izzy_youngs_2021_09	usa,reno,osm,openstreetmap,red,green,blue,black and white,small multiples	A simple faceted map with more OSM data for Days 6 through 9, this time focused on features of my home town.
+Jamie_Bio_2021_02	uk,england,london,roads,lines,walking,osm,openstreetmap	I was motivated to recreate something similar to the fab #isochrone plot by @MRuehringer but using R. It turned out a good opportunity to write a little post on producing such maps in R.
+JolienNoels_2021_07	europe,cartogram,energy,infrastructure,green	Electricity generation from fossil fuels
 kyle_e_walker_2021_01	usa,minnesota,hennepin county,population,ethnicity,points,dot density	Group-wise dot-density maps
 kyle_e_walker_2021_02	usa,new york city,nyc,roads,lines	The tigris package isn't just for Census boundaries; you can pull roads data from the @uscensusbureau TIGER/Line database right into R.
 kyle_e_walker_2021_03	usa,dallas,fort worth,choropleth	The spdep package helps us represent neighborhood relationships with polygon contiguity, then explore and map clusters in @uscensusbureau data using stats like local Moran's I.
@@ -225,6 +257,8 @@ loreabad6_2021_08	ecuador,guayaquil,blue,agriculture,aquaculture	#Sentinel2 fals
 loreabad6_2021_09	ecuador,quito,transport,lines,black and white,osm,openstreetmap	Travel times by public transport from Quito city center assuming a speed of 40km/h
 loreabad6_2021_10	ecuador,climate,small multiples,raster	I am usually asked how hot my country is, and I usually say, not as hot as you may think! Worldclim data is a wonderful source for #dataviz
 loreabad6_2021_11	ecuador,el altar,3d,elevation,osm,openstreetmap	The trail to “El Altar”. One of the most beautiful hikes I ever did in the Andes, all in company of my friends and family ♥️
+loukesio_2021_02	greece,lines,rivers	Plotting the rivers of Greece
+loukesio_2021_04	greece,hexagons,grid,animals	Here is a hex map of Greece with the distribution of four critically endangered species
 lxndrkp_2020_01	germany,friedrichshain-kreuzberg,cars,roads,points,interactive	There are 80,808 cars registered in Friedrichshain-Kreuzberg (2017). If all cars would start driving at the same time - it’d get pretty crowded 🚗🚗 🚗
 lxndrkp_2020_02	germany,flights,lines,interactive	About 10% of all flights from German airports are domestic flights - so starting in Germany and landing in Germany.
 lxndrkp_2020_03	germany,berlin,voronoi,interactive	The catchment area of boulder gyms in Berlin. Playing around with Voroni maps: “Voronoi polygons are created so that every location within a polygon is closer to the sample point in that polygon than any other sample point.” Here: All boulder gyms (that I know of) in Berlin. If everyone would go his or her closest gym (by beeline), this would be the catchment areas of each boulder gym.
@@ -262,6 +296,34 @@ nrennie35_2021_07	uk,scotland,glasgow,edinburgh,dundee,aberdeen,inverness,perth,
 nrennie35_2021_08	uk,scotland,glasgow,edinburgh,dundee,perth,inverness,aberdeen,stirling,blue,lines,rivers,osm,openstreetmap	Looking at rivers and waterways in Scotland's seven cities.
 nrennie35_2021_09	uk,scotland,glasgow,lines,streets,osm,openstreetmap	Inspired by @issa_madjid, using OpenStreetMap to plot the streets of Glasgow
 nrennie35_2021_10	uk,scotland,elevation,raster	Inspired by @Amit_Levinson's map, I made this minimalist map of elevation in Scotland.
+richard_vogg_2020_01	chile,points,earthquakes	Earthquakes in Chile in the 21st century.
+richard_vogg_2020_02	chile,transport,rail,lines	Can you imagine a country that is better shaped to have lots and lots of trains? Chile has a long and interesting history but currently the active rails are (almost) only used for cargo transport.
+richard_vogg_2020_03	chile,water	Visualizing the lakes (lago), lagoons (laguna), estuaries (estero) and water reservoirs (embalse/tranque) in Valparaíso and Viña del Mar in Chile.
+richard_vogg_2020_04	chile,santiago,hexagons,grid,choropleth,politics,elections	Do you want a new Constitution? - was one of the question asked in Chile's plebiscite last week. In the end almost 80% of the country voted Apruebo - Yes! This map shows the results of the capital Santiago.
+richard_vogg_2020_05	chile,los lagos,water,blue	There are a lot of lakes in Los Lagos region in the south of Chile. This magnificent landscapes with lakes and volcanoes invite to go hiking.
+richard_vogg_2020_06	chile,choropleth,red	Forest fires are a frequent phenomenon in Chile - especially in the central regions during summer.
+richard_vogg_2020_07	germany,points,green	Showing the top 10 greenest cities in Germany by green area per inhabitant.
+richard_vogg_2020_08	world,food,choropleth,yellow	How much do you have to pay to buy 1kg of bananas in different countries? A wide range of prices between $0.58 in Pakistan and $3.75 in South Korea.
+richard_vogg_2020_09	chile,valparaiso,lines,roads,osm,openstreetmap	Valparaíso is a coastal city in central Chile (I lived there during the last three years). It is a labyrinth of small streets and stairs in the hills, full of breathtaking views over the ocean and magnificent street art).
+richard_vogg_2020_10	germany,grid,choropleth,covid19	Showing today's 7 day incidence values for COVID cases in Germany.
+richard_vogg_2020_11	peru,alpamayo,elevation,3d,animation	The Alpamayo (5947m) in Peru is considered the most beautiful mountain on Earth. I found elevation data, but the 3D model can't show the whole beauty. Take a minute and look for images online, it's definitely worth it.
+richard_vogg_2020_13	germany,grid,raster,climate,animation	Precipitation in Germany throughout 2019.
+richard_vogg_2020_14	south america,grid,raster,climate	Looking at precipitation data we can see that annual precipitation has changed a lot during the last 10 years compared to the 30 years before.
+richard_vogg_2020_15	world,small multiples,trade,lines	In 2008 the US exported a lot of plastic waste to China + Hong Kong. In 2018 the exports look different due to China's decision to stop importing plastic waste.
+richard_vogg_2020_16	spain,canary islands,tenerife	12 years ago my interest for geography began when visiting Tenerife. Wind always comes from Northeast and clouds are hanging on one side of the island. I finally understood why we were learning about wind zones in geography classes.
+richard_vogg_2020_17	europe,historical	The European Union went through some change in the last decades. The french institute IGN recalculates the new center after new countries join or leave the UN.
+richard_vogg_2020_18	world,land,small multiples	Which percentage of each country is covered with natural vegetation? What about cropland and artificial surfaces? These four maps show a first overview, the dataset from OECD.stat contains much more.
+richard_vogg_2020_19	germany,choropleth	When we want to bring data from a spreadsheet (with country or city names) to a map, these names often do not exactly match other data. Fuzzy matching can help to overcome this issue.
+richard_vogg_2020_20	europe,choropleth	I am a big fan of the 16personalities website. Apart from hosting the great survey they publish country specific results.
+richard_vogg_2020_21	aral sea,small multiples,satellite	I made first steps with satellite images and geotiff today. The Aral Sea was once the 4th largest lake in the world. Now it holds less than 10% of its original water volume.
+richard_vogg_2020_22	europe,africa,small multiples,animals	When it gets cold in Eastern Europe, white storks start a long journey to East Africa. Showing the routes of three storks via Israel.
+richard_vogg_2020_23	europe,choropleth,crime	Talking about boundaries that should not be crossed: Violence against women is a problem that is still shockingly big and present, even in Europe.
+richard_vogg_2020_24	spain,canary islands,tenerife,elevation,3d	When you stand on the peak of Teide mountain (3718m) on Tenerife at sunrise, you can see the majestic shadow of the mountain projected on the ocean.
+richard_vogg_2020_25	germany,small multiples,animation,choropleth,covid19	Showing monthly development of COVID cases in Germany.
+richard_vogg_2020_27	germany	Last week we compared several alcohol-free wheat beers with my family. With only 6 participants and 12 breweries, the results are far from being representative, but still interesting (at least for our future decisions).
+richard_vogg_2020_28	sport	Kylian Mbappé was only 19 years old when France and Argentine played the 2018 World cup quarter finals. He scored two goals at the 4-3 win and was the Player of the Match.
+richard_vogg_2020_29	chile,europe,globe	I am always impressed of how long Chile is compared to Europe.
+richard_vogg_2020_30	world	Today I was reviewing what I learned during the last 30 days and noticed that it was a lot! Thanks to @tjukanov for the organization.
 richard_vogg_2021_01	chile,earthquakes,points	I decided to continue where I stopped last year and worked on the map showing earthquakes in Chile in the last 21 years.
 richard_vogg_2021_02	germany,transport,rail,lines	Today I worked on a map showing the rail network in Germany.
 richard_vogg_2021_03	europe,simplification	I looked at the Geocomputation with R book (#TidyTuesday). I found it interesting to see that there are several algorithms to simplify polygons. When Italy loses the shoe shape, I feel it is time to stop.
