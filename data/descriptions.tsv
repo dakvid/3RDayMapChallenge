@@ -98,6 +98,7 @@ dakvid_2020_15	new zealand,nz,lines	Linking each urban and rural settlement to t
 dakvid_2021_02	new zealand,nz,roads,names	Are the street names in my town Māori or English? Interestingly it seems to be the oldest and newest names in te reo Māori.
 dakvid_2021_03	new zealand,nz	I looked at the outlines of Auckland's local boards
 dakvid_2021_04	new zealand,nz,earthquakes,hexagons,grid	Another earthquake heatmap, but maybe not as bad as the other one 🤷‍♂️ It was nice to discover sf::st_make_grid was surprisingly easy to work with.
+dakvid_2021_05	new zealand,nz,hamilton,roads	The streets of Hamilton (the one closest to me). Yes, I technically didn't use OSM for this, but I've used it elsewhere, and the LINZ data goes into OSM anyway.
 dakvid_2021_06	new zealand,nz,roads,red	I tried to make a red rātā flower with all the Rata Streets. Not quite as fancy as I'd hoped, but interesting to try 😀
 dakvid_2021_07	new zealand,nz,reads	Street grids of New Zealand cities. Using the #00973f green from NZTA road signs 😃
 dakvid_2021_08	new zealand,nz,wellington,lines,roads,blue,osm,openstreetmap	I'm hoping to go into the office on Monday after a break of 55 days. So here's Wellington CBD centred on the office, in the corporate colour(s).
@@ -107,8 +108,11 @@ dakvid_2021_11	new zealand,nz,christchurch,population,3d	Here's the population (
 dakvid_2021_12	new zealand,nz,hastings,napier,population,3d	An easy catch up, adapting day 11 code to show 3d population density of part of Hawke's Bay, New Zealand. Napier is in the middle, and Havelock North / Hastings / Flaxmere on the left.
 dakvid_2021_13	world,personal bounding box	Following many others, my personal bounding box, using Natural Earth country boundaries. There's much to explore with NE, but it will have to be another time!
 dakvid_2021_16	new zealand,nz,hamilton,urban,boundaries	Recently(ish) @Stats_NZ changed the official geographical classification system, which gave us better urban area definitions.
+dakvid_2021_20	new zealand,nz,earthquakes,hexagons,grid,choropleth,animation	Adapting the hexagon heatmap to show NZ earthquakes by month over 15 years.
+dakvid_2021_21	new zealand,nz,kapiti island,elevation,contours,3d,animation	Kapiti Island contours in neon and 3d. Starting to figure out #rayrender! ❤️‍🔥 Could be tweaked further, but it took 3h to render the animation, so I'm good for now 😁
+dakvid_2021_23	new zealand,nz,built up area,density,3d	What do you do if you have no time to explore a completely new set of data series? You adapt someone else's code of course. Thanks @schochastics 😁
 dakvid_2021_24	world,trade,food	NZ onion exports last year. Thinking historical as my colleagues at @InfometricsNZ wrote a report for OnionsNZ on future export market opportunities
-dakvid_2021_25	new zealand,nz,boundaries,interactive	New Zealand has 16 RCs, 65 TAs, 130 LBs/CBs, 226 Wards, 21 DHBs, 65 GEs & 7 MEs. And together they create 446 intersections - now you can explore in Leaflet! [The link is to an oversimplified 4MB version. To see a more detailed but 14MB version, remove ""_small"" from the URL.]
+dakvid_2021_25	new zealand,nz,boundaries,interactive	New Zealand has 16 RCs, 65 TAs, 130 LBs/CBs, 226 Wards, 21 DHBs, 65 GEs & 7 MEs. And together they create 446 intersections - now you can explore in Leaflet! [The link is to an oversimplified 4MB version. To see a more detailed but 14MB version, remove '_small' from the URL.]
 dakvid_2021_26	new zealand,nz,choropleth	Startups in New Zealand, at least according to @CallaghanNZ's Scale-Up NZ.
 dakvid_2021_27	new zealand,nz,heatmap,earthquakes	I've never been a big fan of heatmaps, so I'm not too ashamed to bring you a sub-par heatmap of NZ earthquakes >= M4 over 15 years. The heat is number, not magnitude 🤷‍♂️ Stamen watercolour is nice though
 dakvid_2021_28	world	I've enjoyed learning more about projections - the Adams square 2 is the closest I can get to Spilhaus for now
@@ -347,6 +351,18 @@ schochastics_2021_12	usa,migration,edge bundling	Migration within the US.
 schochastics_2021_13	europe,points	This is a recreation of my recreation of a map by Minard using NE data
 schochastics_2021_16	world,points,population	Global Urban-Rural Catchment Areas with Eckert I projection.
 schochastics_2021_17	world,trees	Less time for the challenge today so here is a low effort map of the share of forests around the globe
+schochastics_2021_18	europe,rivers,water	River Networks and Basins. Probably my personal favorite from my contributions so far and what a lovely color palette turbo can be!
+schochastics_2021_20	uk,transport,trains,animation	Because the UK rail system is in the news atm: here is ~24hours of train movements.
+schochastics_2021_21	spain,canary islands,la palma,elevation	A simple stylized elevation map of La Palma
+schochastics_2021_22	germany,choropleth	3 decades after the reunification, there are still (in)visible boundaries between East and West Germany
+schochastics_2021_23	europe,built up area,density,3d	Built up area density in europe. Getting the hang of #rayshader now 🙂
+schochastics_2021_24	world,france,trade,exports,historical	A humble try to recreate Minards map of french wine exports with contemporary data
+schochastics_2021_25	germany,munich,interactive	A solution to the 'Traveling beer drinker problem': Optimal route between 114 beer gardens around Munich.
+schochastics_2021_26	world,choropleth,sport	Something from my pet project over at http://soccerverse.com: home field advantage in world football.
+schochastics_2021_27	world,fishing,heatmap	Global Fishing Efforts (Fishing Hours in 2020)
+schochastics_2021_28	world,globe,animations	A very simply spinning hand-drawn globe. Learned a lot about projections today which are overall still a big mystery to me🧐
+schochastics_2021_29	germany,sport	Fixtures with the most 0:0 as result in the German Bundesliga
+schochastics_2021_30	world,points	Location of @Meta Offices around the globe (not all). Some true Meta mapping😜
 ShandiyaB_2021_01	australia,melbourne,points,trees	This one goes out to all fellow hayfever-sufferers. Locations of London Plane Trees in the City of Melbourne.
 ShandiyaB_2021_02	australia,melbourne,roads,lines	Streets within my 5km radius during Melbourne's COVID-19 lockdown
 ShandiyaB_2021_03	australia,melbourne,buildings	Buildings in Melbourne, differentiated by roof type. Inspired by Jo Wood's (@jwoLondon) map of Bloomsbury.

@@ -97,6 +97,7 @@ dakvid_2020_09	https://gist.github.com/dakvid/1d1b59ba3dcec59c6370b78c4e4edb72	h
 dakvid_2020_15	https://gist.github.com/dakvid/982a017f46556806e33fd3b520877ce2	https://twitter.com/dakvid/status/1335318704393875456	_
 dakvid_2021_03	https://gist.github.com/dakvid/f10a75cf490d065f9f8ed4dab5e26cde	https://twitter.com/dakvid/status/1457043311953276931	_
 dakvid_2021_04	https://gist.github.com/dakvid/ed454559ecd083dc4f76231d7f2fb02a	https://twitter.com/dakvid/status/1464808434696474624	_
+dakvid_2021_05	https://gist.github.com/dakvid/78c2dea79b828c45295144c4a883db88	https://twitter.com/dakvid/status/1466361267174535174	_
 dakvid_2021_06	https://gist.github.com/dakvid/a6ef2412ada0de051dac7b6fbe089d94	https://twitter.com/dakvid/status/1459363971459285000	_
 dakvid_2021_07	https://gist.github.com/dakvid/ee9d5323f5d5ddad3ff299d778d74eef	https://twitter.com/dakvid/status/1462340751996514310	_
 dakvid_2021_08	https://gist.github.com/dakvid/23b3111ddb37da97d7ce5b1135d630dd	https://twitter.com/dakvid/status/1459375929084444675	_
@@ -106,6 +107,9 @@ dakvid_2021_11	https://gist.github.com/dakvid/b1f4b3854f4c1f2fa5668c178b729ce2	h
 dakvid_2021_12	https://gist.github.com/dakvid/59c812e1b3e22b77d138e697c1189ea1	https://twitter.com/dakvid/status/1464958003690496009	_
 dakvid_2021_13	https://gist.github.com/dakvid/6dec8624d2f049df0863588cddcd53f4	https://twitter.com/dakvid/status/1463779489238990850	_
 dakvid_2021_16	https://gist.github.com/dakvid/5661ddfc1cdfd9231a23658b39d2a695	https://twitter.com/dakvid/status/1463829004494860292	_
+dakvid_2021_20	https://gist.github.com/dakvid/07175eaebf77669d385f7cc0b4d7dffc	https://twitter.com/dakvid/status/1465735469967183874	_
+dakvid_2021_21	https://gist.github.com/dakvid/414006d86417880c2dfc2aa236d9ae6f	https://twitter.com/dakvid/status/1465965376869593088	https://twitter.com/dakvid/status/1465965376869593088
+dakvid_2021_23	https://gist.github.com/dakvid/40d979e2db2c55c8542de1ca3c404f0e	https://twitter.com/dakvid/status/1466361274913099777	_
 dakvid_2021_24	https://gist.github.com/dakvid/56db7b0a41b426e75d199dcf73d86a6e	https://twitter.com/dakvid/status/1463283631523205123	_
 dakvid_2021_25	https://gist.github.com/dakvid/366a003f772470c2ff2bb1d539554ea5	https://twitter.com/dakvid/status/1463647367559847936	https://static.infometrics.co.nz/GIS/Day_25_nz_boundaries_small.html
 dakvid_2021_26	https://gist.github.com/dakvid/82222e8d8b7ffd4dc811d2d0ff9981a5	https://twitter.com/dakvid/status/1464374918359883778	_
@@ -347,6 +351,18 @@ schochastics_2021_12	https://github.com/schochastics/30DayMapChallenge/blob/main
 schochastics_2021_13	https://github.com/schochastics/30DayMapChallenge/blob/main/13_naturalearth/13_naturalearth.R	https://twitter.com/schochastics/status/1459487283841835009	_
 schochastics_2021_16	https://github.com/schochastics/30DayMapChallenge/blob/main/16_urban_rural/16_urban_rural.R	https://twitter.com/schochastics/status/1460572355256672257	_
 schochastics_2021_17	https://github.com/schochastics/30DayMapChallenge/blob/main/17_land/17_land.R	https://twitter.com/schochastics/status/1460945564393213957	_
+schochastics_2021_18	https://github.com/schochastics/30DayMapChallenge/blob/main/18_water/18_water.R	https://twitter.com/schochastics/status/1461284366093541380	_
+schochastics_2021_20	https://github.com/schochastics/30DayMapChallenge/blob/main/20_movement/20_movement.R	https://twitter.com/schochastics/status/1462087016456327173	https://raw.githubusercontent.com/schochastics/30DayMapChallenge/main/20_movement/20_movement.gif
+schochastics_2021_21	https://github.com/schochastics/30DayMapChallenge/blob/main/21_elevation/21_elevation.R	https://twitter.com/schochastics/status/1462432361358921730	_
+schochastics_2021_22	https://github.com/schochastics/30DayMapChallenge/blob/main/22_boundaries/22_boundaries.R	https://twitter.com/schochastics/status/1462725543032459269	_
+schochastics_2021_23	https://github.com/schochastics/30DayMapChallenge/blob/main/23_ghsl/23_ghsl.R	https://twitter.com/schochastics/status/1463104037084180483	_
+schochastics_2021_24	https://github.com/schochastics/30DayMapChallenge/blob/main/24_historical/24_historical.R	https://twitter.com/schochastics/status/1463465418539024384	_
+schochastics_2021_25	https://github.com/schochastics/30DayMapChallenge/blob/main/25_interactive/25_interactive.R	https://twitter.com/schochastics/status/1463831077831602182	https://schochastics.net/30daymapchallenge/#day-25---interactive-map
+schochastics_2021_26	https://github.com/schochastics/30DayMapChallenge/blob/main/26_choropleth/26_choropleth.R	https://twitter.com/schochastics/status/1464198088319545347	_
+schochastics_2021_27	https://github.com/schochastics/30DayMapChallenge/blob/main/27_heatmap/27_heatmap.R	https://twitter.com/schochastics/status/1464558118436839425	_
+schochastics_2021_28	https://github.com/schochastics/30DayMapChallenge/blob/main/28_not_flat/28_not_flat.R	https://twitter.com/schochastics/status/1464903645082828801	https://github.com/schochastics/30DayMapChallenge/blob/main/28_not_flat/28_not_flat.gif
+schochastics_2021_29	https://github.com/schochastics/30DayMapChallenge/blob/main/29_NULL/29_NULL.R	https://twitter.com/schochastics/status/1465271317960302598	_
+schochastics_2021_30	https://github.com/schochastics/30DayMapChallenge/blob/main/30_meta/30_meta.R	https://twitter.com/schochastics/status/1465621374236598283	_
 ShandiyaB_2021_01	https://github.com/shandiya/30DayMapChallenge/blob/main/submissions/01_points/01_points.R	https://twitter.com/ShandiyaB/status/1455134287024386053	_
 ShandiyaB_2021_02	https://github.com/shandiya/30DayMapChallenge/blob/main/submissions/02_lines/02_lines.R	https://twitter.com/ShandiyaB/status/1455370122453979136	_
 ShandiyaB_2021_03	https://github.com/shandiya/30DayMapChallenge/blob/main/submissions/03_polygons/03_polygons.R	https://twitter.com/ShandiyaB/status/1455722047280013312	_

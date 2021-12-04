@@ -49,8 +49,8 @@ BlakeRobMills_2021_12	png	16x8
 BlakeRobMills_2021_13	png	16x8
 CedScherer_2019_01	png	16x16
 CedScherer_2019_03	png	16x11
-CedScherer_2019_04	png	13x16
-CedScherer_2019_05	png	16x14
+CedScherer_2019_04	png	16x7
+CedScherer_2019_05	png	13x16
 CedScherer_2019_06	png	16x14
 CedScherer_2019_07	png	16x14
 CedScherer_2019_08	png	16x14
@@ -98,6 +98,7 @@ dakvid_2020_15	png	14x16
 dakvid_2021_02	png	14x16
 dakvid_2021_03	png	16x5
 dakvid_2021_04	png	12x16
+dakvid_2021_05	png	14x16
 dakvid_2021_06	png	16x8
 dakvid_2021_07	png	16x16
 dakvid_2021_08	png	16x16
@@ -107,6 +108,9 @@ dakvid_2021_11	png	16x9
 dakvid_2021_12	png	16x9
 dakvid_2021_13	png	16x8
 dakvid_2021_16	png	11x16
+dakvid_2021_20	png	12x16
+dakvid_2021_21	png	16x11
+dakvid_2021_23	png	16x6
 dakvid_2021_24	png	16x8
 dakvid_2021_25	png	16x13
 dakvid_2021_26	png	12x16
@@ -347,6 +351,18 @@ schochastics_2021_12	png	16x11
 schochastics_2021_13	png	16x16
 schochastics_2021_16	png	16x9
 schochastics_2021_17	png	16x8
+schochastics_2021_18	png	16x12
+schochastics_2021_20	png	12x16
+schochastics_2021_21	png	11x16
+schochastics_2021_22	png	16x16
+schochastics_2021_23	png	16x8
+schochastics_2021_24	png	16x8
+schochastics_2021_25	png	16x16
+schochastics_2021_26	png	16x11
+schochastics_2021_27	png	16x11
+schochastics_2021_28	png	16x16
+schochastics_2021_29	png	11x16
+schochastics_2021_30	png	16x9
 ShandiyaB_2021_01	png	16x16
 ShandiyaB_2021_02	png	16x16
 ShandiyaB_2021_03	png	16x16

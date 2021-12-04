@@ -98,6 +98,7 @@ dakvid_2020_15	tidyverse,sf,ggplot2,hrbrthemes
 dakvid_2021_02	tidyverse,sf,osmdata,ggplot2,cowplot,ggtext
 dakvid_2021_03	tidyverse,sf,rmapshaper,ggplot2,patchwork
 dakvid_2021_04	tidyverse,sf,rmapshaper,ggplot2
+dakvid_2021_05	tidyverse,sf,ggplot2,Manu,ggtext
 dakvid_2021_06	tidyverse,sf,ggplot2,showtext
 dakvid_2021_07	tidyverse,sf,geosphere,ggplot2,patchwork
 dakvid_2021_08	tidyverse,sf,osmdata,ggplot2,showtext
@@ -107,6 +108,9 @@ dakvid_2021_11	tidyverse,sf,ggplot2,rayshader,Manu
 dakvid_2021_12	tidyverse,sf,ggplot2,rayshader,wesanderson
 dakvid_2021_13	tidyverse,sf,maps,rnaturalearth,ggplot2,ggtext
 dakvid_2021_16	tidyverse,sf,rmapshaper,ggplot2,ggtext
+dakvid_2021_20	tidyverse,sf,rmapshaper,ggplot2,av
+dakvid_2021_21	tidyverse,sf,elevatr,isoband,rayshader,rayrender,av
+dakvid_2021_23	raster,rayshader
 dakvid_2021_24	tidyverse,sf,countrycode,rnaturalearth,ggplot2,ggflags,ggrepel
 dakvid_2021_25	tidyverse,sf,rmapshaper,leaflet,htmltools,htmlwidgets
 dakvid_2021_26	tidyverse,sf,rmapshaper,ggplot2,ggthemes,ggtext,Manu
@@ -194,7 +198,7 @@ hughagraham_2021_02	gdalio,tidyverse,topography,ggplot2,showtext,sf,metR,patchwo
 hughagraham_2021_03	gdalio,tidyverse,topography,ggplot2,showtext,sf,sfheaders,scico,Manu
 hughagraham_2021_04	gdalio,tidyverse,gdalwebsrv,ggplot2,showtext,sf,sfheaders,furrr,av,future
 hughagraham_2021_05	osmextract,sf,sfheaders,tidyverse,ggplot2,gdalio,topography,scico,showtext,furrr,future,av
-hughagraham_2021_06	EAlidaR,rayshader,raster,virdisLite,tidyverse
+hughagraham_2021_06	EAlidaR,rayshader,raster,viridisLite,tidyverse
 hughagraham_2021_09_1	sf,tidyverse,rayshader,topography,raster,stars,rmapshaper,gdalio,roughsf
 hughagraham_2021_09_2	sf,tidyverse,rayshader,topography,raster,gdalio,tmap,showtext,rnaturalearth,cowplot
 hughagraham_2021_10	EAlidaR,rayshader,raytrix,tmap,tidyverse,sf,raster,showtext,rnaturalearth,cowplot
@@ -224,7 +228,7 @@ IvaBrunec_2021_10_2	ggplot2,sf,elevatr,raster,tidyverse,maps,mapdata,rayshader
 IvaBrunec_2021_11	sf,tidyverse,ggplot2,raster,rayshader
 izzy_youngs_2021_05	tidyverse,osmplotr
 izzy_youngs_2021_09	tidyverse,osmplotr,osmdata,gridExtra,grid
-Jamie_Bio_2021_02	opensouteservice,mapview,tidyverse,ggplot2,osmdata,sf,paletteer,ggfx
+Jamie_Bio_2021_02	openrouteservice,mapview,tidyverse,ggplot2,osmdata,sf,paletteer,ggfx
 JolienNoels_2021_07	tidyverse,ggplot2
 kyle_e_walker_2021_01	tidyverse,sf,tmap,tidycensus
 kyle_e_walker_2021_02	tigris,ggplot2,sf
@@ -347,6 +351,18 @@ schochastics_2021_12	edgebundle,igraph,tidyverse,ggplot2,sf,rnaturalearth,ambien
 schochastics_2021_13	tidyverse,ggplot2,rnaturalearth,sf,ggtext,ambient,packcircles,ragg,roughsf
 schochastics_2021_16	sf,tidyverse,ggplot2,terra,stars,ragg
 schochastics_2021_17	raster,tmap
+schochastics_2021_18	tidyverse,sf,ggplot2,ragg
+schochastics_2021_20	tidyverse,sf,rdeck,viridisLite
+schochastics_2021_21	tidyverse,ggplot2,ggfx,sf,rmapshaper,ragg
+schochastics_2021_22	tidyverse,ggplot2,sf,patchwork,ggfx
+schochastics_2021_23	raster,rayshader
+schochastics_2021_24	tidyverse,ggplot2,igraph,edgebundle,ggtext,ggraph,rnaturalearth,ambient,ragg
+schochastics_2021_25	tidyverse,TSP,leaflet,osrm,sf,geosphere
+schochastics_2021_26	tidyverse,ggplot2,sf,patchwork,ragg
+schochastics_2021_27	tidyverse,ggplot2,viridisLite,ragg
+schochastics_2021_28	sf,rnaturalearth,roughsf,av
+schochastics_2021_29	tidyverse,ggplot2,sf,igraph,ggraph,ggimage,rnaturalearth,ambient,ggfx,ragg
+schochastics_2021_30	sf,tidyverse,ggplot2,tmaptools,rnaturalearth,ggfx,ragg
 ShandiyaB_2021_01	tidyverse,ggplot2,ggmap,showtext
 ShandiyaB_2021_02	tidyverse,sfnetworks,sf,VicmapR,ggplot2
 ShandiyaB_2021_03	ggplot2,sf,RSocrata,showtext
