@@ -37,6 +37,8 @@ Amit_Levinson_2021_10	israel,tel aviv,walking,interactive,raster	Followed up on 
 Amit_Levinson_2021_11	israel,ramon crater,3d,elevation	Attempted at plotting *part* of the Ramon Crater in south of Israel. I don't think my computer was too happy with it 😅 Amazing work on the rayvista R package making it really easy working with rayshader.
 Amit_Levinson_2021_13	world,israel,globe,inset	Haven't been out of the country recently...
 BCalhoon7_2021_11	usa,chesapeake bay,elevation,animation,3d	A 3D rendering of a flyover of one of the most beautiful fresh bodies of water in the US.
+BjnNowak_2021_03	france,puy-de-dome,agriculture,animation	Crop distribution in the Puy-de-Dôme department (France). Each polygon is a field. Crops are mainly in the plain (center), whereas grasslands are in the moutains (East and West).
+BlaiseKe11y_2021_20	uk,ireland,climate,animation	How did solar and wind vary around the UK in 2020? Using ECMWF open access meteo data to show how they complement each other.
 BlakeRobMills_2021_01	usa,new york city,nyc,points	Decided to keep it simple with some Community Spaces in Manhattan. Everything is from NYC Open Data
 BlakeRobMills_2021_02	spain,barcelona,germany,berlin,usa,chicago,uk,england,london,australia,melbourne,italy,milan,new york city,nyc,sydney,canada,toronto,transport,lines	Displays the bike lanes of major global cities. Data collected from each city's open data.
 BlakeRobMills_2021_03	netherlands,amsterdam,usa,chicago,los angeles,italy,milan,new york city,nyc,france,paris,australia,perth,singapore,canada,toronto,parks	A sister to yesterday's one. This time showing parks in major cities
@@ -230,6 +232,29 @@ izzy_youngs_2021_05	netherlands,amsterdam,lines,osm,openstreetmap	I learned how 
 izzy_youngs_2021_09	usa,reno,osm,openstreetmap,red,green,blue,black and white,small multiples	A simple faceted map with more OSM data for Days 6 through 9, this time focused on features of my home town.
 Jamie_Bio_2021_02	uk,england,london,roads,lines,walking,osm,openstreetmap	I was motivated to recreate something similar to the fab #isochrone plot by @MRuehringer but using R. It turned out a good opportunity to write a little post on producing such maps in R.
 JolienNoels_2021_07	europe,cartogram,energy,infrastructure,green	Electricity generation from fossil fuels
+JoshCopping_2020_29	world,animals	Global distribution of the 5 big cat (Panthera) species.
+JoshCopping_2021_01	world	A map showing terrestrial protected areas as a percentage of total land area per country.
+JoshCopping_2021_02	uk,transport,shipping,lines	Shipping routes around Great Britain.
+JoshCopping_2021_03	uk,parks,voronoi	Using Voronoi polygons to show the regions closest to each of Britain's #NationalParks, based on their centre points.
+JoshCopping_2021_04	uk,england,london,hexagons,grid,transport,infrastructure	A hexbin map showing density of electric car charging points in London.
+JoshCopping_2021_05	uk,york,roads,openstreetmap,osm	A map showing the historic features in York.
+JoshCopping_2021_06	uk,scotland,animals,red	A couple of maps showing occurrence records of red species in Scotland.
+JoshCopping_2021_07	uk,england,london,trees,green	A map of London's trees (or at least the 10% with location data) and why this city is known as an urban forest.
+JoshCopping_2021_08	uk,climate,blue	A map showing the rainiest parts of the United Kingdom.
+JoshCopping_2021_09	uk,scotland,arrochar alps,contours,black and white	Just a simple contour map of one of my favourite areas for hiking.
+JoshCopping_2021_10	uk,england,lake district,raster	This map shows the distance to lakes and other water bodies, throughout the Lake District National Park.
+JoshCopping_2021_11	uk,scotland,cairngorms,3d	A terrain map of the Cairngorms. Inspired by the Ordnance Survey National Park map series.
+JoshCopping_2021_12	europe,population,choropleth,bivariate	Age and population density in Europe.
+JoshCopping_2021_13	world,names	An experimental map, using country names placed randomly inside the country's boundaries to shape the map.
+JoshCopping_2021_14	uk,boundaries	Areas of the UK sharing borders
+JoshCopping_2021_16	uk,england,london,buildings	I focused on the urban side, looking at building height in London.
+JoshCopping_2021_17	uk,ireland	A map showing the latitudinal gradient of natural land in the British Isles.
+JoshCopping_2021_18	uk,england,rivers	The catchment area of the River Thames.
+JoshCopping_2021_21	uk,ireland,joyplot,elevation	Elevation of the British Isles
+JoshCopping_2021_22	uk,england,boundaries	The many boundaries shaping England
+JoshCopping_2021_23	europe,population	Europe at night
+JoshCopping_2021_26	world,cartogram,choropleth,health,pollution	Cartogram showing global mortality rates attributed to air pollution
+JoshCopping_2021_27	world,hexagons,grid,heatmap,climate	Global lightning strike density.
 kyle_e_walker_2021_01	usa,minnesota,hennepin county,population,ethnicity,points,dot density	Group-wise dot-density maps
 kyle_e_walker_2021_02	usa,new york city,nyc,roads,lines	The tigris package isn't just for Census boundaries; you can pull roads data from the @uscensusbureau TIGER/Line database right into R.
 kyle_e_walker_2021_03	usa,dallas,fort worth,choropleth	The spdep package helps us represent neighborhood relationships with polygon contiguity, then explore and map clusters in @uscensusbureau data using stats like local Moran's I.
@@ -281,6 +306,9 @@ mattdray_2021_01	fictional,pokemon,kanto,points	Ever wanted to extract coordinat
 MikeMahoney218_2021_09	usa,mount rainier,raster,3d,elevation,black and white,osm,openstreetmap	Here's a map showing Mt. Rainier, the most prominent mountain in the contiguous United States.
 MikeMahoney218_2021_10	usa,mount marcy,raster,elevation,osm,openstreetmap	Here's a map made from raster data showing contour lines (colored by elevation) centered on Mt. Marcy in the Adirondack Park of New York!
 MikeMahoney218_2021_11	usa,mount washington,3d,osm,openstreetmap	Here's Mt. Washington done up in Unity via the {terrainr} package.
+MikeMahoney218_2021_12	usa,massachusetts,population	For my second population map of the week, I moved slightly eastward to Massachusetts to visualize population density per census block group.
+MikeMahoney218_2021_16	usa,population	Here's a population map showing the urban/rural split of the USA -- each census block group has a point at its centroid which is one step brighter per 1,000 people.
+MikeMahoney218_2021_28	usa,washington,mt baker,mount baker	3D ('not flat') rayshader map of Mt. Baker!
 NearAndDistant_2021_01	uk,england,london,points	#TidyTuesday Week 45: The London Postbox
 NearAndDistant_2021_04	uk,england,manchester,hexagons,cartogram,choropleth,benefits	The Manchester worker bee is one of the best-known symbols of Manchester and has been an city emblem for over 150 years. The bee denotes Mancunians' hard work ethic and being a hive of activity.
 NearAndDistant_2021_05	uk,scotland,edinburgh,osm,openstreetmap	Edinburgh is built upon an extinct volcano, which erupted around 340m years ago. In the hundreds of millions of years since, the volcano has been buried beneath other rocks and now a city.
@@ -384,24 +412,33 @@ UrbanDemog_2021_04	brazil,sao paulo,hexagons,grid,choropleth,transport	Employmen
 UrbanDemog_2021_05	brazil,rio de janeiro,lines,streets,osm,openstreetmap	Walking time to the city center of Rio de Janeiro
 UrbanDemog_2021_20	brazil,fortaleza,transport,3d,hexagons,grid,animation	Animating public transport networks on 3D stacked maps.
 VictimOfMaths_2020_01	uk,britain,points,shops	_
-VictimOfMaths_2020_02	england,lines,charts,health,covid19	_
-VictimOfMaths_2020_03	england,sport,voronoi	_
-VictimOfMaths_2020_04	england,charts,hexagons,cartogram,politics,elections	_
+VictimOfMaths_2020_02	uk,england,lines,charts,health,covid19	_
+VictimOfMaths_2020_03	uk,england,sport,voronoi	_
+VictimOfMaths_2020_04	uk,england,charts,hexagons,cartogram,politics,elections	_
 VictimOfMaths_2020_05	uk,britain,health,choropleth,blue	_
 VictimOfMaths_2020_06	africa,health,hiv,aids,choropleth	_
 VictimOfMaths_2020_08	uk,england,wales,lines,electricity,infrastructure,yellow	_
-VictimOfMaths_2020_09	sheffield,elevation,lines	_
-VictimOfMaths_2020_15	sheffield,lines,osm,openstreetmap	_
-VictimOfMaths_2020_18	norfolk,land,agriculture	_
+VictimOfMaths_2020_09	uk,england,sheffield,elevation,lines	_
+VictimOfMaths_2020_15	uk,england,sheffield,lines,osm,openstreetmap	_
+VictimOfMaths_2020_18	uk,england,norfolk,land,agriculture	_
 VictimOfMaths_2020_19	uk,england,wales	_
 VictimOfMaths_2020_22	uk,britain,covid19,health,hexagons,animation	_
-VictimOfMaths_2020_23	sheffield,boundaries	_
+VictimOfMaths_2020_23	uk,england,sheffield,boundaries	_
 VictimOfMaths_2020_27	europe,animals	_
 VictimOfMaths_2020_29	world,globe,uk,trade	Countries which have signed tride agreements or agreements in principle with the UK
 VictimOfMaths_2020_30	usa	The United States of Kitteh
 VictimOfMaths_2021_01	uk,britain,points,names	A map of all the places in Great Britain whose names include the word 'Point'
 VictimOfMaths_2021_02	uk,britain,rivers,lines,names	Rivers of Great Britain and common synonyms for 'river'
 VictimOfMaths_2021_03	uk,britain,sport,voronoi	The closest English or Scotting Premier League football team to any point in the UK
-VictimOfMaths_2021_04	england,population,age,hexagons,grid	The median age of every neightbourhood in England
+VictimOfMaths_2021_04	uk,england,population,age,hexagons,grid	The median age of every neightbourhood in England
 VictimOfMaths_2021_05	uk,britain,points,shops,osm,openstreetmap	The location of every Greggs and Pret a Manger in the UK
-VictimOfMaths_2021_06	wales,points,red,names	All of the places in Wales with 'red' in their name
+VictimOfMaths_2021_06	uk,wales,points,red,names	All of the places in Wales with 'red' in their name
+VictimOfMaths_2021_07	uk,england,sheffield,transport,infrastructure,osm,openstreetmap,green	Absolutely no time today, so went back to the OSM data and cobbled together a map of all the traffic lights in Sheffield
+VictimOfMaths_2021_13	europe,islands	Tiny islands are great. Clearly Scandinavia is the place to go for tiny island fans.
+VictimOfMaths_2021_16_1	uk,england,hexagons,grid	Using some lovely data from the Valuation Office Agency (from 2014), here is the modal (i.e. most common) construction date for dwellings in each neighborhood in England.
+VictimOfMaths_2021_16_2	uk,england	Using some lovely data from the Valuation Office Agency (from 2014), here is the modal (i.e. most common) construction date for dwellings in each neighborhood in England.
+VictimOfMaths_2021_16_3	uk,england,london	I liked this dataset so much, I made a few more maps with it. This is London (the black ring is the M25). I love the patterns in this.
+VictimOfMaths_2021_17	world,islands,names	Not terribly big or clever, but this is all the countries/territories in the world in the Natural Earth data that include the word 'Land' in their name.
+VictimOfMaths_2021_18	uk,water,names	I couldn't resist revisiting the @OrdnanceSurvey Open Rivers data to pick out named bodies of water (streams, rivers, canals and lakes) with a colour in their name.
+VictimOfMaths_2021_22	uk,england,sheffield,isochrone	I've always wanted to learn how to make isochrone maps. It turns out it is *extremely* easy with the {osrm} package. Anyway, here's all the places I could get to and back within an hour by car, bike or on foot.
+VictimOfMaths_2021_26	uk,choropleth,health,bivariate	I thought I'd revisit an old bivariate map, showing rates of deaths due to drugs and alcohol across the UK. So many tragic stories here, but Scotland really stands out.
