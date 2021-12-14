@@ -24,7 +24,7 @@ index_header <- glue('
     </script>
 
 
-    <title>30 Day Map Challenges in R #30DayMapChallenge #rstats - Introduction</title>
+    <title>30 Day Map Challenges in R #30DayMapChallenge #RStats - Introduction</title>
   </head>
   
   
@@ -45,11 +45,9 @@ index_header <- glue('
         <li class="nav-item">
           <a class="nav-link" href="maps.html">Map Gallery</a>
         </li>
-        <!--
         <li class="nav-item">
           <a class="nav-link" href="stats.html">Stats</a>
         </li>
-        -->
         <li class="nav-item">
           <a class="nav-link" href="https://github.com/dakvid/3RDayMapChallenge">Source</a>
         </li>
@@ -105,7 +103,7 @@ stats_header <- glue('
       gtag(\'config\', \'UA-30013353-3\');
     </script>
 
-    <title>30 Day Map Challenges in R #30DayMapChallenge #rstats - Statistics</title>
+    <title>30 Day Map Challenges in R #30DayMapChallenge #RStats - Statistics</title>
   </head>
 <body>
 ')
@@ -194,11 +192,9 @@ maps_header_nav <- '
         <li class="nav-item active">
           <a class="nav-link" href="#">Map Gallery <span class="sr-only">(current)</span></a>
         </li>
-        <!--
         <li class="nav-item">
           <a class="nav-link" href="stats.html">Stats</a>
         </li>
-        -->
         <li class="nav-item">
           <a class="nav-link" href="https://github.com/dakvid/3RDayMapChallenge">Source</a>
         </li>

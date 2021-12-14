@@ -12,6 +12,7 @@ library(stringr)
 library(htmltools)
 library(ggplot2)
 library(cowplot)
+library(Manu)
 library(showtext)
 showtext_auto()
 
@@ -41,11 +42,21 @@ aspect_cols <-
   mutate(aspect_class = glue("col-xs-{xs} col-sm-{sm} col-md-{md} col-lg-{lg} col-xl-{xl}"))
 
 map_years <- 
-  themes %>% 
-  left_join(maps %>% mutate(n = 1),
-            by = c("Year", "Day")) %>% 
+  maps %>% 
   group_by(Year) %>% 
-  summarise(num_maps = sum(n, na.rm = T)) %>% 
+  summarise(num_maps = n(),
+            num_cartographers = n_distinct(handle)) %>% 
+  ungroup()
+
+total_num <- 
+  maps %>% 
+  summarise(num_maps = n(),
+            num_cartographers = n_distinct(handle))
+
+map_days <- 
+  maps %>% 
+  group_by(Year, Day) %>% 
+  count() %>% 
   ungroup()
 
 map_themes <- 
@@ -159,415 +170,258 @@ write_file(index_page, "index.html")
 
 
 # # Make Statistics ---------------------------------------------------------
-# 
-# num_indexed_cartographers <- classifications %>% distinct(handle) %>% nrow()
-# num_countries <- nrow(countries)
-# num_cities <- nrow(cities)-1
-# num_maps <- nrow(classifications)
-# 
-# num_unc_cartloc <- cartographers %>% filter(is.na(location)) %>% nrow()
-# pc_unc_cartloc <- round(num_unc_cartloc / nrow(cartographers) * 100, 1)
-# num_unc_area <- classifications %>% filter(area == "_") %>% nrow()
-# pc_unc_area <- round(num_unc_area / num_maps * 100, 1)
-# num_unc_city <- classifications %>% filter(city == "_") %>% nrow()
-# pc_unc_city <- round(num_unc_city / num_maps * 100, 1)
-# num_unc_topic <- classifications %>% filter(topics == "_") %>% nrow()
-# pc_unc_topic <- round(num_unc_topic / num_maps * 100, 1)
-# num_unc_type <- classifications %>% filter(types == "_") %>% nrow()
-# pc_unc_type <- round(num_unc_type / num_maps * 100, 1)
-# num_unc_tool <- classifications %>% filter(tools == "_") %>% nrow()
-# pc_unc_tool <- round(num_unc_tool / num_maps * 100, 1)
-# 
-# num_per_person <- 
-#   classifications %>% 
-#   count(handle) %>% 
-#   rename(num_maps = n) %>% 
-#   count(num_maps) %>% 
-#   rename(num_people = n)
-# 
-# full30 <- 
-#   classifications %>% 
-#   count(handle) %>% 
-#   filter(n == 30) %>% 
-#   inner_join(cartographers, by = "handle")
-# 
-# 
+
+total_num_themes <- 
+  themes %>% 
+  distinct(Theme) %>% 
+  nrow()
+
 # # > Graphs ----------------------------------------------------------------
-# 
-# g_cartographers_data <- 
-#   cartographers %>% 
-#   count(location) %>% 
-#   drop_na() %>% 
-#   arrange(-n) %>% 
-#   head(30) %>% 
-#   mutate(location = location %>% fct_inorder() %>% fct_rev())
-# g_cartographers <- 
-#   ggplot(g_cartographers_data,
-#          aes(x = location, y = n)) +
-#   geom_col() +
-#   geom_text(data = g_cartographers_data %>% 
-#               filter(n > 9),
-#             aes(x = location, y = n, label = n),
-#             hjust = 1, nudge_y = -1,
-#             color = "white",
-#             family = CHART_FONT) +
-#   geom_text(data = g_cartographers_data %>% 
-#               filter(n <= 9),
-#             aes(x = location, y = n, label = n),
-#             hjust = 1, nudge_y = 2,
-#             color = "black",
-#             family = CHART_FONT) +
-#   coord_flip() +
-#   theme_minimal_vgrid(font_family = CHART_FONT) +
-#   labs(x = NULL, y = NULL,
-#        title = "Top 30 Cartographer Locations")
-# ggsave(filename = "cartographer_location_count.png",
-#        path = "images/",
-#        plot = g_cartographers,
-#        width = 7, height = 5.5, units = "cm", scale = 3)
-# 
-# g_challenges_data <- 
-#   classifications %>% 
-#   inner_join(challenges, by = "Day") %>% 
-#   mutate(challenge = paste(Day, Challenge)) %>% 
-#   count(Day, challenge) %>% 
-#   mutate(challenge = challenge %>% fct_inorder() %>% fct_rev())
-# g_challenges <- 
-#   ggplot(g_challenges_data,
-#          aes(x = challenge, y = n)) +
-#   geom_col() + 
-#   geom_text(data = g_challenges_data,
-#             aes(x = challenge, y = n, label = n),
-#             hjust = 1, nudge_y = -3,
-#             color = "white",
-#             family = CHART_FONT) +
-#   coord_flip() +
-#   theme_minimal_vgrid(font_family = CHART_FONT) +
-#   labs(x = NULL, y = NULL,
-#        title = "People who completed each daily map")
-# ggsave(filename = "challenge_count.png",
-#        path = "images/",
-#        plot = g_challenges,
-#        width = 7, height = 5.5, units = "cm", scale = 3)
-# 
-# g_num_per_person_data <- 
-#   num_per_person %>% 
-#   mutate(num_maps = num_maps %>% as.character() %>% fct_inorder())
-# g_num_per_person <- 
-#   ggplot(g_num_per_person_data,
-#          aes(x = num_maps, y = num_people)) +
-#   geom_col() +
-#   geom_text(data = g_num_per_person_data %>% filter(num_people >= 5),
-#             aes(x = num_maps, y = num_people, label = num_people),
-#             hjust = 1, nudge_y = -1,
-#             color = "white",
-#             family = CHART_FONT) +
-#   geom_text(data = g_num_per_person_data %>% filter(num_people < 5),
-#             aes(x = num_maps, y = num_people, label = num_people),
-#             hjust = 1, nudge_y = 3,
-#             color = "black",
-#             family = CHART_FONT) +
-#   coord_flip() +
-#   theme_minimal_vgrid(font_family = CHART_FONT) +
-#   labs(x = "Number of Maps Completed", y = "Number of People",
-#        title = "How many maps did people complete?")
-# ggsave(filename = "submission_count.png",
-#        path = "images/",
-#        plot = g_num_per_person,
-#        width = 7, height = 5.5, units = "cm", scale = 3)
-# 
-# g_countries_data <- 
-#   bind_rows(
-#     continents,
-#     countries
-#   ) %>% 
-#   filter(area != "_") %>% 
-#   arrange(desc(num_maps)) %>% 
-#   head(30) %>% 
-#   mutate(area = area %>% fct_inorder() %>% fct_rev())
-# g_countries <- 
-#   ggplot(g_countries_data,
-#          aes(x = area, y = num_maps)) +
-#   geom_col() +
-#   geom_col(data = g_countries_data,
-#            aes(x = area, y = num_people),
-#            fill = "orange", width = 0.3) +
-#   geom_text(data = g_countries_data %>% 
-#               filter(num_maps > 15),
-#             aes(x = area, y = num_maps, label = num_maps),
-#             hjust = 1, nudge_y = -1,
-#             color = "white",
-#             family = CHART_FONT) +
-#   geom_text(data = g_countries_data %>% 
-#               filter(num_maps <= 15),
-#             aes(x = area, y = num_maps, label = num_maps),
-#             hjust = 1, nudge_y = 6,
-#             color = "black",
-#             family = CHART_FONT) +
-#   coord_flip() +
-#   theme_minimal_vgrid(font_family = CHART_FONT) +
-#   labs(x = NULL, y = NULL,
-#        title = "Top 30 Map Areas")
-# ggsave(filename = "area_count.png",
-#        path = "images/",
-#        plot = g_countries,
-#        width = 7, height = 5.5, units = "cm", scale = 3)
-# 
-# g_cities_data <- 
-#   cities %>% 
-#   filter(city != "_") %>% 
-#   arrange(desc(num_maps)) %>% 
-#   head(20) %>% 
-#   mutate(city = city %>% fct_inorder() %>% fct_rev())
-# g_cities <- 
-#   ggplot(g_cities_data,
-#          aes(x = city, y = num_maps)) +
-#   geom_col() +
-#   geom_col(data = g_cities_data,
-#            aes(x = city, y = num_people),
-#            fill = "orange", width = 0.3) +
-#   geom_text(data = g_cities_data %>% 
-#               filter(num_maps > 7),
-#             aes(x = city, y = num_maps, label = num_maps),
-#             hjust = 1, nudge_y = -0.5,
-#             color = "white",
-#             family = CHART_FONT) +
-#   geom_text(data = g_cities_data %>% 
-#               filter(num_maps <= 7),
-#             aes(x = city, y = num_maps, label = num_maps),
-#             hjust = 1, nudge_y = 0.5,
-#             color = "black",
-#             family = CHART_FONT) +
-#   coord_flip() +
-#   theme_minimal_vgrid(font_family = CHART_FONT) +
-#   labs(x = NULL, y = NULL,
-#        title = "Top 20 Cities Mapped")
-# ggsave(filename = "city_count.png",
-#        path = "images/",
-#        plot = g_cities,
-#        width = 7, height = 4, units = "cm", scale = 3)
-# 
-# g_tools_data <- 
-#   tools %>% 
-#   filter(tools != "_") %>% 
-#   arrange(desc(num_maps)) %>% 
-#   head(20) %>% 
-#   mutate(tools = tools %>% fct_inorder() %>% fct_rev())
-# g_tools <- 
-#   ggplot(g_tools_data,
-#          aes(x = tools, y = num_maps)) +
-#   geom_col() +
-#   geom_col(data = g_tools_data,
-#            aes(x = tools, y = num_people),
-#            fill = "orange", width = 0.3) +
-#   geom_text(data = g_tools_data %>% 
-#               filter(num_maps > 50),
-#             aes(x = tools, y = num_maps, label = num_maps),
-#             hjust = 1, nudge_y = -2,
-#             color = "white",
-#             family = CHART_FONT) +
-#   geom_text(data = g_tools_data %>% 
-#               filter(num_maps <= 50),
-#             aes(x = tools, y = num_maps, label = num_maps),
-#             hjust = 1, nudge_y = 18,
-#             color = "black",
-#             family = CHART_FONT) +
-#   coord_flip() +
-#   theme_minimal_vgrid(font_family = CHART_FONT) +
-#   labs(x = NULL, y = NULL,
-#        title = "Top 20 Tools Used to Make Maps")
-# ggsave(filename = "tool_count.png",
-#        path = "images/",
-#        plot = g_tools,
-#        width = 7, height = 4, units = "cm", scale = 3)
-# 
-# g_topics_data <- 
-#   topics %>% 
-#   filter(topics != "_") %>% 
-#   arrange(desc(num_maps)) %>%
-#   head(20) %>% 
-#   mutate(topics = topics %>% fct_inorder() %>% fct_rev())
-# g_topics <- 
-#   ggplot(g_topics_data,
-#          aes(x = topics, y = num_maps)) +
-#   geom_col() +
-#   geom_col(data = g_topics_data,
-#            aes(x = topics, y = num_people),
-#            fill = "orange", width = 0.3) +
-#   geom_text(data = g_topics_data %>% 
-#               filter(num_maps > 15),
-#             aes(x = topics, y = num_maps, label = num_maps),
-#             hjust = 1, nudge_y = -1,
-#             color = "white",
-#             family = CHART_FONT) +
-#   geom_text(data = g_topics_data %>% 
-#               filter(num_maps <= 15),
-#             aes(x = topics, y = num_maps, label = num_maps),
-#             hjust = 1, nudge_y = 2,
-#             color = "black",
-#             family = CHART_FONT) +
-#   coord_flip() +
-#   theme_minimal_vgrid(font_family = CHART_FONT) +
-#   labs(x = NULL, y = NULL,
-#        title = "Top 20 Topics of Maps Recorded")
-# ggsave(filename = "topic_count.png",
-#        path = "images/",
-#        plot = g_topics,
-#        width = 7, height = 4, units = "cm", scale = 3)
-# 
-# g_types_data <- 
-#   types_of_maps %>% 
-#   filter(types != "_") %>% 
-#   arrange(desc(num_maps)) %>% 
-#   head(20) %>% 
-#   mutate(types = types %>% fct_inorder() %>% fct_rev())
-# g_types <- 
-#   ggplot(g_types_data,
-#          aes(x = types, y = num_maps)) +
-#   geom_col() +
-#   geom_col(data = g_types_data,
-#            aes(x = types, y = num_people),
-#            fill = "orange", width = 0.3) +
-#   geom_text(data = g_types_data %>% 
-#               filter(num_maps > 10),
-#             aes(x = types, y = num_maps, label = num_maps),
-#             hjust = 1, nudge_y = -0.5,
-#             color = "white",
-#             family = CHART_FONT) +
-#   geom_text(data = g_types_data %>% 
-#               filter(num_maps <= 10),
-#             aes(x = types, y = num_maps, label = num_maps),
-#             hjust = 1, nudge_y = 0.5,
-#             color = "black",
-#             family = CHART_FONT) +
-#   coord_flip() +
-#   theme_minimal_vgrid(font_family = CHART_FONT) +
-#   labs(x = NULL, y = NULL,
-#        title = "Top 20 Types of Maps Recorded")
-# ggsave(filename = "type_count.png",
-#        path = "images/",
-#        plot = g_types,
-#        width = 7, height = 4, units = "cm", scale = 3)
-# 
-# 
+
+PALETTE <- get_pal("Hihi")
+COLOUR_MAIN <- PALETTE[1]
+COLOUR_SUB <- PALETTE[2]
+COLOURS_3 <- PALETTE[3:1]
+
+# top_cartographers
+num_limit_cartographers <- 30L
+g_cartographers_data <- 
+  maps %>% 
+  group_by(handle) %>% 
+  summarise(n_total = n()) %>% 
+  ungroup() %>% 
+  arrange(-n_total) %>% 
+  head(num_limit_cartographers) %>% 
+  inner_join(
+    maps %>% 
+      group_by(handle, Year) %>% 
+      summarise(n = n()) %>% 
+      ungroup(),
+    by = "handle"
+  ) %>% 
+  mutate(handle = handle %>% fct_inorder() %>% fct_rev(),
+         Year = factor(Year, levels = 2019:2021) %>% fct_rev())
+g_cartographers <- 
+  ggplot(g_cartographers_data,
+         aes(x = handle, y = n)) +
+  geom_col(aes(fill = Year)) +
+  scale_y_continuous(expand = expansion(mult = c(0, .02))) +
+  scale_fill_manual(values = COLOURS_3) +
+  guides(fill = guide_legend(reverse = TRUE,
+                             keyheight = 1)) +
+  coord_flip() +
+  theme_minimal_vgrid(font_family = CHART_FONT,
+                      font_size = 38) +
+  labs(x = NULL, y = NULL, fill = NULL,
+       title = glue("Top {num_limit_cartographers} Cartographers"),
+       caption = "https://david.frigge.nz/3RDayMapChallenge") +
+  theme(legend.position = "bottom")
+ggsave(plot = g_cartographers,
+       filename = "top_cartographers.png",
+       path = "images/",
+       width = 7, height = 5.8, units = "cm", scale = 3)
+
+# top_themes
+num_limit_themes <- 20L
+g_themes_data <- 
+  maps %>% 
+  inner_join(themes,
+             by = c("Year", "Day")) %>% 
+  group_by(Theme) %>% 
+  summarise(n = n(),
+            cartographers = n_distinct(handle)) %>% 
+  ungroup() %>% 
+  arrange(-n) %>% 
+  head(num_limit_themes) %>% 
+  mutate(Theme = Theme %>% fct_inorder() %>% fct_rev())
+g_themes <- 
+  ggplot(g_themes_data,
+         aes(x = Theme, y = n)) +
+  geom_col(fill = COLOUR_MAIN) +
+  geom_col(aes(y = cartographers),
+           fill = COLOUR_SUB, width = 0.3) +
+  scale_y_continuous(expand = expansion(mult = c(0, .02))) +
+  coord_flip() +
+  theme_minimal_vgrid(font_family = CHART_FONT,
+                      font_size = 36) +
+  labs(x = NULL, y = NULL,
+       title = glue("Top {num_limit_themes} Challenge Themes"),
+       caption = "https://david.frigge.nz/3RDayMapChallenge")
+ggsave(plot = g_themes,
+       filename = "top_themes.png",
+       path = "images/",
+       width = 7, height = 4.2, units = "cm", scale = 3)
+
+# maps per day
+g_days_data <- 
+  expand_grid(
+    Year = themes %>% distinct(Year) %>% pull(),
+    Day = themes %>% distinct(Day) %>% pull()
+  ) %>% 
+  left_join(
+    maps %>% 
+      group_by(Year, Day) %>% 
+      count() %>% 
+      ungroup(),
+    by = c("Year", "Day")
+  ) %>% 
+  arrange(Year, Day) %>% 
+  replace_na(list(n = 0L)) %>% 
+  mutate(Day = Day %>% fct_inseq() %>% fct_rev(),
+         Year = Year %>% as.character() %>% fct_inseq() %>% fct_rev())
+g_days <- 
+  ggplot(g_days_data,
+         aes(x = Day, y = n)) +
+  geom_col(aes(fill = Year),
+           position = "dodge") +
+  scale_y_continuous(expand = expansion(mult = c(0, .02))) +
+  scale_fill_manual(values = COLOURS_3) +
+  guides(fill = guide_legend(reverse = TRUE,
+                             keyheight = 1)) +
+  coord_flip() +
+  theme_minimal_vgrid(font_family = CHART_FONT,
+                      font_size = 36) +
+  labs(x = NULL, y = NULL, fill = NULL,
+       title = "Maps by Challenge Day",
+       subtitle = "From the theme day, not necessarily the calendar day they were published.",
+       caption = "https://david.frigge.nz/3RDayMapChallenge") +
+  theme(legend.position = "bottom")
+ggsave(plot = g_days,
+       filename = "day_by_day.png",
+       path = "images/",
+       width = 7, height = 7, units = "cm", scale = 3)
+
+# top areas
+num_limit_areas <- 20L
+g_areas_data <- 
+  descriptions %>% 
+  inner_join(maps, by = "mapid") %>% 
+  mutate(area = tags %>% str_extract("^[^,]+")) %>% 
+  group_by(area) %>% 
+  summarise(n = n(),
+            cartographers = n_distinct(handle)) %>% 
+  ungroup() %>% 
+  arrange(-n) %>% 
+  head(num_limit_areas) %>% 
+  mutate(area = if_else(nchar(area) <= 3,
+                        area %>% str_to_upper(),
+                        area %>% str_to_title()),
+         area = area %>% fct_inorder() %>% fct_rev())
+g_areas <- 
+  ggplot(g_areas_data,
+         aes(x = area, y = n)) +
+  geom_col(fill = COLOUR_MAIN) +
+  geom_col(aes(y = cartographers),
+           fill = COLOUR_SUB, width = 0.3) +
+  geom_text(data = g_areas_data,
+            aes(x = area, y = n, label = n),
+            hjust = 1, nudge_y = -1,
+            colour = "white",
+            size = 10,
+            family = CHART_FONT) +
+  scale_y_continuous(expand = expansion(mult = c(0, .02))) +
+  coord_flip() +
+  theme_minimal_vgrid(font_family = CHART_FONT,
+                      font_size = 36) +
+  labs(x = NULL, y = NULL,
+       title = glue("Top {num_limit_areas} Areas Mapped"),
+       caption = "https://david.frigge.nz/3RDayMapChallenge")
+ggsave(plot = g_areas,
+       filename = "top_areas.png",
+       path = "images/",
+       width = 7, height = 5.5, units = "cm", scale = 3)
+
+# top packages
+num_limit_packages <- 30L
+g_packages_data <- 
+  packages %>% 
+  separate_rows(packages, sep = ",") %>% 
+  inner_join(maps %>% select(mapid, handle),
+             by = "mapid") %>% 
+  group_by(packages) %>% 
+  summarise(n = n(),
+            cartographers = n_distinct(handle)) %>% 
+  ungroup() %>% 
+  filter(packages != "tidyverse") %>% 
+  arrange(-n) %>% 
+  head(num_limit_packages) %>% 
+  mutate(package = packages %>% fct_inorder() %>% fct_rev())
+g_packages <- 
+  ggplot(g_packages_data,
+         aes(x = package, y = n)) +
+  geom_col(fill = COLOUR_MAIN) +
+  geom_col(aes(y = cartographers),
+           fill = COLOUR_SUB, width = 0.3) +
+  scale_y_continuous(expand = expansion(mult = c(0, .02))) +
+  coord_flip() +
+  theme_minimal_vgrid(font_family = CHART_FONT,
+                      font_size = 36) +
+  labs(x = NULL, y = NULL,
+       title = "Top 30 Packages",
+       caption = "https://david.frigge.nz/3RDayMapChallenge")
+ggsave(plot = g_packages,
+       filename = "top_packages.png",
+       path = "images/",
+       width = 7, height = 6, units = "cm", scale = 3)
+
+
 # # > Page & Save -----------------------------------------------------------
-# 
-# stats_page <- 
-#   paste(
-#     stats_header,
-#     stats_header_nav,
-#     div(class = 'container',
-#         h1("Statistics"),
-#         div(class = "row",
-#             div(class = "col-12",
-#                 p(glue("There have been at least {num_tweeters} ",
-#                        "people tweeting on the hashtag. ",
-#                        "Currently I've indexed {num_maps} maps ",
-#                        "by {num_indexed_cartographers} people.")),
-#                 h3("Progress"),
-#                 p("Every map that appears here has been assigned a day/challenge",
-#                   "by me but the majority of the other classifications will take",
-#                   "months without the wonders of",
-#                   a(href="https://docs.google.com/spreadsheets/d/1j2iLnWtBATMxpvDZLXlqaOd0zmcclyg8VIgkPgVMklQ/edit?usp=sharing", "crowdsourcing!")),
-#                 p("The graphs below should give you an idea of progress..."),
-# 
-#                 h3("Daily Challenges"),
-#                 img(src = "images/challenge_count.png", style="width: 800px;"),
-#                 img(src = "images/submission_count.png", style="width: 800px;"),
-# 
-#                 h3("People"),
-#                 p(glue("There were {nrow(full30)} people who managed the massive task of creating all 30 maps!"),
-#                   "(If you're not on this list and should be then let me know.)"),
-#                 tags$ul(
-#                   full30 %>%
-#                     pmap(function(handle, username, realname, location, ...) {
-#                       tags$li(
-#                         if (is.na(realname)) { username } else { realname },
-#                         "-",
-#                         a(href = glue("https://twitter.com/{handle}/"), glue("@{handle}")),
-#                         if (!is.na(location)) { glue("- in {location}") }
-#                       )
-#                     })
-#                 ),
-#                 # p("So far I have recorded",
-#                 #   num_per_person %>% tail(1) %>% pull(num_people),
-#                 #   "people submitting",
-#                 #   num_per_person %>% tail(1) %>% pull(num_maps),
-#                 #   "maps, and",
-#                 #   num_per_person %>% tail(2) %>% head(1) %>% pull(num_people),
-#                 #   "people submitting",
-#                 #   num_per_person %>% tail(2) %>% head(1) %>% pull(num_maps),
-#                 #   "maps, leaving them on track for the magic 30 at the end of the month.",
-#                 #   "(Something I can't comprehend myself! 😀)"),
-#                 
-#                 p("Currently",
-#                   span(class = "text-danger", glue("only {round(100 - pc_unc_cartloc, 1)}%")),
-#                   "of cartographers have a country assigned to them."),
-#                 img(src = "images/cartographer_location_count.png", style = "width: 800px;"),
-#                 tags$iframe(
-#                   title="Participants in #30DayMapChallenge 2020 by country",
-#                   `aria-label`="Map",
-#                   id="datawrapper-chart-Ikcdr",
-#                   src="https://datawrapper.dwcdn.net/Ikcdr/1/",
-#                   scrolling="no",
-#                   frameborder="0",
-#                   style="width: 0; min-width: 100% !important; border: none;",
-#                   height="602"),
-#                 
-#                 h3("Places"),
-#                 p("Currently",
-#                   span(class = "text-danger", glue("only {round(100 - pc_unc_area, 1)}%")),
-#                   "have an area assigned (ie continent or country) and",
-#                   span(class = "text-danger", glue("only {round(100 - pc_unc_city, 1)}%")),
-#                   "have a city assigned (though many don't need one)."),
-#                 p("The main bar is the number of maps with that label.",
-#                   "The small orange bar is the number of cartographers who have produced the maps in that area."),
-#                 img(src = "images/area_count.png", style="width: 800px;"),
-#                 img(src = "images/city_count.png", style="width: 800px;"),
-#                 tags$iframe(
-#                     title="Maps from #30DayMapChallenge 2020 by country",
-#                     `aria-label`="Map",
-#                     id="datawrapper-chart-D1Xt6",
-#                     src="https://datawrapper.dwcdn.net/D1Xt6/1/",
-#                     scrolling="no",
-#                     frameborder="0",
-#                     style="width: 0; min-width: 100% !important; border: none;",
-#                     height="566"),
-#                 tags$script(
-#                     type="text/javascript",
-#                     '!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*=\'"+e+"\']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();'),
-#                 h3("Tools"),
-#                 p("Currently",
-#                   span(class = "text-danger", glue("only {round(100 - pc_unc_tool, 1)}%")),
-#                   "have any tools assigned. I have/will automate harvesting as much information",
-#                   "included in tweets as I can, but many tweets don't mention tools.",
-#                   a(href = "https://docs.google.com/spreadsheets/d/1j2iLnWtBATMxpvDZLXlqaOd0zmcclyg8VIgkPgVMklQ/edit?usp=sharing",
-#                     "Please add your missing tool info!"), "🙏"),
-#                 img(src = "images/tool_count.png", style="width: 800px;"),
-#                 
-#                 h3("Map Types"),
-#                 p("Currently",
-#                   span(class = "text-danger", glue("only {round(100 - pc_unc_type, 1)}%")),
-#                   "have the type of map assigned.",
-#                   "This is a manual and semi-subjective classification, so please feel free",
-#                   a(href = "https://docs.google.com/spreadsheets/d/1j2iLnWtBATMxpvDZLXlqaOd0zmcclyg8VIgkPgVMklQ/edit?usp=sharing", "to contribute.")),
-#                 img(src = "images/type_count.png", style="width: 800px;"),
-#                 
-#                 h3("Topics"),
-#                 p("Currently",
-#                   span(class = "text-danger", glue("only {round(100 - pc_unc_topic, 1)}%")),
-#                   "have topics assigned.",
-#                   "This is a manual and semi-subjective classification, so please feel free",
-#                   a(href = "https://docs.google.com/spreadsheets/d/1j2iLnWtBATMxpvDZLXlqaOd0zmcclyg8VIgkPgVMklQ/edit?usp=sharing", "to contribute.")),
-#                 img(src = "images/topic_count.png", style="width: 800px;"),
-#             )
-#         ),
-#     ),
-#     stats_footer,
-#     collapse = "\n"
-# )
-# 
-# write_file(stats_page, "stats.html")
+
+stats_page <-
+  paste(
+    stats_header,
+    stats_header_nav,
+    div(class = 'container',
+        h1("Statistics"),
+        div(class = "row",
+            div(class = "col-12",
+                p(glue("This gallery has {total_num$num_maps} maps by {total_num$num_cartographers} cartographers in total. ",
+                       "From 2019, there are {map_years %>% filter(Year == 2019) %>% pull(num_maps)} maps",
+                       " by {map_years %>% filter(Year == 2019) %>% pull(num_cartographers)} people; ",
+                       "from 2020, there are {map_years %>% filter(Year == 2020) %>% pull(num_maps)} maps",
+                       " by {map_years %>% filter(Year == 2020) %>% pull(num_cartographers)} people; ",
+                       "from 2021, there are {map_years %>% filter(Year == 2021) %>% pull(num_maps)} maps",
+                        "by {map_years %>% filter(Year == 2021) %>% pull(num_cartographers)} people.")),
+                
+                h3("People"),
+                p("This gallery exists because of the generosity of people sharing their code. Here are the",
+                  glue("top {num_limit_cartographers} cartographers in the gallery."),
+                  "Of course, this gives no indication of how many maps they made without R!"),
+                img(src = "images/top_cartographers.png", style="width: 800px;"),
+                
+                h3("Themes"),
+                p(glue("These are the top {num_limit_themes} of the {total_num_themes} meta-themes."),
+                  "Monochrome's supremacy is unsurprising, as it includes 4-5 days each year.",
+                  "The main bar is the total number of maps and the smaller bar is the",
+                  "number of individual cartograhers."),
+                img(src = "images/top_themes.png", style="width: 880px;"),
+                
+                p("How many maps do we have for each day?",
+                  "(Remember that some days are suggested not to use R!)"),
+                img(src = "images/day_by_day.png", style="width: 880px;"),
+                
+                h3("Geographic Areas"),
+                p("This gallery is mostly about technique over content, but it's interesting to see the",
+                  "most popular areas mapped. These are taken from the first tag assigned, which is",
+                  "generally the main country/continent.",
+                  "The main bar is the total number of maps and the smaller bar is the",
+                  "number of individual cartograhers."),
+                img(src = "images/top_areas.png", style="width: 800px;"),
+                
+                h3("Packages"),
+                p("The most popular packages recorded, excluding the meta tidyverse.",
+                  "The main bar is the total number of maps and the smaller bar is the",
+                  "number of individual cartograhers."),
+                img(src = "images/top_packages.png", style="width: 800px;"),
+
+            )
+        ),
+    ),
+    stats_footer,
+    collapse = "\n"
+)
+
+write_file(stats_page, "stats.html")
         
 
 
