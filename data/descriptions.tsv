@@ -36,6 +36,10 @@ Amit_Levinson_2021_09	israel,elevation,black and white,3d	Mapped Israel's elevat
 Amit_Levinson_2021_10	israel,tel aviv,walking,interactive,raster	Followed up on @Jamie_Bio tutorial yesterday on using openrouteservice for walking distance and converted the format to raster 😊
 Amit_Levinson_2021_11	israel,ramon crater,3d,elevation	Attempted at plotting *part* of the Ramon Crater in south of Israel. I don't think my computer was too happy with it 😅 Amazing work on the rayvista R package making it really easy working with rayshader.
 Amit_Levinson_2021_13	world,israel,globe,inset	Haven't been out of the country recently...
+Amit_Levinson_2021_17	israel,tel aviv	Split Tel-Aviv up horizontally and vertically to 10 equal areas in each direction.
+Amit_Levinson_2021_20	israel,tel aviv,shops,interactive	Solving the travelling salesman problem of visiting Golda ice-cream locations in Tel-Aviv 🍦
+Amit_Levinson_2021_22	israel,tel aviv,choropleth,borders	The number of neighborhoods each neighborhood borders in Tel-Aviv, IL. Great playing around with st_touches from {sf} 🤩
+Amit_Levinson_2021_25	israel,tel aviv,transport,interactive	Explore the distance from an elderly program location to the nearest bus stop.
 BCalhoon7_2021_11	usa,chesapeake bay,elevation,animation,3d	A 3D rendering of a flyover of one of the most beautiful fresh bodies of water in the US.
 BjnNowak_2021_03	france,puy-de-dome,agriculture,animation	Crop distribution in the Puy-de-Dôme department (France). Each polygon is a field. Crops are mainly in the plain (center), whereas grasslands are in the moutains (East and West).
 BlaiseKe11y_2021_20	uk,ireland,climate,animation	How did solar and wind vary around the UK in 2020? Using ECMWF open access meteo data to show how they complement each other.
@@ -49,6 +53,11 @@ BlakeRobMills_2021_07	usa,new york city,nyc,buildings,environment,green	Wanted t
 BlakeRobMills_2021_09	germany,berlin,uk,england,london,italy,milan,usa,new york city,nyc,france,paris,transport,lines,osm,openstreetmap	Mapping 5 different cities by bike lanes, train lines, water and other features.
 BlakeRobMills_2021_12	usa,new york city,nyc,population,historic,choropleth,small multiples	Used ward maps from @nypl and NYS Census data to show changes in population from 1703 to 1855.
 BlakeRobMills_2021_13	world,points,lines,population	Simple map showing major cities and roads of the world.
+BlakeRobMills_2021_16	netherlands,amsterdam,germany,berlin,uk,england,london,italy,milan,usa,new york city,nyc,france,paris,openstreetmap,osm,roads,choropleth	Showing the average cost per bedroom & night (USD) of Airbnbs in urban cities by street.
+BlakeRobMills_2021_20	usa,yellowstone national park,openstreetmap,osm	Ways of moving through National Parks. Yellowstone shown here, and more at the link
+BlakeRobMills_2021_21	uk,england,london,roads,elevation,openstreetmap,osm	Roads of major cities colored by elevation. London shown here, and more at the link
+BlakeRobMills_2021_22	usa,new york city,nyc,choropleth,small multiples,education	Using NYC Open Data to map disparities in among community districts.
+BlakeRobMills_2021_24	italy,pompeii,historical,buildings	Map shows discovered roads and buildings in the ruins of Pompeii.
 CedScherer_2019_01	usa,new york city,nyc,points,animals	No one realized it - not even @SquirrelCensus? - but the numbers on my density plot were actually not sightings but estimated neighbors 🙈 Tried several smoothing bandwidths (it was huge by default, thus the pretty gradient) and decided to make the legend descriptive instead 🐿️
 CedScherer_2019_03	world,health,cartogram,choropleth	Finally, I had the chance to make some cartograms using data from an older #TidyTuesday challenge on causes of death on a global and country-level scale.
 CedScherer_2019_04	usa,hexagons,cartogram,choropleth,education	Revisited a #TidyTuesday challenge that I participated in a few weeks ago - here is the remix version using a hex bin map visualizing racial diversity and its change in US schools 🎒
@@ -83,6 +92,15 @@ ckauebraga_2021_01	brazil,fortaleza,sao paulo,points,transport,osm,openstreetmap
 ckauebraga_2021_02	brazil,rio de janeiro,sao paulo,fortaleza,recife,curitiba,lines,transport	Public transport network in 5 major Brazilian cities. Those so easy to guess, right?
 CoulSim_2021_02	canada,rail,lines,historic	The Canadian Pacific Railway connecting British-Columbia to Eastern Canada was built between 1881 and 1885.
 CoulSim_2021_03	canada,quebec,camping	Public land in Quebec. Camping is allowed on most public land in Quebec, but the government doesn't have a map showing where camping actually is allowed.
+CoulSim_2021_06	canada,fires,red	Thermal anomalies (aka wildfires) in Western Canada, Summer 2021.
+CoulSim_2021_08	canada,inset,blue	Kukum is a book inspired by @micheljean5's great-grandmother. It relates how the Innus lived between Mashteuiatsh and Passes Dangereuses before being forced to sedentarise and having their children sent to Fort George.
+CoulSim_2021_10	world,shipping,raster	I mapped shipping density for 4 types of vessels: commercial, fishing oil, and passenger. Can you guess which is which and tell us why?
+CoulSim_2021_11	canada,quebec,3d,elevation	I recently discovered Canada's high resolution DEM data and I have always wanted to try the adding osmdata to {rayshader} tutorial, so here we go.
+CoulSim_2021_12	usa,nebraska,monowi,population	Population map of Monowi, Nebraska. 1 dot = 1 person
+CoulSim_2021_22	canada,greenland,elevation,boundaries	Hans Island is a 1.3 km2 Island located between Ellesmere Island (Canada) and Groenland (Denmark) and is being claimed by Denmark even though it clearly belongs to Canada :) For some reason, its elevation data is not public🤷
+CoulSim_2021_25	world,shops,interactive,openstreetmap,osm	I repaired my 'crawl home app' for today. It is a Shiny app that will find the shortest path to your bed that will allow you to stop at 3 pubs.
+CoulSim_2021_26	canada,montreal,politics,elections,choropleth,interactive	Results of the 2021 Montreal municipal elections at the polling division level. Opacity increases with% of vote.
+CoulSim_2021_29	egypt,sudan,bir tawil	Bir Tawil, located between Egypt and Sudan is one of the last 'Terra Nullius' on the planet. It is not claimed by any country. Plant your flag there and it's yours. I hear the internet connection suck.
 Cramsuig_2021_07	mexico,uk,usa,personal,green	_
 Cramsuig_2021_08	north america,south america,rivers,lakes,blue	Americas' rivers and lakes
 Cramsuig_2021_09	africa,choropleth,green,animation	Literacy rates in Africa, 1960-2020
@@ -133,8 +151,10 @@ darwinanddavis_2020_23	world,russia,migration,lines,animation,interactive	70 yea
 darwinanddavis_2020_25	world,health,covid19,interactive	If you're not yet sick of C19, who are you really, but here's a previous analysis I did that has been pulling global data daily since Feb this year
 darwinanddavis_2020_30	world,points,interactive	Using a Shiny project I just finished (feedback welcome). Map @Airbnb open data comparing listings among cities using criteria - rating/cancel policy/roomtype etc. Like an analytics UI for Airbnb
 darwinanddavis_2021_01	southeast asia,philippines,indonesia,earthquakes,points	Rumble in SE Asia - 500 years of earthquakes.
+darwinanddavis_2021_04	australia,melbourne,hexagons,heatmap	Where do Melburnians eat?
 darwinanddavis_2021_07	brazil,landuse,green	Brazil - Classifying major ecoregions
 darwinanddavis_2021_11	australia,population,3d,heatmap,animals	Avian airstrike - Aircraft-bird strikes across Australia 2008-2017. Nice, rich dataset and will probably use this again for a deeper analysis
+darwinanddavis_2021_22	world,lines	A cheap and serendipitous mishap map, which pretty much sums up my daily spatial data workflow. Despite being behind for this month, here's proof it takes little to make abstract attractive with R. Guess the projection
 dr_xeo_2021_05	world,osm,openstreetmap,points,firefly	World's lighthouses. (Code link is to a blog post about the firefly style. Tweet links to a 2018 blog post on accessing OpenStreetMap.)
 FGazzelloni_2021_01	world,points	Inspired by #DuBoisChallenge for the structure of the map - data are from #TidyTuesday week44 Ultra Trail Running Datasource: @BjnNowak
 FGazzelloni_2021_02	france,lines,boundaries	As simple as a geom_line for France regions, the colors of the map are from colorspace::rainbow_hcl
@@ -210,6 +230,9 @@ hughagraham_2021_17	world,globe,3d,animation	Land
 hughagraham_2021_18	world,globe,3d,animation	I pretty much had to do this all over again. Didn't quite work out as planned but 🤷. Here's inverted Ocean floor elevation
 hughagraham_2021_19	france,corsica,3d	Just a place I have fond memories of.
 i_nicolis_2021_13	greece,bathymetry	Using Natural Earth Data, a bathymetry map around the Calypso deep, deepest part of the Mediterranean Sea, SE of Greece.
+i_nicolis_2021_21	france,bievre river,elevation	Here is the Bièvre river valley altimetric map.
+i_nicolis_2021_24	greece,crete	I prepared a map of the archeological sites of #Crete island in #Greece using #OpenData from http://data.gov.gr
+i_nicolis_2021_26	greece,choropleth,health,covid19	Here is a map of vaccination rates in Greece by department. Data are recorded by vaccination site and not by residence, so the percentages are not representative.
 Iawmatthew_2021_11	usa,devils tower,elevation,3d,animation	A very quick experiment with {rayvista}: a spinning view of Devils Tower, Wyoming
 Iawmatthew_2021_12	europe,population,cartogram	A slightly strange looking cartogram of European population
 issa_madjid_2021_01	africa,points	Africa, 1 continent, 10194 points.
@@ -231,6 +254,9 @@ IvaBrunec_2021_11	canada,toronto,population,3d	This one was fun to make: Toronto
 izzy_youngs_2021_05	netherlands,amsterdam,lines,osm,openstreetmap	I learned how to use the Overpass API with osmplotr to make maps using OpenStreetMap data in R! Just a simple map, but wow R is amazing 😍
 izzy_youngs_2021_09	usa,reno,osm,openstreetmap,red,green,blue,black and white,small multiples	A simple faceted map with more OSM data for Days 6 through 9, this time focused on features of my home town.
 Jamie_Bio_2021_02	uk,england,london,roads,lines,walking,osm,openstreetmap	I was motivated to recreate something similar to the fab #isochrone plot by @MRuehringer but using R. It turned out a good opportunity to write a little post on producing such maps in R.
+jerry_shannon_2021_02	usa,georgia,atlanta	The travelling salesman problem is a classic for geographic analysis. Here's the shortest path to each of the 277 Waffle Houses in metro Atlanta. Total length is 1,166 miles, but worth every one!
+jerry_shannon_2021_08	usa,georgia,animals,blue,hexagons,grid,heatmap	Using individual observations from eBird, here's a heat map of the eight most common birds with 'blue' in their name here in Georgia.
+jerry_shannon_2021_18	usa,climate,animation	Water  sometimes falls from the sky. Here's a GIF of precipitation totals in the lower 48 by month from 2005-2015, taken from Daymet climate data.
 JolienNoels_2021_07	europe,cartogram,energy,infrastructure,green	Electricity generation from fossil fuels
 JoshCopping_2020_29	world,animals	Global distribution of the 5 big cat (Panthera) species.
 JoshCopping_2021_01	world	A map showing terrestrial protected areas as a percentage of total land area per country.
@@ -255,6 +281,7 @@ JoshCopping_2021_22	uk,england,boundaries	The many boundaries shaping England
 JoshCopping_2021_23	europe,population	Europe at night
 JoshCopping_2021_26	world,cartogram,choropleth,health,pollution	Cartogram showing global mortality rates attributed to air pollution
 JoshCopping_2021_27	world,hexagons,grid,heatmap,climate	Global lightning strike density.
+juliasilge_2021_04	equador,hexagons,landslides,elevation	This is the latest in my series of screencasts demonstrating how to use the tidymodels packages, from just getting started to tuning more complex models. Today’s screencast walks through how to use spatial resampling for evaluating a model, with this week’s #TidyTuesday dataset on geographic data.
 kyle_e_walker_2021_01	usa,minnesota,hennepin county,population,ethnicity,points,dot density	Group-wise dot-density maps
 kyle_e_walker_2021_02	usa,new york city,nyc,roads,lines	The tigris package isn't just for Census boundaries; you can pull roads data from the @uscensusbureau TIGER/Line database right into R.
 kyle_e_walker_2021_03	usa,dallas,fort worth,choropleth	The spdep package helps us represent neighborhood relationships with polygon contiguity, then explore and map clusters in @uscensusbureau data using stats like local Moran's I.
@@ -286,6 +313,23 @@ loreabad6_2021_08	ecuador,guayaquil,blue,agriculture,aquaculture	#Sentinel2 fals
 loreabad6_2021_09	ecuador,quito,transport,lines,black and white,osm,openstreetmap	Travel times by public transport from Quito city center assuming a speed of 40km/h
 loreabad6_2021_10	ecuador,climate,small multiples,raster	I am usually asked how hot my country is, and I usually say, not as hot as you may think! Worldclim data is a wonderful source for #dataviz
 loreabad6_2021_11	ecuador,el altar,3d,elevation,osm,openstreetmap	The trail to “El Altar”. One of the most beautiful hikes I ever did in the Andes, all in company of my friends and family ♥️
+loreabad6_2021_12	ecuador,population	Not a typical population map but rather territories and ethnicities of indigenous peoples in the Ecuadorian Amazon.
+loreabad6_2021_13	world,ecuador,timezones	What is a good time to call home? Timezones are a hard thing to get used to when away from home. Here is a helpful map for all those Ecuadorians living abroad.
+loreabad6_2021_14	ecuador,guayas	This is a simple map of the province of Guayas and its cantones on a sketchy map.
+loreabad6_2021_16	ecuador,openstreetmap,osm	A proxy of urbanity with distance to the nearest hospital in Ecuador
+loreabad6_2021_17	ecuador,tungurahua volcano	It still amazes me how close we live to active volcanoes! Here is the LULC (from 2004😅) for the surroundings of the Tungurahua volcano.
+loreabad6_2021_18	ecuador,el cajas national park,water,openstreetmap,osm	El Cajas is the main water source for Cuenca, my home city. It has more than 780 water bodies, out of which 238 are mapped in OSM.
+loreabad6_2021_19	ecuador,galapagos islands	International entries and exists in the Galapagos maritime ports.
+loreabad6_2021_20	south america,animals,animation	Catching up with a dataset from #HappyWhale accessed via @GBIF, showing the best months to go Humpback Whale watching in the South Pacific!
+loreabad6_2021_21	ecuador,chimborazo volcano,elevation,contours	Chimborazo volcano, the highest peak in the world measured from the center of the Earth.
+loreabad6_2021_22	ecuador,provinces	The 24 provinces in Ecuador arranged by area.
+loreabad6_2021_23	ecuador,guayaquil,built up area	Built-up areas in Guayaquil courtesy of the #GHSL dataset. Today I used the fairly new 'rocket' palette from #viridis and #ggtext for the textbox/legend.
+loreabad6_2021_24	world,historical,alexander von humboldt	Humboldt's travels through the Americas. I have been fascinated with this scientist and since I read The Invention of Nature by @andrea_wulf I wanted to learn more and more!
+loreabad6_2021_25	ecuador,crime,interactive,animation	Today is International Day for the Elimination of Violence against Women. Each 📍 in the map represents a victim of femicide in Ecuador. We remember them and we stand together #NiUnaMenos #25N
+loreabad6_2021_26	ecuador,choropleth,bivariate,poverty	Today was more of a hands-on of bivariate choropleth using {biscale} for the first time. The data is pretty messy and still needs cleaning, so will revisit this map later!
+loreabad6_2021_27	ecuador,earthquakes,heatmap	Seismic activity in Ecuador (2013-2021). Data from #IGEPN Fault lines from @GEMwrld included as reference. Used the 'turbo' {viridis} palette and experimented with {ggfx} for the title 🙃
+loreabad6_2021_28	world,equador,globe,equator	Earth is not Flat... and Ecuador is in the middle of it! Projection: Geostationary Satellite View
+loreabad6_2021_29	world,points	What is POINT(0,0) for the projected CRSs associated to Ecuador in http://EPSG.io? Tbh, this should just be datum based but it's nice to have the whole group there.
 loukesio_2021_02	greece,lines,rivers	Plotting the rivers of Greece
 loukesio_2021_04	greece,hexagons,grid,animals	Here is a hex map of Greece with the distribution of four critically endangered species
 lxndrkp_2020_01	germany,friedrichshain-kreuzberg,cars,roads,points,interactive	There are 80,808 cars registered in Friedrichshain-Kreuzberg (2017). If all cars would start driving at the same time - it’d get pretty crowded 🚗🚗 🚗
@@ -303,6 +347,14 @@ lxndrkp_2020_20	germany,berlin,population,interactive	Movement within Berlin (�
 lxndrkp_2020_22	germany,berlin,transport,trains,animation,interactive	U-Bahn trains moving through Berlin. All U-Bahn trains moving through the city on a regular Monday using the {mapdeck::add_trips()} function.
 lxndrkp_2020_30	world,interactive	Create your own basemap with Mapbox Studio. Ever wanted pink rivers or lilac streets on your basemap? That can easily be done with Mapbox Studio.
 mattdray_2021_01	fictional,pokemon,kanto,points	Ever wanted to extract coordinates from images of fictitious maps? I extracted 'em all for Kanto from #pokemon
+MikeMahoney218_2020_12	usa,maine,mount katahdin,3d,animation	Here's a 3D model of Mt. Katahdin in Maine using rayshader
+MikeMahoney218_2020_14	usa,climate,animation	Here's a map (made with PRISM data) of US average annual temperatures, 1981-2019 -- you can see how much warmer the country has gotten just in the last 40 years.
+MikeMahoney218_2020_15	usa,new york city,nyc,lines,transport,flights	I made a map of all the domestic flights in and out of NYC in 2013.
+MikeMahoney218_2020_19	usa,new york,tahawus,3d	I made a map of a place that's just not there anymore: Tahawus, NY, was a big-time mining town in the 1800s, but completely disappeared when the mine shut down.
+MikeMahoney218_2020_20	usa,population,density,choropleth	I put together this county-level population density map using census data for the USA -- brighter counties are more densely populated than darker ones.
+MikeMahoney218_2020_22	usa,population,choropleth,migration	I pulled my population data back out and made a map of where people are moving to! Counties in purple lost population 2013-2018, while counties in green grew.
+MikeMahoney218_2020_25	usa,massachusetts,covid19,choropleth,animation	I made an animation showing daily cases-per-capita for Massachusetts counties. Things are, well, they're not looking great.
+MikeMahoney218_2020_30	usa,new hampshire,mount washington,elevation,joyplot	A joyplot map of Mt Washington
 MikeMahoney218_2021_09	usa,mount rainier,raster,3d,elevation,black and white,osm,openstreetmap	Here's a map showing Mt. Rainier, the most prominent mountain in the contiguous United States.
 MikeMahoney218_2021_10	usa,mount marcy,raster,elevation,osm,openstreetmap	Here's a map made from raster data showing contour lines (colored by elevation) centered on Mt. Marcy in the Adirondack Park of New York!
 MikeMahoney218_2021_11	usa,mount washington,3d,osm,openstreetmap	Here's Mt. Washington done up in Unity via the {terrainr} package.
@@ -364,6 +416,20 @@ richard_vogg_2021_05	germany,wurzburg,wuerzburg,green,osm,openstreetmap	As a kid
 richard_vogg_2021_06	world,trade,exports,food,lines,edge bundling,red	I finally had time to work with @schochastics great package {edgebundle}. Mexico, the Netherlands and Spain were the three main exporters of tomatoes in 2018.
 richard_vogg_2021_07	world,trade,exports,food,lines,edge bundling,green	This edgebundle map shows which countries export most olive oil and where it goes. The countries around the Mediterranean Sea + Chile + Argentina are the main exporters.
 richard_vogg_2021_08	world,trade,exports,food,lines,edge bundling,blue,animation	The increasing amount of fish fillets shown in an animated map. China, Norway and Chile are thee three countries which export most fish fillets in 2019.
+richard_vogg_2021_09	france,paris,versailles castle,openstreetmap,osm	Looking at the park in front of Versailles castle, I like that every square looks a little bit different.
+richard_vogg_2021_10	africa,population,density	Using #TidyTuesday data from the {afrilearndata} package to show population density and the largest cities in Africa. Did you know that only two out of the Top 10 largest cities are actually capitals?
+richard_vogg_2021_12	chile,population,cartogram,choropleth	Over 40% of the population of Chile lives in and around Santiago. The cartogram shows the size adapted to the population.
+richard_vogg_2021_13	australia,great barrier reef,inset	I really like to work with the rnaturalearth package in R to map countries. Today I experimented with the ne_download function but it was harder to find complete datasets.
+richard_vogg_2021_17	germany,heatmap,bivariate,land,agriculture	More pasture land in the north and in the south of Germany which is also visible: many sheep and cows can be seen in these regions.
+richard_vogg_2021_18	germany,water	How available is groundwater in different parts of Germany?  Definitely more in the north and close to (most of) the rivers.
+richard_vogg_2021_19	spain,canary islands,chart,inset,tourism	Showing which of the Canary islands were visited most by tourists in April 2019.
+richard_vogg_2021_21	spain,canary islands,elevation	Showing the elevation of the Canary Islands with its highest peak, El Teide (3715m) on Tenerife.
+richard_vogg_2021_22	mexico,mexico city,cdmx,ixtapaluca,openstreetmap,osm	In many cities rich and poor neighborhoods are close together and yet very far away. I expected a little more from this idea, showing two very different neighborhoods in Mexico city.
+richard_vogg_2021_23	germany,ruhrgebiet,population density	The area around the river Ruhr in Germany is called Ruhrgebiet. The Global Human Settlement Layer data shows that it is densely populated.
+richard_vogg_2021_25	niger,burkina faso,ghana,climate,interactive	How did precipitation change in Ghana, Burkina Faso and Niger in the last years compared to the long-term mean?
+richard_vogg_2021_26	south america,choropleth,personal	Finally I had time to try out @schochastics {roughsf} package. The map is showing which South American countries I have already been to and for how long.
+richard_vogg_2021_29	world	When your data is not directly mergeable with your shapefile, this can result in missing data on your map. Take a look at the countrycode package which is very good at matching countrynames.
+richard_vogg_2021_30	world,personal	A map to show which maps I created which days.
 schochastics_2021_01	world,sport,points	More than 10,000 football grounds around the world
 schochastics_2021_02	world,migration,lines,edge bundling	Global Migration network drawn using edge bundling
 schochastics_2021_03	uk,england,manchester,buildings	Manchester City center (and beyond). Building colors are random and just for aesthetic reasons.
@@ -405,6 +471,11 @@ tanya_shapiro_2021_06	world,food,red	Data from @OurWorldInData, produced a map t
 tanya_shapiro_2021_08	world,choropleth,blue,red,green	RGB Around The World. I was inspired by https://time.com/patriotic-flag-colors/ and wanted a redo on Red & Green. Used {colorfindr} (very cool package) to analyze hex codes from flag images online. Creating the dataset was 90% of the battle.
 tanya_shapiro_2021_10	nepal,elevation,raster	Perfect opportunity to explore {raster} package. Used altitude data from STRM to create a map of Nepal (home of the tallest mountains). 🗻
 tanya_shapiro_2021_11	usa,washington,climate,choropleth,3d	My 1st attempt at 3D. My mind is completely blown by the # of possibilities with {rayshader}. Map below of Washington State rainfall over the last 12 months.  🌧️
+tanya_shapiro_2021_12	world,population,choropleth,animation	When I think of population, my mind goes straight to 'changes over time.' Thought this was cool opp to explore data in motion with gganimate. Here's a look at growth rates over the last 3 decades.
+tanya_shapiro_2021_13	uk,germany,italy,transport,infrastructure	Since I was traveling last weekend, I was inspired to explore transportation data for a few different countries - planes, trains, and ports. ✈️🚆🚢
+tanya_shapiro_2021_16	usa,new york city,nyc,queens,buildings,choropleth	Dedicating this one to my former city, Queens. Map of buildings by year built, data from @NYCPlanning. Long Island City lights up with newer buildings compared to other areas deeper in Queens. 🏙️
+tanya_shapiro_2021_19	usa,new york city,nyc,staten island,food,shops,openstreetmap,osm	Perfect timing. Flying up this weekend to Staten Island to visit my partner's family. When I'm there, pizza is always a must, so lo and behold - a map of the island's pizzerias! 🍕
+tanya_shapiro_2021_25	usa,choropleth,health,interactive	Playing catch-up, here's a 2-in-1 to explore Coronary Disease related deaths in the US. Love the highcharter wrapper by @jbkunst!
 ThomIvar_2021_05	netherlands,groningen,roads,lines,osm,openstreetmap	Map of the city of Groningen
 UrbanDemog_2021_01	brazil,points	A map of all healthcare facilities in Brazil in a couple lines of code
 UrbanDemog_2021_03	brazil,environment,animation,interactive	Interactive #dataviz showing the importance of indigenous lands to help stop #deforestation in Brazil #COP26
