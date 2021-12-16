@@ -215,7 +215,9 @@ g_cartographers <-
   labs(x = NULL, y = NULL, fill = NULL,
        title = glue("Top {num_limit_cartographers} Cartographers"),
        caption = "https://david.frigge.nz/3RDayMapChallenge") +
-  theme(legend.position = "bottom")
+  theme(legend.position = "bottom",
+        plot.background = element_rect(fill = "white", colour = NULL),
+        panel.background = element_rect(fill = "white", colour = NULL))
 ggsave(plot = g_cartographers,
        filename = "top_cartographers.png",
        path = "images/",
@@ -244,6 +246,8 @@ g_themes <-
   coord_flip() +
   theme_minimal_vgrid(font_family = CHART_FONT,
                       font_size = 36) +
+  theme(plot.background = element_rect(fill = "white", colour = NULL),
+        panel.background = element_rect(fill = "white", colour = NULL)) +
   labs(x = NULL, y = NULL,
        title = glue("Top {num_limit_themes} Challenge Themes"),
        caption = "https://david.frigge.nz/3RDayMapChallenge")
@@ -285,7 +289,9 @@ g_days <-
        title = "Maps by Challenge Day",
        subtitle = "From the theme day, not necessarily the calendar day they were published.",
        caption = "https://david.frigge.nz/3RDayMapChallenge") +
-  theme(legend.position = "bottom")
+  theme(legend.position = "bottom",
+        plot.background = element_rect(fill = "white", colour = NULL),
+        panel.background = element_rect(fill = "white", colour = NULL))
 ggsave(plot = g_days,
        filename = "day_by_day.png",
        path = "images/",
@@ -323,6 +329,8 @@ g_areas <-
   coord_flip() +
   theme_minimal_vgrid(font_family = CHART_FONT,
                       font_size = 36) +
+  theme(plot.background = element_rect(fill = "white", colour = NULL),
+        panel.background = element_rect(fill = "white", colour = NULL)) +
   labs(x = NULL, y = NULL,
        title = glue("Top {num_limit_areas} Areas Mapped"),
        caption = "https://david.frigge.nz/3RDayMapChallenge")
@@ -356,6 +364,8 @@ g_packages <-
   coord_flip() +
   theme_minimal_vgrid(font_family = CHART_FONT,
                       font_size = 36) +
+  theme(plot.background = element_rect(fill = "white", colour = NULL),
+        panel.background = element_rect(fill = "white", colour = NULL)) +
   labs(x = NULL, y = NULL,
        title = "Top 30 Packages",
        caption = "https://david.frigge.nz/3RDayMapChallenge")
@@ -381,7 +391,7 @@ stats_page <-
                        "from 2020, there are {map_years %>% filter(Year == 2020) %>% pull(num_maps)} maps",
                        " by {map_years %>% filter(Year == 2020) %>% pull(num_cartographers)} people; ",
                        "from 2021, there are {map_years %>% filter(Year == 2021) %>% pull(num_maps)} maps",
-                        "by {map_years %>% filter(Year == 2021) %>% pull(num_cartographers)} people.")),
+                        " by {map_years %>% filter(Year == 2021) %>% pull(num_cartographers)} people.")),
                 
                 h3("People"),
                 p("This gallery exists because of the generosity of people sharing their code. Here are the",
