@@ -40,6 +40,7 @@ Amit_Levinson_2021_17	israel,tel aviv	Split Tel-Aviv up horizontally and vertica
 Amit_Levinson_2021_20	israel,tel aviv,shops,interactive	Solving the travelling salesman problem of visiting Golda ice-cream locations in Tel-Aviv 🍦
 Amit_Levinson_2021_22	israel,tel aviv,choropleth,borders	The number of neighborhoods each neighborhood borders in Tel-Aviv, IL. Great playing around with st_touches from {sf} 🤩
 Amit_Levinson_2021_25	israel,tel aviv,transport,interactive	Explore the distance from an elderly program location to the nearest bus stop.
+anelfering_2021_05	japan,okinawa island,openstreetmap,osm	Here is an annotated map of Okinawa Island, inspired by The New York Times.
 BCalhoon7_2021_11	usa,chesapeake bay,elevation,animation,3d	A 3D rendering of a flyover of one of the most beautiful fresh bodies of water in the US.
 BjnNowak_2021_03	france,puy-de-dome,agriculture,animation	Crop distribution in the Puy-de-Dôme department (France). Each polygon is a field. Crops are mainly in the plain (center), whereas grasslands are in the moutains (East and West).
 BlaiseKe11y_2021_20	uk,ireland,climate,animation	How did solar and wind vary around the UK in 2020? Using ECMWF open access meteo data to show how they complement each other.
@@ -156,6 +157,7 @@ darwinanddavis_2021_07	brazil,landuse,green	Brazil - Classifying major ecoregion
 darwinanddavis_2021_11	australia,population,3d,heatmap,animals	Avian airstrike - Aircraft-bird strikes across Australia 2008-2017. Nice, rich dataset and will probably use this again for a deeper analysis
 darwinanddavis_2021_22	world,lines	A cheap and serendipitous mishap map, which pretty much sums up my daily spatial data workflow. Despite being behind for this month, here's proof it takes little to make abstract attractive with R. Guess the projection
 dr_xeo_2021_05	world,osm,openstreetmap,points,firefly	World's lighthouses. (Code link is to a blog post about the firefly style. Tweet links to a 2018 blog post on accessing OpenStreetMap.)
+elipousson_2021_03	usa,baltimore	I made a scrambled neighborhood map using affine transformations
 FGazzelloni_2021_01	world,points	Inspired by #DuBoisChallenge for the structure of the map - data are from #TidyTuesday week44 Ultra Trail Running Datasource: @BjnNowak
 FGazzelloni_2021_02	france,lines,boundaries	As simple as a geom_line for France regions, the colors of the map are from colorspace::rainbow_hcl
 FGazzelloni_2021_03	finland,aland islands	Åland Islands (Finland) made with wrld_simpl {maptools}
@@ -302,6 +304,26 @@ leeolney3_2021_05	usa,texas,the woodlands,osm,openstreetmap	Park spaces in The W
 leeolney3_2021_06	canada,toronto,transport,urban,red	Red light camera locations in the City of Toronto as of Nov 1, 2021.
 leeolney3_2021_07	australia,melbourne,trees,green	Tree canopy extents on both private and public property in East Melbourne, as of Aug 12, 2021.
 leeolney3_2021_08	usa,texas,travis county,water,blue	Water bodies within Travis County, as of Nov 1, 2021.
+leeolney3_2021_09	canada,vancouver	City of Vancouver residential zoning.
+leeolney3_2021_10	namibia,climate	Namibia annual precipitation
+leeolney3_2021_11	africa,agriculture,choropleth,3d	Agriculture land use in Africa. Percentage of country land used for agriculture in 2019.
+leeolney3_2021_12	madagascar,population,density	Population density of Madagascar in 2020. I'm not sure if using log2 scale is appropriate, so I tried using quantiles this time round.
+leeolney3_2021_13	central america	Countries in Central America with state boundaries, shaded relief, hypsography, and ocean bottom.
+leeolney3_2021_16	usa,texas,choropleth	Percentage of county's total population represented by the urban population, in Texas.
+leeolney3_2021_17	canada,calgary,land use	Land use districts in Calgary, as of Nov 11, 2021.
+leeolney3_2021_18	usa,canada,great lakes	The Great Lakes
+leeolney3_2021_19	uae,abu dhabi,openstreetmap,osm	Abu Dhabi: Al Lulu Island, Al Maryah Island, Al Reem Island, Umm Yifenah Island, Saadiyat Island and the surrounding wetlands
+leeolney3_2021_20	usa,new jersey,jersey city,transport,cycling,openstreetmap,osm	Citi Bike trips from Grove St PATH station, Jersey City in October 2021.
+leeolney3_2021_21	usa,montana,glacier national park,elevation,3d	Glacier National Park
+leeolney3_2021_22	usa,resources	Sedimentary basin boundaries in lower 48 states, U.S. oil and gas.
+leeolney3_2021_23	belgium,population	Belgium population in 2015
+leeolney3_2021_24	usa,oregon,portland,buildings,historical	Downtown Portland buildings built year.
+leeolney3_2021_25	canada,vancouver,infrastructure,cycling,interactive	Vancouver bikeways, traffic signals and view cones, data from City of Vancouver.
+leeolney3_2021_26	usa,new york city,nyc,choropleth,bivariate,population,density	NYC population density per sq mile and bus stop shelters by neighbourhood area.
+leeolney3_2021_27	usa,oregon,portland,heatmap,cycling,openstreetmap,osm	Portland bicycle parking heatmap as of Aug 6, 2021.
+leeolney3_2021_28	world,choropleth,economy	Total economic damages from disasters as a share of 2020 GDP
+leeolney3_2021_29	usa,massachusetts,boston,trees	Central Boston parcels with 0% change in tree canopy from 2014 to 2019
+leeolney3_2021_30	usa,texas,katy,isochrone,openstreetmap,osm	30 minutes by car, bike and foot from Ravenna Lane, Katy, Texas
 loreabad6_2021_01	ecuador,points	Populated areas in continental Ecuador
 loreabad6_2021_02	ecuador,lines,transport,rail,roads	Ferrocarril al cielo | Railway to heaven. The Ecuadorian railway had a short reach and a brief life, from 1872 until its final demise in 2020. This link between mountain and sea was attibuted the hardest construction work in the world. Roads (grey in bg) swiftly overtook the usefulness of the rail, which became a touristic attraction. By its end, funding was cut and now remains as national history.
 loreabad6_2021_03	ecuador,osm,openstreetmap	Natural protected areas in continental Ecuador
@@ -380,6 +402,53 @@ nrennie35_2021_07	uk,scotland,glasgow,edinburgh,dundee,aberdeen,inverness,perth,
 nrennie35_2021_08	uk,scotland,glasgow,edinburgh,dundee,perth,inverness,aberdeen,stirling,blue,lines,rivers,osm,openstreetmap	Looking at rivers and waterways in Scotland's seven cities.
 nrennie35_2021_09	uk,scotland,glasgow,lines,streets,osm,openstreetmap	Inspired by @issa_madjid, using OpenStreetMap to plot the streets of Glasgow
 nrennie35_2021_10	uk,scotland,elevation,raster	Inspired by @Amit_Levinson's map, I made this minimalist map of elevation in Scotland.
+nrennie35_2021_11	uk,scotland,glasgow,population,3d	A 3D version of the population map from day 3 using {rayshader}
+nrennie35_2021_12	uk,scotland,glasgow,population,small multiples,charts	I built a new grid of Glasgow electoral wards to use with {geofacet}, combined with heatmaps to show population changes across different age groups.
+nrennie35_2021_13	europe,choropleth	Estimated GDP
+nrennie35_2021_16	uk,scotland	Map of the rural areas of Scotland (only 2% non-rural land)
+nrennie35_2021_17	uk,scotland,land use	A map showing the different land uses in the original 1988 Land Cover Census.
+nrennie35_2021_18	atlantic,bathymetry	Using the {marmap} package for the first time to map the depth of the Atlantic.
+nrennie35_2021_19	uk,scotland,shetland islands,conservation	Looking at conservation areas in the Shetland Islands.
+nrennie35_2021_20	uk,shipping	Looking at ships journeys around the UK
+nrennie35_2021_21	uk,scotland,ben nevis,glen coe,elevation,3d	A 3D map around Ben Nevis and Glen Coe.
+nrennie35_2021_22	uk,scotland,shetland islands	Trying out the {roughsf} package to map the boundaries of the Shetland Islands.
+nrennie35_2021_23	uk,ireland,built up	Building the United Kingdom
+nrennie35_2021_24	uk,counties,historic	Plotting the historic counties of the UK and trying out the {MapColoring} package in to find the minimal number of colours (4) needed to colour the map (although only 3 for Scotland).
+nrennie35_2021_25	uk,scotland,glasgow	Using the {leaflet} package in #rstats to map out Glasgow again.
+nrennie35_2021_26	uk,scotland,glasgow,population,density,bivariate,cholopleth	Bivariate choropleth map showing the population and area of different Glasgow wards to look at population density.
+nrennie35_2021_27	uk,scotland,small multiples,climate	Literal interpretation of heatmap showing the average monthly temperatures in each of Scotland's cities.
+nrennie35_2021_28	uk,scotland,ben nevis,glen coe,elevation,contours	An alternative map of the elevation data of Glen Coe and Ben Nevis from Day 21.
+nrennie35_2021_29	uk,scotland,glasgow,isochrone,openstreetmap,osm	Finally made an isochrone map showing how far you can walk from Glasgow Central within 30 minutes.
+nrennie35_2021_30	world,choropleth	Another literal interpretation looking at the number of Facebook (Meta) users in each country.
+raimun2_2021_01	chile,cerro manquehue,points,gps,personal,elevation	I mapped my trail running activities around Cerro Manquehue to visualize its trail network. Each point is a reading from my GPS device, coloured by elevation.
+raimun2_2021_02	chile,cerro el plomo,lines,gps,personal,elevation,contours	Contour lines of the topographic profile in the chilean andes complemented with trajectory line of the Torreblanca route for ascending Cerro el Plomo
+raimun2_2021_03	chile,personal,gps	Trail runners trajectories can form a closed loop, or polygon. this map shows the biggest areas covered by the polygons in my training log.
+raimun2_2021_04	chile,santiago,hexagons,grid,heatmap,personal,gps	While training we explore the geographical space and generate a density signature. here is my training spatial coverage and density in the Santiago area
+raimun2_2021_05	chile,santiago,openstreetmap,osm	Santiago, the capital of Chile, is completely surrounded by mountains, between the Andes and the Coast Range. The highest peak in the neighbour area is Cerro San Ramon, with 3251 masl
+raimun2_2021_06	personal,gps,health,red	Many times our heartrate rises to the 2nd ventilatory threshold, risking shifting to the anaerobic zone. In an ultramarathon this is a critic parameter to control. Red dots are moments in a 50k where I approached this threshold.
+raimun2_2021_07	chile,personal,gps,green	Chile is one of the few places in the world that has sclerophyllous (evergreen) forests. These ecosystems contain networks of trails used by humans and animals since ancient times for pedestrial locomotion
+raimun2_2021_08	chile,andes,blue	Today's map is inspired by the Andes Azul Round, an ultra-distance challenge proposed by my friend @MattNMaynard which consists in connecting various peaks of the central Andes of Chile. More information: http://matt-maynard.com/mountains/ande
+raimun2_2021_09	chile,andes,elevation	I'm trying out Rayshader with a monochromatic view of the central Andes
+raimun2_2021_10	chile,elevation,raster	Trying out @sharoz painbow palette to visualize the digital elevation model of chilean coastal range
+raimun2_2021_11	chile,elevation,3d	Mapocho Canyon is a ultradistance route (87 km) in the central Andes, created and executed by myself last year, and hoping to improve my time this year
+raimun2_2021_12	chile,santiago,small multiples,personal,gps	Since I started recording my training I have populated 3 (close) locations. this has affected my spatial signature through the years
+raimun2_2021_13	world,climate	Visualizing glaciers (white polygons) and minimum yearly temperatures around the world
+raimun2_2021_14	world,climate	Trying out #mapview and #cubeview for visualizing global climate data, nice alternative to leaflet html widgets
+raimun2_2021_16	chile,santiago	Trail running is mostly associated to rural areas but some cities like Santiago have the privilege to hold urban trails. Cerro calan is the closest one to my home
+raimun2_2021_17	chile,andes,elevation,3d	Birdview of the mapocho canyon from the summit of cerro el plomo (5400 masl). Digital elevation model from SRTM
+raimun2_2021_18	chile,easter island,elevation,bathymetry	I explored the bathymetry data available also in the elevatr package. This map shows easter Island elevation (masl) and the depth of its surrounding waters (mbsl)
+raimun2_2021_19	chile,santiago,elevation	Santiago has 26 'island' hills embedded in its metropolitan area as reported by @StgoCerrosIsla. This is how Santiago would look like if the urban spot were under water
+raimun2_2021_20	chile,santiago,animation,personal,gps	For some time I've been using #runtothehills to tag my trail running activities when I ran to the mountains from my house. This map shows the trajectories of these training sessions.
+raimun2_2021_21	chile,sierra de ramon,elevation,joyplot	Sierra de Ramon rises at the east of Santiago as a mighty chain of mountains that forms the foothills of the Andes.
+raimun2_2021_22	chile	Chile has 6400 kms of coastline, and also over 26.000 mountain peaks (according to @osmCL) so it's difficult to tell if it is a mountan or a nautical country
+raimun2_2021_23	world	Homo sapiens are among the most ubiquitous animal on earth
+raimun2_2021_24	chile	The Inca people called Apu Wamani to Cerro el Plomo, protector of the Mapocho Valley. This is the recreated route from the center of Santiago to this ceremonial place
+raimun2_2021_25	chile,santiago,interactive	100% of the population of Santiago has a mountain peak in a 10km radius, 50% in a 4.5 km radius.
+raimun2_2021_26	chile,choropleth	The amount of mountain peaks over 2000 masl for each district (comunas) in Chile
+raimun2_2021_27	chile,santiago,climate,personal,gps	Sometimes when I train temperatures ramp up to 40°C according to my device
+raimun2_2021_28	chile	Chile's long geography makes it pretty awkward to visualize in maps. I designed this conical projection to exhibit Chile in a proportionate frame
+raimun2_2021_29	chile,santiago,personal	Negative space map with negative colors of all the places were I havent trained in Santiago
+raimun2_2021_30	colours	Last day of this awesome challenge and I decided to show all the colors used in my mapping adventures this month
 richard_vogg_2020_01	chile,points,earthquakes	Earthquakes in Chile in the 21st century.
 richard_vogg_2020_02	chile,transport,rail,lines	Can you imagine a country that is better shaped to have lots and lots of trains? Chile has a long and interesting history but currently the active rails are (almost) only used for cargo transport.
 richard_vogg_2020_03	chile,water	Visualizing the lakes (lago), lagoons (laguna), estuaries (estero) and water reservoirs (embalse/tranque) in Valparaíso and Viña del Mar in Chile.
