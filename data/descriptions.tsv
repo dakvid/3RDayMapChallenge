@@ -14,11 +14,45 @@ _ansgar_2021_12	world,cartogram,dorling,animated	Cologne (#Köln) residents by c
 _ansgar_2021_13	rhine,rivers	The river course of the Rhine (Rhein). Using Natural Earth data for the course and the shaded relief.
 _ansgar_2021_16_1	germany,cologne,usa,roads,small multiples,lines,osm,openstreetmap	TIL there is a town called Cologne in Minnesota, USA. Cologne, MN was founded by German settlers and named after Cologne, Germany (Köln).
 _ansgar_2021_16_2	germany,cologne,trees	Trees of Cologne
+_ansgar_2021_17_1	germany,cologne,land use,small multiples	Land use / zoning plan in Cologne, Germany (Köln). Selected land use categories are shown.
+_ansgar_2021_17_2	germany,cologne,land use	Also created a plot which shows all land use types all in one chart. Barely legible, but somehow I like the colors. 🤩
+_ansgar_2021_20	germany,cologne,openstreetmap,osm,transport,cycling,animation	One year of bike traffic in Cologne (Köln). Daily bike traffic as measured by bicycle counters at 15 locations in 2020
+_ansgar_2021_24	europe,historical	Cologne (Köln) was founded by the Romans as Colonia Claudia Ara Agrippinensium (CCAA) in AD 50. Hence, today I created a map which shows the extent of the Roman Empire at that time - with some historical map flair.
+_ansgar_2021_25	germany,cologne,interactive,politics,elections,charts,openstreetmap,osm	An interactive map with {leaflet} presenting the results of the municipal election 2020 in each district in Cologne (Köln). You can switch between 3 layers - the election of the city council, district council, and mayor.
+_ansgar_2021_26	germany,cologne,choropleth,small multiples	Unemployment rate in the districts of Cologne, Germany (Köln)
+_ansgar_2021_27_1	germany,cologne,openstreetmap,osm,heatmap,hexagons,grid,transport,small multiples	Road accidents in Cologne, Germany (Köln) accumulated for 2016 to 2020. Obviously, more traffic in the city center = more accidents, but there are some interesting patterns comparing accidents involving cars and bicycles.
+_ansgar_2021_27_2	germany,cologne,openstreetmap,osm,3d,heatmap,hexagons,grid,transport	Road accidents in Cologne, Germany (Köln) from 2016 - 2020.
+_ansgar_2021_28	world,germany,cologne	The Earth is not flat
 _ronycoelho_2021_11	africa,population,3d	My #TidyTuesday submission for this week (46). In some way, it is also a #30DayMapChallenge. My first time using the rayshader package.
+_ronycoelho_2021_22	africa	My #TidyTuesday submission for the week 47. It is also part of #BlackInDataWeek2021 and #30DayMapChallenge
 aghaynes_2021_01	switzerland,points,elevation	A false colour map of part of the Swiss National Park in the Grissons, coloured based on elevation.
 aghaynes_2021_02	germany,line	This is the course of the Hasenhorn Coaster in Todtnau, Schwarzwald, Germany. Line width is the altitude, colour is the speed of an actual run...
 aghaynes_2021_03	world,choropleth,covid19	Deaths attributed to COVID based on data from @OurWorldInData
 aghaynes_2021_04	usa,hexagons,grid,choropleth	Here's average post office age in the US... (an old #TidyTuesday dataset)
+aghaynes_2021_05	switzerland,bern,buildings,openstreetmap,osm	Here's the locations of doctors surgeries and clinics in Bern, Switzerland.
+aghaynes_2021_06	switzerland,bern,elevation,red,openstreetmap,osm	Here's a map of the elevation of the area surrounding Bern, Switzerland, in red tones. Darker tone, higher altitude...
+aghaynes_2021_07	usa,choropleth,energy,green	Here's a green map about a green topic - wind energy - in the US.
+aghaynes_2021_08_1	switzerland,water,rivers,openstreetmap,osm,blue	Switzerlands rivers and their courses.
+aghaynes_2021_08_2	switzerland,rivers,heatmap,hexagons,grid,openstreetmap,osm,blue	Switzerlands rivers/watercourses in hex (sum of distances)
+aghaynes_2021_09	switzerland,roads,hexagons,grid	Here's the density of the Swiss road network, with the network superimposed.
+aghaynes_2021_10	switzerland,bern,elevation,3d	Here's a #rayshader plot of the region around Bern, Switzerland.
+aghaynes_2021_11	germany,todtnau,hasenhorn coaster,elevation,3d	Here's a return to the Hasenhorn Coaster in Todtnau, Germany, which is depicted as the red line.
+aghaynes_2021_12	switzerland,population,choropleth	Switzerlands population (on a log scale, otherwise 90% of the country appears uninhabited, due to a few highly populated regions)
+aghaynes_2021_13_1	world,points	Capital cities of the world
+aghaynes_2021_13_2	europe,points	Capital cities of Europe
+aghaynes_2021_16	world	Using Natural Earth data, which itself used MODIS data to define areas of dense human habitation
+aghaynes_2021_17	uk,ireland,infrastructure,3d,openstreetmap,osm	Here's a map of aeroways (airports etc) in the British Isles where aircraft can land.
+aghaynes_2021_18	switzerland,lake lucern,3d,openstreetmap,osm,animation	Vierwaldstättersee
+aghaynes_2021_19	spain,balearic islands,bathymetry,openstreetmap,osm	Here's bathymetry around the Balearic islands.
+aghaynes_2021_20	world,switzerland,transport,flights,lines	531 flights departing Switzerland
+aghaynes_2021_21	switzerland,elevation	Here's a Rayshader version of my day 1 (points) maps using the same palette
+aghaynes_2021_22	uk,england,boundaries	I tried out roughsf to depict the area around Warwickshire.
+aghaynes_2021_23	switzerland	Settlement of Switzerland
+aghaynes_2021_24	uk,england,london,health,historical,openstreetmap,osm	Here's a version of the classical map from John Snow showing the locations of cholera victims in 1854.
+aghaynes_2021_25	switzerland,roads,interactive	A map of Switzerland that shows more roads the more you zoom in...
+aghaynes_2021_26	world,choropleth,bivariate,covid19,health	Here's a map of COVID incidence and vaccination.
+aghaynes_2021_27	uk,ireland,infrastructure,heatmap,points,openstreetmap,osm	Aeroways of the British Isles
+aghaynes_2021_28	world,names	Here's the countries of the world with parts of flat in their name.
 Amit_Levinson_2020_01	usa,points	Looking at Chipotle locations across the US. I also highlighted the location I most frequently vistied while staying there 😂
 Amit_Levinson_2020_02	israel,tel aviv,roads,lines	Plotting the streets of Tel-Aviv, Israel.
 Amit_Levinson_2020_03	israel,points	Looking at hotels in Israel. Used {httr} for the first time to call straight form an API (http://gov.il) and plotting an Israel map using a shape file.
@@ -42,6 +76,7 @@ Amit_Levinson_2021_22	israel,tel aviv,choropleth,borders	The number of neighborh
 Amit_Levinson_2021_25	israel,tel aviv,transport,interactive	Explore the distance from an elderly program location to the nearest bus stop.
 anelfering_2021_05	japan,okinawa island,openstreetmap,osm	Here is an annotated map of Okinawa Island, inspired by The New York Times.
 BCalhoon7_2021_11	usa,chesapeake bay,elevation,animation,3d	A 3D rendering of a flyover of one of the most beautiful fresh bodies of water in the US.
+BCalhoon7_2021_17	haiti,land	Land cover classification in Haiti.
 BjnNowak_2021_03	france,puy-de-dome,agriculture,animation	Crop distribution in the Puy-de-Dôme department (France). Each polygon is a field. Crops are mainly in the plain (center), whereas grasslands are in the moutains (East and West).
 BlaiseKe11y_2021_20	uk,ireland,climate,animation	How did solar and wind vary around the UK in 2020? Using ECMWF open access meteo data to show how they complement each other.
 BlakeRobMills_2021_01	usa,new york city,nyc,points	Decided to keep it simple with some Community Spaces in Manhattan. Everything is from NYC Open Data
@@ -107,6 +142,7 @@ Cramsuig_2021_08	north america,south america,rivers,lakes,blue	Americas' rivers 
 Cramsuig_2021_09	africa,choropleth,green,animation	Literacy rates in Africa, 1960-2020
 Cramsuig_2021_10	mexico,guerrero,raster,elevation	State of Guerrero, México
 Cramsuig_2021_11	mexico,guerrero,raster,elevation,3d	State of Guerrero, México
+Cramsuig_2021_13	mexico,historical,elevation	Lake Texcoco in the early 1500s
 dakvid_2019_14	new zealand,nz,carterton,boundaries,animation,inset	Using {gganimate} to help us see what Stats NZ's small area boundary changes mean for Carterton district.
 dakvid_2019_18	world,antarctica,lines,globe,interactive	I linked up territories in Antarctica with their controlling countries.
 dakvid_2020_04	new zealand,nz,hexagons,cartogram,politics,elections,interactive	An interactive map of NZ electorate wins by party.
@@ -171,8 +207,21 @@ FGazzelloni_2021_10	africa,population,small multiples,raster	Africa population d
 FGazzelloni_2021_11	world,globe,australia,3d	World Sat View in 3D  from the perspective of Australia at 8am 11.11.2021 GMT+11 Mostly cloudy ☁️⛅🌤🌥🌥 'rastered' a sat .tif image taken from @BOM_au and sphere_shaded with {rayshader} package. Very simple but Cool!
 FGazzelloni_2021_12	world,choropleth,population	Good time spent arranging the colors of the World map representing the economic status of the countries and the level of the pop in 1950 vs 2030
 FGazzelloni_2021_13	world,globe,choropleth	Tried different perspectives as well as resources, meant to represent colonies but then deviated on GDP per capita.
+FGazzelloni_2021_16	netherlands,choropleth,education	The Netherlands has a very interesting resource for spatial open data. I looked at the number of schools nearby the urban area.
+FGazzelloni_2021_18	uk,england,london,historical,points	'John Snow's 1854 investigation of a Cholera outbreak in London' location of the pumps as vectors of the spread of the infections.
+FGazzelloni_2021_19	japan	The Japanese Archipelago is the largest island country in East Asia and has 6,852 islands of which 260 are inhabited.
+FGazzelloni_2021_20	italy,transport,flights	Alitalia flights
+FGazzelloni_2021_21	antarctica,elevation	Surface Elevation Change (SEC) of the Antarctic Ice Sheet - CryoSat mission
+FGazzelloni_2021_22	world,borders	Nice R package for #boundaries {rgeoboundaries} and for choosing color this http://coolors.co and rgb() combination of red, green, blue, and alpha.
+FGazzelloni_2021_23	italy,population	Population in Italy - 2015
+FGazzelloni_2021_24	world,transport,shipping,historical	Map of 18th century shipping expeditions
+FGazzelloni_2021_25	italy,rome,interactive	Map of Rome, Italy
+FGazzelloni_2021_26	world,choropleth,bivariate,population,density	Map of poverty and population density
+FGazzelloni_2021_28	world	{ggplot2 & rnaturalearth & sf} packages for making this nice rounding shape of the Earth
 geodatascience_2020_04	usa,chicago,shops,hexagons,covid19,animation	PhD Student Patrick Ballantyne (@pj_ballantyne) has visualised changes in #Retail #Mobility in #Chicago in response to #COVID19 using @SafeGraph data and #H3.
 geodatascience_2021_11	usa,florida,shops,hexagons,grid,choropleth,3d	☕ @pj_ballantyne has mapped Starbucks locations for Florida state
+geodatascience_2021_22	usa,new york city,nyc,small multiples	Maps showing the extent to which boundaries derived from 1 month mobility data in New York (General) change over time (yellow areas) code
+geodatascience_2021_27	uk,small multiples,climate	🌞@caithrobin has created a map of average July temperatures in the UK for a high emissions scenario, based on the @metoffice #UKCP18 climate projections.
 geokaramanis_2021_01	greece,climate,points	Used an older dataset about heating degree days in Greece with about 160k points.
 geokaramanis_2021_02	greece,transport,ferry,lines	Ferry lines in Greece.
 geokaramanis_2021_03	greece,animals	Another simple one about the wildlife sanctuaries in Greece, trying a fill pattern with {ggpattern}.
@@ -181,6 +230,17 @@ geokaramanis_2021_05	greece,thessaloniki,transport,roads,osm,openstreetmap	Speed
 geokaramanis_2021_06	greece,climate,red	Max temperature of warmest month in Greece, 1970-2000
 geokaramanis_2021_07	greece,vegetation,green	NDVI for Greece with a touch of 3d. Both today's and yesterday's script were modifications of scripts in the great tutorials at https://rspatialdata.github.io 🙏
 geokaramanis_2021_08	mediterranean,greece,bathymetric,blue	Mapping the depth of the sea around Greece with bathymetric data from NOAA.
+geokaramanis_2021_10	africa,population,density,raster	Africa population density
+geokaramanis_2021_12	greece,population,cartogram,choropleth	A cartogram about the 2011 Greek census
+geokaramanis_2021_13	world,globe,greece	Natural Earth (Gray Earth raster data)
+geokaramanis_2021_16	greece	Changes in degree of urbanisation in Greece, data from @EU_Eurostat. Only small changes since the data is from 2018 and 2021
+geokaramanis_2021_18	greece	Coastal land areas  and costal water bodies of Greece.
+geokaramanis_2021_19	greece,transport,ferry,lines	Ferry routes between Greek islands. I took the ferry routes from day 2 and clipped the lines that intersected mainland Greece and the neighboring countries.
+geokaramanis_2021_20	greece,transport,shipping	Passenger ship movement around Greece
+geokaramanis_2021_22	greece,earthquakes,points	Tectonic plates and significant earthquakes in Greece
+geokaramanis_2021_25	greece,choropleth,interactive	Prices of unleaded 95 RON by prefecture in Greece, using mapdeck for the first time.
+geokaramanis_2021_27	greece,heatmap,openstreetmap,osm	Density of restaurants in Greece with data from OpenStreetMap.
+geokaramanis_2021_28	world	Longitude of the centroids of the world's countries on a circle
 gisertweets_2021_05	kuwait,points,osm,openstreetmap	College of Social Science, Kuwait University
 Hellville_2021_09	usa,savannah,osm,openstreetmap	Map of Savannah, GA to north of Hilton Head, SC.
 hrbrmstr_2019_01	usa,small multiples,points,security	The topic for Day 1 was “points” and I opted to use a Google spreadsheet of (mostly) geolocated U.S. K-12 school ransomware incidents going back to 2016 as a base for plotting locations of these events on a map. This checked the “cyber” and “United States” requirements boxes in my list of constraints and also helped ease into the challenge (it doesn’t get much more basic than points on a map, though we are mixing it up a bit with facets).
@@ -237,6 +297,8 @@ i_nicolis_2021_24	greece,crete	I prepared a map of the archeological sites of #C
 i_nicolis_2021_26	greece,choropleth,health,covid19	Here is a map of vaccination rates in Greece by department. Data are recorded by vaccination site and not by residence, so the percentages are not representative.
 Iawmatthew_2021_11	usa,devils tower,elevation,3d,animation	A very quick experiment with {rayvista}: a spinning view of Devils Tower, Wyoming
 Iawmatthew_2021_12	europe,population,cartogram	A slightly strange looking cartogram of European population
+Iawmatthew_2021_16	spain,barcelona,3d,interactive	A first experiment using #mapdeck, an R wrapper for http://deck.gl and Mapbox, to create an interactive web map of a thoroughly urban chunk of Barcelona
+Iawmatthew_2021_27	uk,ireland,heatmap	The density of Marilyns (not to be confused with Munros) in the UK and Ireland
 issa_madjid_2021_01	africa,points	Africa, 1 continent, 10194 points.
 issa_madjid_2021_02	france,lines,sport,small multiples	Let's visualize the movements of French Ligue 1 clubs.
 issa_madjid_2021_03	world,covid19,charts	557 million. It is the number of people teleworking in spring 2020 in the world.
@@ -253,9 +315,37 @@ IvaBrunec_2021_09	uk,england,london,black and white,lines,roads,osm,openstreetma
 IvaBrunec_2021_10_1	world,raster,animals	Phytoplankton concentration in September 2021.
 IvaBrunec_2021_10_2	usa,elevation,3d,raster	Map of Olympic peninsula (WA, USA)
 IvaBrunec_2021_11	canada,toronto,population,3d	This one was fun to make: Toronto population density by postcode in 2016. I happen to be included in this count!
+IvaBrunec_2021_12	canada,population,points	Sticking with the Canadian theme: % renters, scaled by population density.
+IvaBrunec_2021_16	iceland,population,density,grid	A tile map of population density in Iceland, highlighting Reykjavík (the lone official urban area).
+IvaBrunec_2021_17	world	Mapping the distance to the nearest coast from land and sea.
+IvaBrunec_2021_19	norway,lofoten,elevation,3d	One from my dream travel list: the Lofoten archipelago, Norway. Really enjoyed picking the color palette for this one.
+IvaBrunec_2021_20	world,slovenia,lines	Where do Slovenians emigrate?
+IvaBrunec_2021_21	usa,small multiples,new york,pennsylvania,washington,virginia,elevation,contours	Elevation maps of my favorite/most memorable 2021 US hikes (so far). 🏔️💜
+IvaBrunec_2021_22	europe,usa,borders	The borders of European countries and US states (not perfectly to scale). Color indicates the rank of the country's land area (larger area = warmer color).
+IvaBrunec_2021_26	usa,canada,choropleth,sport	All-time NBA championship wins sorted by the team home state/province (starting in 1950 - some teams have since moved). Grey = no wins (yet). 🏀
+IvaBrunec_2021_28	usa,virginia,shenandoah,elevation,3d	A relief map of Shenandoah. It doesn't capture the Earth's curvature, but it's definitely not flat to hike in!
+IvaBrunec_2021_29	world,elevation	Zero elevation
 izzy_youngs_2021_05	netherlands,amsterdam,lines,osm,openstreetmap	I learned how to use the Overpass API with osmplotr to make maps using OpenStreetMap data in R! Just a simple map, but wow R is amazing 😍
 izzy_youngs_2021_09	usa,reno,osm,openstreetmap,red,green,blue,black and white,small multiples	A simple faceted map with more OSM data for Days 6 through 9, this time focused on features of my home town.
 Jamie_Bio_2021_02	uk,england,london,roads,lines,walking,osm,openstreetmap	I was motivated to recreate something similar to the fab #isochrone plot by @MRuehringer but using R. It turned out a good opportunity to write a little post on producing such maps in R.
+JanPhilippKolb_2021_01	world,points	World cities
+JanPhilippKolb_2021_02	uk,england,london,transport,openstreetmap,osm	You can see the subway lines of London.
+JanPhilippKolb_2021_03	germany,borders	You can see the zip code areas in Germany.
+JanPhilippKolb_2021_04	france	I cheat a little bit. A map of the country I like a lot is also called L'hexagone.
+JanPhilippKolb_2021_05	spain,madrid,roads,openstreetmap,osm	A map of the main streets in Madrid.
+JanPhilippKolb_2021_06	spain,madrid,roads,openstreetmap,osm,red	The streets in Madrid in red.
+JanPhilippKolb_2021_07	usa,new york city,nyc,roads,green,openstreetmap,osm	The streets in New York in green.
+JanPhilippKolb_2021_08	germany,berlin,roads,blue,openstreetmap,osm	The streets of Berlin in blue.
+JanPhilippKolb_2021_09	france,paris,roads,black and white,openstreetmap,osm	Here is a map of Paris.
+JanPhilippKolb_2021_10	world,raster	A raster map of satellite-derived land cover data and shaded relief.
+JanPhilippKolb_2021_11	world,globe	A 3d map of the globe.
+JanPhilippKolb_2021_12	netherlands,population,choropleth	Population of the Netherlands
+JanPhilippKolb_2021_14	brazil,olinda,raster	I learned about the wonderful #rstats package stars and I found this example in the vignette.
+JanPhilippKolb_2021_18	netherlands,amsterdam,water,openstreetmap,osm	A map of water in Amsterdam.
+JanPhilippKolb_2021_19	fiji	I used the package #raster and the command getData to get the wonderful global administrative boundary data (#gadm)
+JanPhilippKolb_2021_20	denmark,copenhagen,transport,cycling,openstreetmap,osm	The cycleways of #kobenhavn
+JanPhilippKolb_2021_22	india,borders	I downloaded the level 3 boundaries of #India with package #raster.
+JanPhilippKolb_2021_24	world,borders,historical	Borders of 1880
 jerry_shannon_2021_02	usa,georgia,atlanta	The travelling salesman problem is a classic for geographic analysis. Here's the shortest path to each of the 277 Waffle Houses in metro Atlanta. Total length is 1,166 miles, but worth every one!
 jerry_shannon_2021_08	usa,georgia,animals,blue,hexagons,grid,heatmap	Using individual observations from eBird, here's a heat map of the eight most common birds with 'blue' in their name here in Georgia.
 jerry_shannon_2021_18	usa,climate,animation	Water  sometimes falls from the sky. Here's a GIF of precipitation totals in the lower 48 by month from 2005-2015, taken from Daymet climate data.
@@ -296,6 +386,9 @@ kyle_e_walker_2021_09_1	usa,fort worth,choropleth,mapbox	🚨 New feature in the
 kyle_e_walker_2021_09_2	usa,fort worth,choropleth,mapbox	🚨 New feature in the new release of mapboxapi!🚨 Use `get_static_tiles()` to pull down a @Mapbox Studio style (like my custom monochrome style shown in the maps) for use as a basemap in ggplot2 (here) or tmap (also in gallery)
 kyle_e_walker_2021_10	usa,fort worth,raster,heatmap	Take a look at the linked code to learn how to interpolate @uscensusbureau to a raster using inverse distance weighting and map it (though note the influence of the tract centroids on the result)
 kyle_e_walker_2021_11	usa,texas,3d,lines	Three-dimensional visualization of US migration flows is straightforward with the mapdeck package and @buddyherms' innovative approach to flows data in #tidycensus.
+kyle_e_walker_2021_12	usa,charts,small multiples,population	While all the maps I'm posting this month are of Census data, one of my favorites in the book is the 'geo-faceted' map of population pyramids by state thanks to @hafenstats' geofacet package
+kyle_e_walker_2021_13	world,choropleth	Natural Earth data are built into the idbr package thanks to the rnaturalearth package; this makes visualization of global demographic concepts straightforward.
+kyle_e_walker_2021_25	usa,texas,dallas,fort worth,charts,interactive	A LISA map and scatterplot with linked brushing
 leeolney3_2021_01	singapore,shops,points	Supermarket locations in Singapore.
 leeolney3_2021_02	australia,melbourne,lines,water,infrastructure	Water supply main pipelines from Melbourne Water Corporation. Today i tried out {tmap} with the [Geocompution with R] book, from this week's #TidyTuesday.
 leeolney3_2021_03	canada,toronto,urban	Heritage Conservation Districts in Toronto, 2021.
@@ -388,7 +481,12 @@ NearAndDistant_2021_04	uk,england,manchester,hexagons,cartogram,choropleth,benef
 NearAndDistant_2021_05	uk,scotland,edinburgh,osm,openstreetmap	Edinburgh is built upon an extinct volcano, which erupted around 340m years ago. In the hundreds of millions of years since, the volcano has been buried beneath other rocks and now a city.
 NearAndDistant_2021_06	uk,britain,politics,elections,red	The UK Red Party. 2019 General Election: Labour Seats and Voting Strength. “It's Time for Real Change”... shame voters didn't agree.
 NearAndDistant_2021_07	uk,england,london,richmond upon thames,green	💚 Richmond appreciation post. % of Boroughs which are green spaces in London.
+NearAndDistant_2021_08	uk,england,choropleth	It's getting pretty darn cold outside. Chance to remind ourselves of the thousands of rough sleepers in England.
+NearAndDistant_2021_09	uk,england,newcastle upon tyne,roads,openstreetmap,osm,black and white	What better city to do Monochrome in than Newcastle upon Tyne, the black and white city. Forgive the splash of blue, the river is iconic.
+NearAndDistant_2021_10	africa,population,density,raster,heatmap,grid	Africa population density
+NearAndDistant_2021_16	uk,england,wales,urban,rural	England and Wales Rural / Urban areas. 81.9% of the population live in Urban areas... that's a lot of land left for hiking.
 neilcfd1_2021_11	denmark,copenhagen,3d,animation	I'm very enamoured of the City Dome series by @CraigTaylorViz, thought I'd attempt something in #rayshader #rstats.  This was the initial test just using a hemisphere. I'll point you towards this gist by @blueparrot which shows the process far better than my messy code would
+neilcfd1_2021_20	world,globe,3d,historical,transport,shipping,animation	1778 was the busiest year in the CLIWOC database, with 139 voyages.  Some interesting trends show when looking by nationality.
 npalomin_2021_06	uk,england,london,manchester,west midlands,avon,cambridgeshire,oxfordshire,transport,red	Car flows patterns
 npalomin_2021_07	uk,england,london,manchester,west midlands,avon,cambridgeshire,oxfordshire,transport,cycling,green	Cycling is the greenest and most space-efficient mode of individual travel
 NRatnaweera_2021_02	switzerland,lines	I visualize the effect of the transition from Switzerland's old coordinate system to the new one. Its a crazy, stormy pattern!
@@ -532,6 +630,18 @@ ShandiyaB_2021_03	australia,melbourne,buildings	Buildings in Melbourne, differen
 ShandiyaB_2021_04	australia,victoria,hexagons,density,animals	Observations of the #BirdoftheYear, the Superb Fairy-wren (Malurus cyaneus), across Victoria.
 ShandiyaB_2021_05	australia,melbourne,points,osm,openstreetmap	Because everyone loves a bench.
 ShandiyaB_2021_06	australia,melbourne,red,green,blue,points,trees	Days 6 - 8: Red, Green, Blue. A 3-in-1 today, showing locations of post boxes (red), trees (green), and drinking fountains (blue) in Melbourne.
+ShandiyaB_2021_09	australia,melbourne,adelaide,sydney,roads,black and white,openstreetmap,osm,small multiples	Call it what you will, everyone loves a battered, deep-fried potato snack
+ShandiyaB_2021_10	australia,elevation,raster	Topography of Australia
+ShandiyaB_2021_11	australia,animals,3d	A galah trifecta today: galah occurrence data from @atlaslivingaust, imported using the galah 📦, and colours from the galah palette in the feathers 📦
+ShandiyaB_2021_12	asia,population,cartogram	Cartogram of 2021 population in Asia
+ShandiyaB_2021_13	india,pakistan	The Rann of Kutch, a large area of salt marshes spanning the border between India and Pakistan.
+ShandiyaB_2021_16	australia,melbourne,water	Urban Forest: water flow routes over land in the City of Melbourne
+ShandiyaB_2021_17	australia,melbourne,buildings,openstreetmap,osm	2020 data on residential dwellings, collected by the City of Melbourne's Census of Land Use and Employment (CLUE).
+ShandiyaB_2021_18	australia,canberra,water,bathymetry	Bathymetry of Lake Burley Griffin, an artificial lake in the centre of Canberra
+ShandiyaB_2021_20	australia,melbourne,iscochrone,openstreetmap,osm	Isochrones showing how far you can walk from the centre of Melbourne in 15, 30, 45, and 60 minutes
+ShandiyaB_2021_21_1	taiwan,elevation	Hillshade showing elevation of Taiwan
+ShandiyaB_2021_21_2	australia,elevation,small multiples	Different approaches to visualising elevation of Australia (extra map in repo)
+ShandiyaB_2021_28	world,projections	Different projections of the world. Inspired by every mapmaker's favourite XKCD comic: https://xkcd.com/977/
 tanya_shapiro_2021_01	usa,new york city,nyc,points,osm,openstreetmap,personal	Today's #30DayMapChallenge is a love letter to my better half, @KrisStil. We created a lot of great memories while we lived in NYC. Here's a map of the places those memories were made. ❤️🏙️
 tanya_shapiro_2021_03	usa,virginia,politics,elections,choropleth	Since today is a big day for VA, here is a throwback to the last gubernatorial election results from 2017. 🗳
 tanya_shapiro_2021_04	usa,hexagons,cartogram	Major shout out to @R_Graph_Gallery for an easy to follow tutorial, thank you! And in the spirit of #NationalCandyDay I'm dedicating this to Mars candy fan favorites. Snickers or Bust. 🍫🍬
@@ -546,6 +656,11 @@ tanya_shapiro_2021_16	usa,new york city,nyc,queens,buildings,choropleth	Dedicati
 tanya_shapiro_2021_19	usa,new york city,nyc,staten island,food,shops,openstreetmap,osm	Perfect timing. Flying up this weekend to Staten Island to visit my partner's family. When I'm there, pizza is always a must, so lo and behold - a map of the island's pizzerias! 🍕
 tanya_shapiro_2021_25	usa,choropleth,health,interactive	Playing catch-up, here's a 2-in-1 to explore Coronary Disease related deaths in the US. Love the highcharter wrapper by @jbkunst!
 ThomIvar_2021_05	netherlands,groningen,roads,lines,osm,openstreetmap	Map of the city of Groningen
+ThomIvar_2021_12	netherlands,population,names	Map containing the names of the 352 Dutch municipalities, scaled by population.
+ThomIvar_2021_13	world,points,population	Map showing all cities with more than 100,000 inhabitants.
+ThomIvar_2021_16	europe	Map showing urban areas in Europe.
+ThomIvar_2021_19	netherlands,texel,openstreetmap,osm	Map showing the Dutch island of Texel.
+ThomIvar_2021_22	netherlands,boundaries	Map showing the provincial and municipal boundaries of the Netherlands.
 UrbanDemog_2021_01	brazil,points	A map of all healthcare facilities in Brazil in a couple lines of code
 UrbanDemog_2021_03	brazil,environment,animation,interactive	Interactive #dataviz showing the importance of indigenous lands to help stop #deforestation in Brazil #COP26
 UrbanDemog_2021_04	brazil,sao paulo,hexagons,grid,choropleth,transport	Employment accessibility by public transport in less than 60 minutes in some of Brazil's largest cities.

@@ -2,7 +2,6 @@
 People to start processing (just one link for reference):
 
 https://twitter.com/idoklein1/status/1462128869306163204
-https://twitter.com/JanPhilippKolb/status/1461421233678041096
 https://twitter.com/Spiousas/status/1461336761762816000
 https://twitter.com/vb_jens/status/1463300803427377155
 https://twitter.com/donojazz62220/status/1463323226898145284
@@ -10,34 +9,6 @@ https://twitter.com/kevin_ct_chang/status/1463750956600807424
 https://twitter.com/datagistips/status/1463910126763622403
 https://twitter.com/dhernangomez/status/1465576590725763075
 
-
-People to complete processing (2021):
-_ansgar
-_ronycoelho
-aghaynes
-BCalhoon7
-BjnNowak
-ckauebraga
-Cramsuig
-dr_xeo
-FGazzelloni
-geodatascience
-geokaramanis
-gisertweets
-Hellville
-hrbrmstr
-Iawmatthew
-issa_madjid
-IvaBrunec
-izzy_youngs
-Jamie_Bio
-JolienNoels
-kyle_e_walker
-loukesio
-mattdray
-NearAndDistant
-neilcfd1
-npalomin
-NRatnaweera
-ShandiyaB
-ThomIvar
+geokaramanis 2020 https://github.com/gkaramanis/30DayMapChallenge/tree/main/2020
+Iawmatthew 2020 http://matthewlaw.xyz/blog/30daymapchallenge-2020.html
+JanPhilippKolb 2020 https://github.com/Japhilko/maps_challenge
