@@ -199,7 +199,7 @@ g_cartographers_data <-
       ungroup(),
     by = "handle"
   ) %>% 
-  mutate(handle = handle %>% fct_inorder() %>% fct_rev(),
+  mutate(handle = glue("@{handle}") %>% fct_inorder() %>% fct_rev(),
          Year = factor(Year, levels = 2019:2021) %>% fct_rev())
 g_cartographers <- 
   ggplot(g_cartographers_data,
