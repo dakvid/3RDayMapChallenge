@@ -403,7 +403,7 @@ stats_page <-
                 p(glue("These are the top {num_limit_themes} of the {total_num_themes} meta-themes."),
                   "Monochrome's supremacy is unsurprising, as it includes 4-5 days each year.",
                   "The main bar is the total number of maps and the smaller bar is the",
-                  "number of individual cartograhers."),
+                  "number of individual cartographers."),
                 img(src = "images/top_themes.png", style="width: 880px;"),
                 
                 p("How many maps do we have for each day?",
@@ -415,13 +415,13 @@ stats_page <-
                   "most popular areas mapped. These are taken from the first tag assigned, which is",
                   "generally the main country/continent.",
                   "The main bar is the total number of maps and the smaller bar is the",
-                  "number of individual cartograhers."),
+                  "number of individual cartographers."),
                 img(src = "images/top_areas.png", style="width: 800px;"),
                 
                 h3("Packages"),
                 p("The most popular packages recorded, excluding the meta tidyverse.",
                   "The main bar is the total number of maps and the smaller bar is the",
-                  "number of individual cartograhers."),
+                  "number of individual cartographers."),
                 img(src = "images/top_packages.png", style="width: 800px;"),
 
             )

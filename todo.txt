@@ -1,14 +1,71 @@
 
-People to start processing (just one link for reference):
+Added (2021): @datagistips, @dhernangomez, @donojazz62220, @idoklein1, @kevin_ct_chang, @Spiousas, @vb_jens
+Added (2020): @geokaramanis
 
-https://twitter.com/idoklein1/status/1462128869306163204
-https://twitter.com/Spiousas/status/1461336761762816000
-https://twitter.com/vb_jens/status/1463300803427377155
-https://twitter.com/donojazz62220/status/1463323226898145284
-https://twitter.com/kevin_ct_chang/status/1463750956600807424
-https://twitter.com/datagistips/status/1463910126763622403
-https://twitter.com/dhernangomez/status/1465576590725763075
 
-geokaramanis 2020 https://github.com/gkaramanis/30DayMapChallenge/tree/main/2020
 Iawmatthew 2020 http://matthewlaw.xyz/blog/30daymapchallenge-2020.html
 JanPhilippKolb 2020 https://github.com/Japhilko/maps_challenge
+
+
+Improve code / UI ??
+
+Final 2021 maps?
+
+30DayChartChallengeMaps?
+
+2022 maps
+https://twitter.com/Amit_Levinson/status/1592244312095473665
+https://twitter.com/BCalhoon7/status/1588929413676421120
+https://twitter.com/darwinanddavis/status/1592092994165166080
+https://vis.social/@DataAngler/109417254127421822
+https://tech.lgbt/@DataScienceNot2/109429855254046923
+https://twitter.com/DerekSollberger/status/1588742762417246208
+https://twitter.com/DevinMLea/status/1589625703917846530
+https://twitter.com/dhernangomez/status/1591710364571504640
+https://twitter.com/echarty_R/status/1594225994071961600
+https://twitter.com/eeholm/status/1594454515700617216
+https://twitter.com/elipousson/status/1587621109171687424
+https://twitter.com/Elmedicobrujo/status/1588589359888203778
+https://twitter.com/fblpalmeira/status/1589299192673234944
+https://twitter.com/FGazzelloni/status/1588456876026519552
+https://twitter.com/hrbrmstr/status/1589292106895351809
+https://twitter.com/Iawmatthew/status/1588618478197805056
+https://twitter.com/IcaroBSC/status/1595070262130905088
+https://twitter.com/imagineazhar/status/1589266829582532609
+https://twitter.com/issa_madjid/status/1587598274835451905
+https://twitter.com/IvaBrunec/status/1587777781211041792
+https://twitter.com/JacobCJameson/status/1587438350373371911
+https://twitter.com/JonasStillhard/status/1587409827982184449
+https://twitter.com/KittJonathan/status/1587721364558995456
+https://twitter.com/kyle_e_walker/status/1587483394681675776
+https://twitter.com/JeanDup1n/status/1588464198266552320
+https://twitter.com/jerry_shannon/status/1591504750935154689
+https://twitter.com/leeolney3/status/1587715671873490944
+https://twitter.com/lrbshx/status/1587558423050207233
+https://twitter.com/madysonbradford/status/1591128630205161473
+https://twitter.com/malasi_abhinav/status/1588705957265420290
+https://fosstodon.org/@michelstuyts
+https://twitter.com/MrPecners/status/1587633258656931841
+https://twitter.com/mv_evans/status/1588064829670973440 https://twitter.com/Re_Mi_La/status/1590218494276165632
+https://twitter.com/npalomin/status/1587750798209212416
+https://twitter.com/nrennie35/status/1588969078466543616
+https://twitter.com/oeinis/status/1588518282075963392
+https://twitter.com/OluwafemOyedele/status/1588511551493136384
+https://twitter.com/petrpajdla/status/1588286758935928832
+https://twitter.com/Prancke/status/1590038468503437314
+https://mstdn.social/@ramikrispin/109371629921057862
+https://twitter.com/rcrmj/status/1589112841839284224
+https://twitter.com/riverpeek/status/1589348081090592768
+https://twitter.com/ryanahart/status/1587761442404564994
+https://twitter.com/samiasab90/status/1587327623134412800
+https://twitter.com/santizuluayal/status/1589380690055155712
+https://twitter.com/SebHanika/status/1594721678227013632
+https://twitter.com/shinysci/status/1587886007629774849  2021 https://twitter.com/shinysci/status/1456602736506675200
+https://twitter.com/simgraworldwide/status/1587716744688410624
+https://twitter.com/VictimOfMaths/status/1588687161188298752
+https://twitter.com/xouridas/status/1591174915327393792
+https://twitter.com/yabellini/status/1591908889217626112
+
+
+Permission slip thread (for MapTime talk)
+https://twitter.com/mapbosse/status/1587520513462571008

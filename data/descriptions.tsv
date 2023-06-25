@@ -192,6 +192,15 @@ darwinanddavis_2021_04	australia,melbourne,hexagons,heatmap	Where do Melburnians
 darwinanddavis_2021_07	brazil,landuse,green	Brazil - Classifying major ecoregions
 darwinanddavis_2021_11	australia,population,3d,heatmap,animals	Avian airstrike - Aircraft-bird strikes across Australia 2008-2017. Nice, rich dataset and will probably use this again for a deeper analysis
 darwinanddavis_2021_22	world,lines	A cheap and serendipitous mishap map, which pretty much sums up my daily spatial data workflow. Despite being behind for this month, here's proof it takes little to make abstract attractive with R. Guess the projection
+datagistips_2021_25	france,interactive,charts	A small Shiny application
+dhernangomez_2021_19	spain,canary islands,elevation	A topographic map of the Canary Islands
+dhernangomez_2021_21	spain,canary islands,la palma,volcano,elevation,3d,animation	A 3D render of La Palma island showing Cumbre Vieja eruption lava flood
+dhernangomez_2021_22	spain,boundaries,voronoi	Reimagining the internal boundaries of Spain using Voronoi polygons. Each municipality has been reclassified to the corresponding new Voronoi province
+dhernangomez_2021_23	europe,urban areas	Degree of urbanisation in Western Europe, firefly map.
+dhernangomez_2021_26	spain,choropleth,elections,voting	Most voted party on each Spanish municipality, Spanish General Election mob 2019
+dhernangomez_2021_27	spain,madrid,heatmap,transport,health	(Linear) distance to the closet hospital in the region of Madrid.
+dhernangomez_2021_28	world,pacific,globe,flights	My honeymoon destinations. My most challenging map ever: Great Circles crossing the dateline, rasters & vector and Antarctica on Orthographic proj.
+donojazz62220_2021_24	usa,transport,rail,historical,lines	Just love Mapview, it's so easy
 dr_xeo_2021_05	world,osm,openstreetmap,points,firefly	World's lighthouses. (Code link is to a blog post about the firefly style. Tweet links to a 2018 blog post on accessing OpenStreetMap.)
 elipousson_2021_03	usa,baltimore	I made a scrambled neighborhood map using affine transformations
 FGazzelloni_2021_01	world,points	Inspired by #DuBoisChallenge for the structure of the map - data are from #TidyTuesday week44 Ultra Trail Running Datasource: @BjnNowak
@@ -222,6 +231,13 @@ geodatascience_2020_04	usa,chicago,shops,hexagons,covid19,animation	PhD Student 
 geodatascience_2021_11	usa,florida,shops,hexagons,grid,choropleth,3d	☕ @pj_ballantyne has mapped Starbucks locations for Florida state
 geodatascience_2021_22	usa,new york city,nyc,small multiples	Maps showing the extent to which boundaries derived from 1 month mobility data in New York (General) change over time (yellow areas) code
 geodatascience_2021_27	uk,small multiples,climate	🌞@caithrobin has created a map of average July temperatures in the UK for a high emissions scenario, based on the @metoffice #UKCP18 climate projections.
+geokaramanis_2020_01	sweden,population,points	Population size and density of populated places (>200 people) in Sweden.
+geokaramanis_2020_02	sweden,uppsala,lines,roads	Streets of Uppsala, Sweden
+geokaramanis_2020_03	sweden,uppsala,buildings	Buildings of Uppsala, Sweden
+geokaramanis_2020_05	sweden,uppsala,blue	A map of the Blå spåret (Blue trail) in the south of Uppsala
+geokaramanis_2020_08	sweden,uppsala,roads,yellow	Road and street network of the Uppsala Region
+geokaramanis_2020_15	sweden,lines,rail	Railroad network of Sweden
+geokaramanis_2020_21	sweden,water	Surface water of Sweden
 geokaramanis_2021_01	greece,climate,points	Used an older dataset about heating degree days in Greece with about 160k points.
 geokaramanis_2021_02	greece,transport,ferry,lines	Ferry lines in Greece.
 geokaramanis_2021_03	greece,animals	Another simple one about the wildlife sanctuaries in Greece, trying a fill pattern with {ggpattern}.
@@ -299,6 +315,9 @@ Iawmatthew_2021_11	usa,devils tower,elevation,3d,animation	A very quick experime
 Iawmatthew_2021_12	europe,population,cartogram	A slightly strange looking cartogram of European population
 Iawmatthew_2021_16	spain,barcelona,3d,interactive	A first experiment using #mapdeck, an R wrapper for http://deck.gl and Mapbox, to create an interactive web map of a thoroughly urban chunk of Barcelona
 Iawmatthew_2021_27	uk,ireland,heatmap	The density of Marilyns (not to be confused with Munros) in the UK and Ireland
+idoklein1_2021_13	world,chorpleth,borders	Number of land borders
+idoklein1_2021_20	israel,animation,personal	Animation
+idoklein1_2021_25	world,interactive	A tiny provocation regarding sea level, psmsl data at stations 50 years long and classified according to the slope + graph of the data
 issa_madjid_2021_01	africa,points	Africa, 1 continent, 10194 points.
 issa_madjid_2021_02	france,lines,sport,small multiples	Let's visualize the movements of French Ligue 1 clubs.
 issa_madjid_2021_03	world,covid19,charts	557 million. It is the number of people teleworking in spring 2020 in the world.
@@ -374,6 +393,7 @@ JoshCopping_2021_23	europe,population	Europe at night
 JoshCopping_2021_26	world,cartogram,choropleth,health,pollution	Cartogram showing global mortality rates attributed to air pollution
 JoshCopping_2021_27	world,hexagons,grid,heatmap,climate	Global lightning strike density.
 juliasilge_2021_04	equador,hexagons,landslides,elevation	This is the latest in my series of screencasts demonstrating how to use the tidymodels packages, from just getting started to tuning more complex models. Today’s screencast walks through how to use spatial resampling for evaluating a model, with this week’s #TidyTuesday dataset on geographic data.
+kevin_ct_chang_2021_25	new zealand,nz,covid19,interactive	Interactive map with a table on the contact tracing locations of interest for COVID-19 in NZ.
 kyle_e_walker_2021_01	usa,minnesota,hennepin county,population,ethnicity,points,dot density	Group-wise dot-density maps
 kyle_e_walker_2021_02	usa,new york city,nyc,roads,lines	The tigris package isn't just for Census boundaries; you can pull roads data from the @uscensusbureau TIGER/Line database right into R.
 kyle_e_walker_2021_03	usa,dallas,fort worth,choropleth	The spdep package helps us represent neighborhood relationships with polygon contiguity, then explore and map clusters in @uscensusbureau data using stats like local Moran's I.
@@ -642,6 +662,17 @@ ShandiyaB_2021_20	australia,melbourne,iscochrone,openstreetmap,osm	Isochrones sh
 ShandiyaB_2021_21_1	taiwan,elevation	Hillshade showing elevation of Taiwan
 ShandiyaB_2021_21_2	australia,elevation,small multiples	Different approaches to visualising elevation of Australia (extra map in repo)
 ShandiyaB_2021_28	world,projections	Different projections of the world. Inspired by every mapmaker's favourite XKCD comic: https://xkcd.com/977/
+Spiousas_2021_01	argentina,mar del plata,points,education	Distribution of schools in Partido de General Pueyrredón
+Spiousas_2021_02	argentina,mar del plata,lines,rivers	Streams of Partido de General Pueyrredón
+Spiousas_2021_03	argentina,mar del plata,polygons,charts	Radios y fracciones censales del Partido de General Pueyrredón
+Spiousas_2021_04	argentina,mar del plata,hexagons,grid,heatmap,small multiples	The number of urban lights by type in the city of Mar del Plata
+Spiousas_2021_05	argentina,mar del plata,openstreetmap,osm,shops	Restaurants, ice cream parlors and bars in Mar del Plata
+Spiousas_2021_06	argentina,mar del plata,transport,bus,lines,red,green,blue,small multiples	A little map of the Mar del Plata bus lines in its downtown area
+Spiousas_2021_09	argentina,buenos aires,elevation,joyplot	The elevation of the Sierra de los Padres in homage to Unknown Pleasures by Joy Division
+Spiousas_2021_10	argentina,mar del plata,elevation,raster	Esta vez había que hacer un raster plot y pensé: """"Si vamos a meter píxeles que sea con estilo"""". Por eso hice una figura con la elevación de la zona de Playa Grande y Cabo Corrientes con estética Vaporwave.
+Spiousas_2021_11	argentina,mar del plata,population,density,3d	3D population density
+Spiousas_2021_12	argentina,mar del plata,population,density,choropleth	3D population density
+Spiousas_2021_14	argentina,mar del plata,choropleth,shops	A choropleth of the number of pharmacies per census fraction
 tanya_shapiro_2021_01	usa,new york city,nyc,points,osm,openstreetmap,personal	Today's #30DayMapChallenge is a love letter to my better half, @KrisStil. We created a lot of great memories while we lived in NYC. Here's a map of the places those memories were made. ❤️🏙️
 tanya_shapiro_2021_03	usa,virginia,politics,elections,choropleth	Since today is a big day for VA, here is a throwback to the last gubernatorial election results from 2017. 🗳
 tanya_shapiro_2021_04	usa,hexagons,cartogram	Major shout out to @R_Graph_Gallery for an easy to follow tutorial, thank you! And in the spirit of #NationalCandyDay I'm dedicating this to Mars candy fan favorites. Snickers or Bust. 🍫🍬
@@ -666,6 +697,11 @@ UrbanDemog_2021_03	brazil,environment,animation,interactive	Interactive #dataviz
 UrbanDemog_2021_04	brazil,sao paulo,hexagons,grid,choropleth,transport	Employment accessibility by public transport in less than 60 minutes in some of Brazil's largest cities.
 UrbanDemog_2021_05	brazil,rio de janeiro,lines,streets,osm,openstreetmap	Walking time to the city center of Rio de Janeiro
 UrbanDemog_2021_20	brazil,fortaleza,transport,3d,hexagons,grid,animation	Animating public transport networks on 3D stacked maps.
+vb_jens_2021_09	usa,new york city,nyc,uk,england,london,china,shanghai,mexico,mexico city,nigeria,lagos,argentina,buenos aires,urban areas	These maps show built-up area over selected epochs in different shades of pink, visualizing how cities grew spatially.
+vb_jens_2021_10	usa,california,fire,animation	Here is an animation of the 2018 Redding fire with a raster background (with some vector water overlay) and a raster overlay of active fires.
+vb_jens_2021_12	canada,vancouver,population,dot density	This dot-density map of the Central Vancouver Peninsula in 2016 when the area reached a population of ~1M, contrasts a 1931 Bartholomew map forecasting a population of 1M by 1960.
+vb_jens_2021_23	thailand,bangkok,population density,charts,small multiples	Here we visualize the population change in Bangkok derived from the 250m grid.
+vb_jens_2021_27	canada,vancouver,heatmap	Heat maps tend to be tricky because they are hard to normalize. And when not properly normalized heat maps are often just density maps of the base population
 VictimOfMaths_2020_01	uk,britain,points,shops	_
 VictimOfMaths_2020_02	uk,england,lines,charts,health,covid19	_
 VictimOfMaths_2020_03	uk,england,sport,voronoi	_
