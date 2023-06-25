@@ -14,13 +14,13 @@ index_header <- glue('
 
     <link rel="stylesheet" href="css/bootstrap_{BS_THEME}.min.css">
     
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXMZ722Q6J"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-95QS35DVCD"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){{dataLayer.push(arguments);}}
       gtag(\'js\', new Date());
     
-      gtag(\'config\', \'G-XXMZ722Q6J\');
+      gtag(\'config\', \'G-95QS35DVCD\');
     </script>
 
 
@@ -94,13 +94,13 @@ stats_header <- glue('
     <link rel="stylesheet" href="css/bootstrap_{BS_THEME}.min.css">
     <link rel="stylesheet" href="css/custom.css">
 
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXMZ722Q6J"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-95QS35DVCD"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){{dataLayer.push(arguments);}}
       gtag(\'js\', new Date());
     
-      gtag(\'config\', \'G-XXMZ722Q6J\');
+      gtag(\'config\', \'G-95QS35DVCD\');
     </script>
 
     <title>30 Day Map Challenges in R #30DayMapChallenge #RStats - Statistics</title>
@@ -161,13 +161,13 @@ maps_header <- glue('
     <link rel="stylesheet" href="css/bootstrap_{BS_THEME}.min.css">
     <link rel="stylesheet" href="css/custom.css">
 
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXMZ722Q6J"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-95QS35DVCD"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){{dataLayer.push(arguments);}}
       gtag(\'js\', new Date());
     
-      gtag(\'config\', \'G-XXMZ722Q6J\');
+      gtag(\'config\', \'G-95QS35DVCD\');
     </script>
 
     <title>30 Day Map Challenges in R #30DayMapChallenge #RStats - Map Gallery</title>
